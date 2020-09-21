@@ -1,6 +1,12 @@
-framework module EZSaaSVideoConferenceSDK {
-  umbrella header "EZSaaSVideoConferenceSDK.h"
-
-  export *
-  module * { export * }
+framework module Bugly {
+	umbrella header "Bugly.h"
+	
+	export *
+	module * { export * }
+	
+	link framework "Foundation"
+	link framework "Security"
+	link framework "SystemConfiguration"
+	link "c++"
+	link "z"
 }
