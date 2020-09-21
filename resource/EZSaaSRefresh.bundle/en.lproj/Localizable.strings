@@ -1,0 +1,16 @@
+"EZSaaSRefreshHeaderIdleText" = "Pull down to refresh";
+"EZSaaSRefreshHeaderPullingText" = "Release to refresh";
+"EZSaaSRefreshHeaderRefreshingText" = "Loading...";
+
+"EZSaaSRefreshAutoFooterIdleText" = "Tap or pull up to load more";
+"EZSaaSRefreshAutoFooterRefreshingText" = "Loading...";
+"EZSaaSRefreshAutoFooterNoMoreDataText" = "No more data";
+
+"EZSaaSRefreshBackFooterIdleText" = "Pull up to load more";
+"EZSaaSRefreshBackFooterPullingText" = "Release to load more.";
+"EZSaaSRefreshBackFooterRefreshingText" = "Loading...";
+"EZSaaSRefreshBackFooterNoMoreDataText" = "No more data";
+
+"EZSaaSRefreshHeaderLastTimeText" = "Last updated: ";
+"EZSaaSRefreshHeaderDateTodayText" = "Today";
+"EZSaaSRefreshHeaderNoneLastDateText" = "No record";

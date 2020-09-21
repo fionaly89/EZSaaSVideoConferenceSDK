@@ -1,0 +1,6 @@
+framework module EZSaaSVideoConferenceSDK {
+  umbrella header "EZSaaSVideoConferenceSDK.h"
+
+  export *
+  module * { export * }
+}
