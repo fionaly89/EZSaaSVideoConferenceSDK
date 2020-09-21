@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EZSaaSVideoConferenceSDK"
-  spec.version      = "1.0.1"
+  spec.version      = "1.1.2"
   spec.summary      = "EZSaaSVideoConferenceSDK 是视频会议SDK"
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.source_files = "EZSaaSVideoConferenceSDK/EZSaaSVideoConferenceSDK.framework/Headers/*.{h,m}"
-  spec.public_header_files = "EZSaaSVideoConferenceSDK/EZSaaSVideoConferenceSDK.framework/Headers/*.{h}"
+  spec.source_files = "EZSaaSVideoConferenceSDK.framework/Headers/*.{h,m}"
+  # spec.public_header_files = "EZSaaSVideoConferenceSDK/EZSaaSVideoConferenceSDK.framework/Headers/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "EZSaaSVideoConferenceSDK/resource/*.bundle"
+  spec.resource  = "resource/*.bundle"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
