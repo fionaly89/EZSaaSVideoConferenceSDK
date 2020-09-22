@@ -48,13 +48,13 @@ NS_ASSUME_NONNULL_BEGIN
               callingMembers:(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *)callingMembers
                   completion:(void(^)(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *models))completion;
 
-/// 取消呼叫某个成员
+/// 重新呼叫某个成员
 /// @param member 成员信息
 /// @param meetingModel 当前会议信息
 - (void)onMeetingReCallMember:(EZSaaSMeetingCallMembersManagerInfo *)member
                  meetingModel:(EZSaaSVCConferenceModel *)meetingModel;
 
-/// 重新呼叫某个成员
+/// 取消呼叫某个成员
 /// @param member 成员信息
 /// @param meetingModel 当前会议信息
 - (void)onMeetingCancelCallMember:(EZSaaSMeetingCallMembersManagerInfo *)member
@@ -77,6 +77,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 通知APP当前是否需要支持屏幕旋转
 /// @param bSupport 是否支持旋转
 - (void)supportedAutorotate:(BOOL)bSupport;
+
+#pragma mark - 会议状态通知
+/// 成功进入会议
+- (void)onMeetingEnterSuccessful;
+
+/// 成功退出会议
+- (void)onMeetingLeaveSuccessful;
 
 @end
 
