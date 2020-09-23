@@ -20,11 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 @brief 回调框架代理
 */
 @protocol EZSaaSMobileRTCMeetingServiceDelegate <NSObject>
-@optional
 
-//通过用户ID获取用户完整信息
-- (void)onMeetingUserInfoGetByUserId:(NSString *)userId
-                          completion:(void (^)(EZSaaSMobileRTCMemberInfo *memberInfo))completion;
+@required
+//获取当前用户个人信息
+- (void)onMeetingMineUserInfoGetByUserId:(NSString *)userId
+                              completion:(void (^)(EZSaaSMobileRTCMemberInfo *memberInfo))completion;
+
+@optional
 
 /// 打开通讯录回调，传入已选中成员，传回所选的所有成员
 /// @param naviVC 当前成员列表导航控制器
@@ -80,10 +82,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 会议状态通知
 /// 成功进入会议
-- (void)onMeetingEnterSuccessful;
+- (void)onMeetingEnterSuccessfull:(EZSaaSVCConferenceModel *)meetingModel;
 
 /// 成功退出会议
-- (void)onMeetingLeaveSuccessful;
+- (void)onMeetingLeaveSuccessfull:(EZSaaSVCConferenceModel *)meetingModel;
 
 @end
 

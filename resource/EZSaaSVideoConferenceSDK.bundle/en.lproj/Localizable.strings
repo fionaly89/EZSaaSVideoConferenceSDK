@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  EZSaaSVideoConferenceSDK
+
+  Created by EZSaaS on 2020/7/3.
+  Copyright © 2020 EZSaaS. All rights reserved.
+*/
+
+//HomePage
+RTC_HomePage_Jiaruhuiyi = "Join Conference";
