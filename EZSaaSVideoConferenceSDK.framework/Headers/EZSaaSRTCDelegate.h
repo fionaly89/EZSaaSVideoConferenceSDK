@@ -80,6 +80,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param bSupport 是否支持旋转
 - (void)supportedAutorotate:(BOOL)bSupport;
 
+/// 通知APP当前是否需要支持右滑关闭页面功能
+/// @param bSupport 是否支持
+/// @param vc 当前控制器
+- (void)supportedInteractivePop:(BOOL)bSupport vc:(UIViewController *)vc;
+
 #pragma mark - 会议状态通知
 /// 成功进入会议
 - (void)onMeetingEnterSuccessfull:(EZSaaSVCConferenceModel *)meetingModel;

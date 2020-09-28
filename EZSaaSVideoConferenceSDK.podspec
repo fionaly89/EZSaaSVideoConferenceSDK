@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EZSaaSVideoConferenceSDK"
-  spec.version      = "1.1.14"
+  spec.version      = "1.1.16"
   spec.summary      = "EZSaaSVideoConferenceSDK 是视频会议SDK"
 
   # This description is used to generate tags and improve search results.
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "FDFullscreenPopGesture", "~> 1.1"
+  # spec.dependency "FDFullscreenPopGesture", "~> 1.1"
 
 end
