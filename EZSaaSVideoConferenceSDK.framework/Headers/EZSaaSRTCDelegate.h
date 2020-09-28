@@ -85,6 +85,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param vc 当前控制器
 - (void)supportedInteractivePop:(BOOL)bSupport vc:(UIViewController *)vc;
 
+/// 通知APP当前是否支持 IQKeyboardManager 功能
+/// @param bSupport 是否支持
+- (void)supportedIQKeyboardManager:(BOOL)bSupport;
+
 #pragma mark - 会议状态通知
 /// 成功进入会议
 - (void)onMeetingEnterSuccessfull:(EZSaaSVCConferenceModel *)meetingModel;
