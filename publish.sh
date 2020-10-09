@@ -1,6 +1,6 @@
 git add .
-git commit -a -m "发布1.1.21,调整进入会议接口逻辑"
+git commit -a -m "发布1.1.22,屏蔽提示"
 git push origin master
-git tag 1.1.21  
+git tag 1.1.22  
 git push --tag
 pod trunk push EZSaaSVideoConferenceSDK.podspec --skip-import-validation --allow-warnings
