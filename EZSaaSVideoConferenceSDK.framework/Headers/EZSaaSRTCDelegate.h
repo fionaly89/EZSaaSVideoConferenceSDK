@@ -85,7 +85,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param vc 当前控制器
 - (void)supportedInteractivePop:(BOOL)bSupport vc:(UIViewController *)vc;
 
-/// 通知APP当前是否支持 IQKeyboardManager 功能
+/// 通知APP当前是否支持 IQKeyboardManager 功能，如果当前工程没有使用第三方 IQKeyboardManager ，则不需要实现
 /// @param bSupport 是否支持
 - (void)supportedIQKeyboardManager:(BOOL)bSupport;
 
