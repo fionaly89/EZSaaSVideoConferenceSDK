@@ -1,6 +1,6 @@
 git add .
-git commit -a -m "发布1.1.22,屏蔽提示"
+git commit -a -m "发布1.1.24,修改BUG"
 git push origin master
-git tag 1.1.22  
+git tag 1.1.24  
 git push --tag
 pod trunk push EZSaaSVideoConferenceSDK.podspec --skip-import-validation --allow-warnings
