@@ -7,7 +7,60 @@ viewDidLoad
 3.切换企业后没有自动关闭切换企业页面
 4.
 
+alipay
 
+
+
+
+            NORMAL_IMG   :@"\U0000e8ca",
+            SELECT_IMG   :@"\U0000e8cb",
+            TITLE        :@"工作台"
+            },
+        @{
+            NORMAL_IMG   :@"\U0000e8c4",
+            SELECT_IMG   :@"\U0000e8c6",
+            TITLE        :@"智能"
+            },
+        @{
+            NORMAL_IMG   :@"\U0000e8c3",
+            SELECT_IMG   :@"\U0000e8c9",
+            TITLE        :@"通讯录"
+            },
+        @{
+            NORMAL_IMG   :@"\U0000e8c1",
+            SELECT_IMG   :@"\U0000e8c7",
+            TITLE        :@"我的"
+
+
+
+
+
+Printing description of params:
+{
+    channelRegisterInfo =     (
+                {
+            channel = 99;
+        },
+                {
+            channel = 5;
+            channelRegisterJson = "{\n  \"token\" : \"18ea873fe012230f0e694216a481791459ffb5cffc9a950260ce185db9b8818e\",\n  \"callTokenType\" : 1\n}";
+        }
+    );
+    clientName = "RVpTYWFT4oCZcyBpUGhvbmUgNw==";
+    clientSign = 5b000d850fc7a15db9b31995921d17e4;
+    clientVersion = "2.3.8";
+    iotAppId = "ys_enterprise";
+    loginSessionId = 268ade04a2c744f0a6b3829ba6bd968e;
+}
+
+
+response method:/api/message/client/register responseObject:{
+    code = "saas-7777";
+    data =     {
+        userId = "\U4e0d\U80fd\U4e3a\U7a7a";
+    };
+    msg = "\U5165\U53c2\U6821\U9a8c\U5931\U8d25";
+}
 
 
 配置顶部 titleView
