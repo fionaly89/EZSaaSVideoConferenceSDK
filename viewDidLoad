@@ -11,6 +11,71 @@ alipay
 
 
 
+"type":0,//是否显示企业类型
+"industry":0,//是否显示行业
+"logo":0//是否显示logo
+
+
+"name":0//是否显示 企业名称
+"type":0//是否显示 企业类型
+"industry":0//是否显示 所在行业
+"city":0//是否显示 所在城市
+"address":0//是否显示 详细地址
+"StaffSize":0//是否显示 企业人员规模
+"logo":0//是否显示 组织logo
+"website":0//是否显示 官网
+"phone":0//是否显示 联系电话
+"introduction":0//是否显示 简介
+
+
+
+
+EZSaaSCompanyCreateModel *nameModel = [self modelWithTitle:@"名称" placeholder:@"请输入名称，不超过32位汉字或字母" key:@"businessEntity" isRequired:YES type:EZSaaSCompanyCreateCellTypeTextField];
+    nameModel.maxInputLength = 32;
+    [self.dataSource addObject:nameModel];
+    
+    EZSaaSCompanyCreateModel *typeModel = [self modelWithTitle:@"企业类型" placeholder:@"请选择企业类型" key:@"companyTypeStr"  isRequired:YES type:EZSaaSCompanyCreateCellTypePickView];
+    [self.dataSource addObject:typeModel];
+    
+    EZSaaSCompanyCreateModel *industryModel = [self modelWithTitle:@"所在行业" placeholder:@"请选择企业所在行业" key:@"industry" isRequired:YES type:EZSaaSCompanyCreateCellTypePickView];
+    [self.dataSource addObject:industryModel];
+    
+    EZSaaSCompanyCreateModel *areaModel = [self modelWithTitle:@"所在城市" placeholder:@"请选择所在地区" key:@"cityNameStr" isRequired:NO type:EZSaaSCompanyCreateCellTypePickView];
+    [self.dataSource addObject:areaModel];
+    
+    EZSaaSCompanyCreateModel *addressModel = [self modelWithTitle:@"详细地址" placeholder:@"请输入详细地址" key:@"addr" isRequired:NO type:EZSaaSCompanyCreateCellTypeTextField];
+    [self.dataSource addObject:addressModel];
+    
+//    EZSaaSCompanyCreateModel *staffCountModel = [self modelWithTitle:@"人员规模" placeholder:@"请选择人员规模" key:@"staffNumStr" isRequired:YES type:EZSaaSCompanyCreateCellTypePickView];
+//    [self.dataSource addObject:staffCountModel];
+    
+    EZSaaSCompanyCreateModel *logoModel = [self modelWithTitle:@"组织Logo" placeholder:@"请上传组织Logo" key:@"logoImg" isRequired:NO type:EZSaaSCompanyCreateCellTypeUploadPic];
+   [self.dataSource addObject:logoModel];
+    
+    if (self.isEdit) {
+        EZSaaSCompanyCreateModel *websiteModel = [self modelWithTitle:@"官网" placeholder:@"请输入官网地址" key:@"officialWebsite" isRequired:NO type:EZSaaSCompanyCreateCellTypeTextField];
+        websiteModel.maxInputLength = 100;
+        [self.dataSource addObject:websiteModel];
+        
+        EZSaaSCompanyCreateModel *phoneModel = [self modelWithTitle:@"联系电话" placeholder:@"请输入联系电话" key:@"phone" isRequired:NO type:EZSaaSCompanyCreateCellTypeTextField];
+        [self.dataSource addObject:phoneModel];
+        
+        EZSaaSCompanyCreateModel *priefModel = [self modelWithTitle:@"简介" placeholder:@"一句话让别人了解您的组织" key:@"companyBrief" isRequired:NO type:EZSaaSCompanyCreateCellTypeTextView];
+        [self.dataSource addObject:priefModel];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             NORMAL_IMG   :@"\U0000e8ca",
             SELECT_IMG   :@"\U0000e8cb",
@@ -32,6 +97,14 @@ alipay
             TITLE        :@"我的"
 
 
+
+
+(lldb) po self.window
+<UIWindow: 0x10370aaa0; frame = (0 0; 375 667); gestureR
+
+
+(lldb) po [UIApplication sharedApplication].keyWindow
+<UIWindow: 0x10370aaa0; frame = (0 0; 375 667);
 
 
 
