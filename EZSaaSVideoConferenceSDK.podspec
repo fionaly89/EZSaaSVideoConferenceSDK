@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
 
   spec.framework  = "Foundation", "UIKit"
   spec.vendored_frameworks = 'EZSaaSVideoConferenceSDK.framework'
-  spec.dependency 'AFNetworking', "ZipArchive"
+  spec.dependency 'AFNetworking', 'ZipArchive'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
