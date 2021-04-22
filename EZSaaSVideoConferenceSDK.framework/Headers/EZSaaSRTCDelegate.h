@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @class EZSaaSVCAccountModel;
 
 /*!
-@brief 回调框架代理
-*/
+ @brief 回调框架代理
+ */
 @protocol EZSaaSMobileRTCMeetingServiceDelegate <NSObject>
 
 @required
@@ -65,7 +65,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 分享会议信息回调
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
-- (void)onMeetingShareClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount;
+/// @param naviVC 导航控制器
+- (void)onMeetingShareClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+
+/// 点击短信分享会议信息
+/// @param meetingModel 分享的会议信息
+/// @param sharedAccount 分享操作发起人
+/// @param naviVC 导航控制器
+- (void)onMeetingShareMsgClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+
+/// 点击日历分享会议信息
+/// @param meetingModel 分享的会议信息
+/// @param sharedAccount 分享操作发起人
+/// @param naviVC 导航控制器
+- (void)onMeetingShareCalendarClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
 //打开我的页面
 - (void)onMeetingOpenMineHomePageVC:(UINavigationController *)naviVC;
