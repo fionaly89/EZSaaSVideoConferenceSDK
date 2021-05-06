@@ -86,6 +86,15 @@ NS_ASSUME_NONNULL_BEGIN
 //获取视频会议服务器地址配置页面
 - (UIViewController *)getEZSaaSMobileRTCServiceAddressSettingViewController;
 
+/// 返回上一次异常退出会议的会议ID
+- (NSString *)getAbortMeetingId;
+
+/// 返回分享地址链接
+- (NSString *)getSharingMeetingURL;
+
+//通知会议组件退出登录
+- (void)notificateMobileRTCLoginOut;
+
 //通知停止视频会议，建议在 applicationWillTerminate 中调用
 - (void)notificateMobileRTCStop;
 
