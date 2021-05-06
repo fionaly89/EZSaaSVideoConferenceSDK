@@ -92,6 +92,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 返回分享地址链接
 - (NSString *)getSharingMeetingURL;
 
+//通知会议组件退出登录
+- (void)notificateMobileRTCLoginOut;
+
 //通知停止视频会议，建议在 applicationWillTerminate 中调用
 - (void)notificateMobileRTCStop;
 

@@ -36,6 +36,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *replayKitBID;
 @property (nonatomic, copy) NSString *replayKitUIBID;
 
+//是否需要支持呼叫功能，默认不支持
+@property (nonatomic, assign) BOOL enableCallMember;
+
+//是否需要支持悬浮窗口功能，默认不支持
+@property (nonatomic, assign) BOOL enableFloatWindow;
+
 @end
 
 /*!

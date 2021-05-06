@@ -96,6 +96,9 @@ NS_ASSUME_NONNULL_BEGIN
 //通知停止视频会议，建议在 applicationWillTerminate 中调用
 - (void)notificateMobileRTCStop;
 
+//通知会议组件退出登录
+- (void)notificateMobileRTCLoginOut;
+
 @end
 
 NS_ASSUME_NONNULL_END
