@@ -37,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 //仅限 conference/get-members 接口返回
 @property (nonatomic, assign) NSInteger role; //类型：0-会议成员;1-主持人
 
+@property (nonatomic, assign) NSInteger version_state; //更新状态 0-未同意 1-同意
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -86,6 +86,9 @@ NS_ASSUME_NONNULL_BEGIN
 //获取视频会议服务器地址配置页面
 - (UIViewController *)getEZSaaSMobileRTCServiceAddressSettingViewController;
 
+//获取意见反馈页面
+- (UIViewController *)getEZSaaSUserFeedbackViewController;
+
 /// 返回上一次异常退出会议的会议ID
 - (NSString *)getAbortMeetingId;
 
