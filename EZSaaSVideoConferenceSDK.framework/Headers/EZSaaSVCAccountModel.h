@@ -38,7 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger role; //类型：0-会议成员;1-主持人
 
 @property (nonatomic, assign) NSInteger version_state; //更新状态 0-未同意 1-同意
-
+@property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
+ 
 @end
 
 NS_ASSUME_NONNULL_END

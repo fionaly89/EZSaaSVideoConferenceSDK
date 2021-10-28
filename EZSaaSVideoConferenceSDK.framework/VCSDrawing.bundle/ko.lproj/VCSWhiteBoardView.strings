@@ -19,3 +19,6 @@
 
 /* Class = "UIButton"; normalTitle = "清除"; ObjectID = "pdw-W6-mFL"; */
 "pdw-W6-mFL.normalTitle" = "지우기";
+
+/* Class = "UIButton"; normalTitle = "图片"; ObjectID = "NFd-p1-aL2"; */
+"NFd-p1-aL2.normalTitle" = "그림";

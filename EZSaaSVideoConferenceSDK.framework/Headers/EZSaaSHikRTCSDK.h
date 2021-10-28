@@ -25,6 +25,7 @@
 #import "EZSaaSFileUploadTokenInfo.h"
 #import "EZSaaSConferenceRegModel.h"
 #import "EZSaaSMeetingCallMembersManagerInfo.h"
+#import "EZSaaSSystemPermissionsManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -88,6 +89,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //获取意见反馈页面
 - (UIViewController *)getEZSaaSUserFeedbackViewController;
+
+//获取历史会议页面
+- (UIViewController *)getEZSaaSHistoryMeetingListViewController;
 
 /// 返回上一次异常退出会议的会议ID
 - (NSString *)getAbortMeetingId;
