@@ -15,6 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 */
 @interface EZSaaSMobileRTCSDKInitContext : NSObject
 
+//应用的 App Key
+@property (nonatomic, copy) NSString *appid;
+@property (nonatomic, copy) NSString *appkey;
+
 /*!
  @brief [Required] domain The domain is used to start/join a meeting.
  */

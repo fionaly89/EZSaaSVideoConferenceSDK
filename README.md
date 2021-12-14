@@ -70,7 +70,14 @@ context.domain = @"";
 context.appNaviColor = [UIColor redColor];
 context.appThemeColor = [UIColor yellowColor];
 context.appDisableThemeColor = [UIColor grayColor];
-context.enableLog = YES;`
+context.enableLog = YES;
+//配置鉴权appid、appkey
+context.appid = ;
+context.appkey = ;
+    
+//如果需要使用美颜功能
+context.authData = ;
+context.authDataSize = ;
 [[EZSaaSMobileRTCSDK sharedRTC] initializeWithContext:context];
     
 [EZSaaSMobileRTCSDK sharedRTC].delegate = self;
