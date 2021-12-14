@@ -12,8 +12,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EZSaaSConferenceRegModel : NSObject
 
-@property (nonatomic, copy) NSString *addr;  //注册服务器地址，若当前无服务器则为空
+/// UDP地址
+@property (nonatomic, copy) NSString *addr;
+/// UDP端口
 @property (nonatomic, copy) NSString *port;
+/// MQTT地址
+@property (nonatomic, copy) NSString *mqtt_address;
+/// MQTT端口
+@property (nonatomic, assign) NSInteger mqtt_port;
+/// MQTT完整地址
+@property (nonatomic, copy) NSString *mqtt_tcp;
+/// WebRtc MQTT地址
+@property (nonatomic, copy) NSString *mqtt_ws;
+/// 注册服务器ID
+@property (nonatomic, copy) NSString *server_id;
 
 @end
 
