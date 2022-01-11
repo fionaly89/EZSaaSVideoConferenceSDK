@@ -33,11 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (EZSaaSMobileRTCSDK * _Nonnull)sharedRTC;
 - (BOOL)initializeWithContext:(EZSaaSMobileRTCSDKInitContext * _Nonnull)context;
 
-//获取视频会议SDK首页
-- (void)getEZSaaSMobileRTCHomePageVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                              successCallback:(void(^)(UIViewController *vc))successFn
-                                 failCallBack:(void (^)(NSError *error))failFn;
-
 //获取视频会议SDK加入会议页面
 - (void)getEZSaaSMobileRTCJoinMeetingVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
                                        successCallback:(void(^)(UIViewController *vc))successFn
