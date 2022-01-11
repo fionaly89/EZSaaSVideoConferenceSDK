@@ -16,7 +16,6 @@
 #import "EZSaaSMeetingCallMembersManagerInfo.h"
 #import "EZSaaSVCJoinMemberModel.h"
 #import "EZSaaSMobileRTCMemberInfo.h"
-#import "EZSaaSVideoCMyMeetingsVCManager.h"
 
 #import "YSNavigationViewController.h"
 
