@@ -16,4 +16,11 @@ typedef NS_ENUM(NSInteger, EZSaaSVideoConferenceStatus) {
     EZSaaSVideoConferenceStatusClose,
 };
 
+//0-普通成员;1-创建者;2-主持人
+typedef NS_ENUM(NSInteger, EZSaaSVideoConferenceRole) {
+    Role_Member = 0,
+    Role_Creator,
+    Role_Host,
+};
+
 NS_ASSUME_NONNULL_END

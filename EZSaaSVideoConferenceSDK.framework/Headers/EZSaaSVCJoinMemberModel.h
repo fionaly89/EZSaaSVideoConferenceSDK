@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EZSaaSConferenceDefine.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *name; //用户名
 @property (nonatomic, strong) NSString *portrait; //头像地址
 @property (nonatomic, assign) NSInteger role; //企业角色：0-普通成员；1-创建者；2-管理员
-@property (nonatomic, assign) NSInteger meetingRole; //会议角色：0-成员；1-主持人
+@property (nonatomic, assign) EZSaaSVideoConferenceRole meetingRole; //会议角色：0-普通成员;1-创建者;2-主持人
 
 @end
 

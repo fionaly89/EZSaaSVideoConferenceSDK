@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EZSaaSConferenceDefine.h"
 #import "EZSaaSVCRoomModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -35,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *corp_org; //分组名称
 
 //仅限 conference/get-members 接口返回
-@property (nonatomic, assign) NSInteger role; //类型：0-会议成员;1-主持人
+@property (nonatomic, assign) EZSaaSVideoConferenceRole role; //类型：0-普通成员;1-创建者;2-主持人
 
 @property (nonatomic, assign) NSInteger version_state; //更新状态 0-未同意 1-同意
 @property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
