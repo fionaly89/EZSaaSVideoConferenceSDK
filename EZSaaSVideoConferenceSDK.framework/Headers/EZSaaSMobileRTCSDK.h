@@ -29,8 +29,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingServiceDelegate> delegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCAuthDelegate> authDelegate;
 
+@property (nonatomic, strong) EZSaaSMobileRTCSDKInitContext *context;
+
 + (EZSaaSMobileRTCSDK * _Nonnull)sharedRTC;
+
+//初始化SDK配置
 - (BOOL)initializeWithContext:(EZSaaSMobileRTCSDKInitContext * _Nonnull)context;
+
+//登录视频会议SDK
+- (void)loginRTCService:(EZSaaSMobileRTCAuthService *)authService
+       successCallback:(void(^)(NSError *error))successFn
+          failCallBack:(void (^)(NSError *error))failFn;
 
 //获取视频会议SDK加入会议页面
 - (void)getEZSaaSMobileRTCJoinMeetingVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService

@@ -68,6 +68,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param naviVC 导航控制器
 - (void)onMeetingShareClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
+/// 点击会议复制邀请回调
+/// @param meetingModel 分享的会议信息
+/// @param sharedAccount 分享操作发起人
+/// @param naviVC 导航控制器
+- (void)onMeetingCopyLinkClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+
 /// 点击短信分享会议信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
@@ -89,6 +95,7 @@ NS_ASSUME_NONNULL_BEGIN
 //游客登出
 - (void)onVisitorLogOut;
 
+#pragma mark - app 属性配置
 /// 通知APP当前是否需要支持屏幕旋转
 /// @param bSupport 是否支持旋转
 - (void)supportedAutorotate:(BOOL)bSupport;
