@@ -59,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, copy, nonatomic) NSString *rtcToken;
 
+/// 网络线路ID，不设置则使用默认线路
+@property (nullable, copy, nonatomic) NSString *lineId;
+
 @end
 
 NS_ASSUME_NONNULL_END

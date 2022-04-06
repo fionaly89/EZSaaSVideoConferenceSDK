@@ -102,6 +102,12 @@ NS_ASSUME_NONNULL_BEGIN
 //通知会议组件退出登录
 - (void)notificateMobileRTCLoginOut;
 
+/// 切换服务器线路
+/// @param lineId 线路id
+- (void)switchLineId:(NSString *)lineId
+     successCallback:(void(^)(NSError *error))successFn
+        failCallBack:(void (^)(NSError *error))failFn;
+
 @end
 
 NS_ASSUME_NONNULL_END
