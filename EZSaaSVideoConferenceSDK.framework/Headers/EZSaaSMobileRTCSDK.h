@@ -108,6 +108,10 @@ NS_ASSUME_NONNULL_BEGIN
      successCallback:(void(^)(NSError *error))successFn
         failCallBack:(void (^)(NSError *error))failFn;
 
+/// 切换服务地址
+/// @param domain 服务地址，eg: https://www.example.com:8888
+- (void)switchServiceDomain:(NSString *)domain;
+
 @end
 
 NS_ASSUME_NONNULL_END
