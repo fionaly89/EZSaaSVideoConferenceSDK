@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *cid; //ID                                 Y
 @property (nonatomic, copy) NSString *nickName;  //String    用户昵称            Y
 @property (nonatomic, copy) NSString *headPortraitUrl; //String    用户头像url   Y
+@property (nonatomic, copy) NSString *relative_portrait;
 
 @end
 

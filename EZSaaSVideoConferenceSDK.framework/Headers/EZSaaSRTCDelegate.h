@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RTCEnum.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -118,6 +119,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
+@protocol EZSaaSMobileRTCMeetingEventDelegate <NSObject>
+
+/// 会议内事件命令透传通知
+/// @param command 消息指令
+/// @param content 消息内容
+- (void)onListenRoomEventWithCommand:(RTCCommandEventState)command content:(NSString *)content;
+
+/// 会议外事件命令透传通知
+/// @param command 消息指令
+/// @param content 消息内容
+- (void)onListenNetCallEventWithCommand:(RTCCommandEventState)command content:(NSString *)content;
+
+@end
 
 /*!
  @brief An authentication service will issue the following values when the authorization state changes.

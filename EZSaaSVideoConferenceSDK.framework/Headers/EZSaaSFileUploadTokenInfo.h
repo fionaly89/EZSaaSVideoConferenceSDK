@@ -30,6 +30,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 文件地址
 @property (nonatomic, copy) NSString *url;
 
+/// 文件相对地址
+@property (nonatomic, copy) NSString *key;
+@property (nonatomic, copy) NSString *path;
+
 @end
 
 #pragma mark - 房间临时文件上传TokenModel
@@ -58,6 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否成功(YES-说明已经存在此图片直接使用fileinfo NO-说明没有该图片需要上传)
 @property (nonatomic, assign) BOOL finished;
 @property (nonatomic, strong) EZSaaSRoomtempTokenItemModel *token;
+
+/// 服务类型
+@property (nonatomic, assign) NSInteger fileModel; //1-本地存储、2-云存储
 
 @end
 

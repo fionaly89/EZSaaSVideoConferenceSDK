@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingServiceDelegate> delegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCAuthDelegate> authDelegate;
+@property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingEventDelegate> eventDelegate;
 
 @property (nonatomic, strong) EZSaaSMobileRTCSDKInitContext *context;
 
@@ -95,6 +96,28 @@ NS_ASSUME_NONNULL_BEGIN
                              successCallback:(void(^)(UIViewController *vc))successFn
                                 failCallBack:(void(^)(NSError *error))failFn;
 
+
+/// 加入指定会议（不包含入会失败处理逻辑）
+/// @param authService 鉴权信息
+/// @param navi 导航控制器
+/// @param roomNo 房间号
+/// @param nickname 昵称
+/// @param password 密码
+/// @param isAudioOn 入会是否默认开启麦克风
+/// @param isVideoOn 入会是否默认开启摄像头
+/// @param isSoundOn 入会是否默认开启扬声器
+/// @param successFn 成功回调
+/// @param failFn 失败回调
+- (void)enterEZSaaSConferenceWithOutErrorDisplay:(EZSaaSMobileRTCAuthService *)authService
+                                        navi:(UINavigationController *)navi
+                                      roomNo:(NSString *)roomNo
+                                    nickname:(NSString *)nickname
+                                    password:(NSString *)password
+                                   isAudioOn:(BOOL)isAudioOn
+                                   isVideoOn:(BOOL)isVideoOn
+                                   isSoundOn:(BOOL)isSoundOn
+                             successCallback:(void(^)(UIViewController *vc))successFn
+                                failCallBack:(void(^)(NSError *error))failFn;
 
 //通知停止视频会议，建议在 applicationWillTerminate 中调用
 - (void)notificateMobileRTCStop;

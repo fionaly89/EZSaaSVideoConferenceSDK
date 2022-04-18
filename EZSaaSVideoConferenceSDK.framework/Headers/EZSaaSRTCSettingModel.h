@@ -40,6 +40,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *replayKitBID;
 @property (nonatomic, copy) NSString *replayKitUIBID;
 
+//是否需要支持白板功能，默认支持
+@property (nonatomic, assign) BOOL unRequiredWhiteboard;
+
 //是否需要支持呼叫功能，默认不支持
 @property (nonatomic, assign) BOOL enableCallMember;
 
@@ -57,6 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 */
 @interface EZSaaSMobileRTCAuthService : NSObject
 
+/// SDK 登录 token
 @property (nullable, copy, nonatomic) NSString *rtcToken;
 
 /// 网络线路ID，不设置则使用默认线路
