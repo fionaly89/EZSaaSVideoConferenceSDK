@@ -52,6 +52,32 @@ NS_ASSUME_NONNULL_BEGIN
                                     successCallback:(void(^)(UIViewController *vc))successFn
                                        failCallBack:(void (^)(NSError *error))failFn;
 
+/// 呼叫成员-单聊
+/// @param authService 鉴权信息
+/// @param navi 导航
+/// @param memberInfo 成员信息
+/// @param videoCallEnable 是否开启视频通话
+/// @param successFn 成功回调，回调会议控制器、创建的会议信息、已呼叫的成员
+/// @param failFn 失败回调
+- (void)inviteMeetingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                                navi:(UINavigationController *)navi
+                          memberInfo:(EZSaaSMeetingCallMembersManagerInfo *)memberInfo
+                     videoCallEnable:(BOOL)videoCallEnable
+                     successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members))successFn
+                        failCallBack:(void (^)(NSError *error))failFn;
+
+/// 呼叫成员-群聊
+/// @param memberInfos 成员信息列表
+/// @param videoCallEnable 是否开启视频通话
+/// @param successFn 成功回调，回调会议控制器、创建的会议信息、已呼叫的成员
+/// @param failFn 失败回调
+- (void)startMeetingGroupWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                                    navi:(UINavigationController *)navi
+                             memberInfos:(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *)memberInfos
+                         videoCallEnable:(BOOL)videoCallEnable
+                         successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members))successFn
+                            failCallBack:(void (^)(NSError *error))failFn;
+
 /// 获取视频会议SDK被叫页面
 /// @param authService 鉴权信息
 /// @param roomNo 房间号
@@ -59,8 +85,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param callingName 主叫人昵称
 /// @param callingPortrait 主叫人头像
 /// @param callingMeetingName 会议名称
+/// @param callId 主叫方生成的呼叫ID
 /// @param isInviteMeeting 是否邀请对方加入会议
 /// @param isInviteUser 是否邀请对方连线用户
+/// @param voiceCall 标识对方发起的是语音通话还是视频通话
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)getEZSaaSMobileRTCCallInVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
@@ -69,8 +97,10 @@ NS_ASSUME_NONNULL_BEGIN
                                       callingName:(NSString *)callingName
                                   callingPortrait:(NSString *)callingPortrait
                                callingMeetingName:(NSString *)callingMeetingName
+                                           callId:(NSString *)callId
                                   isInviteMeeting:(BOOL)isInviteMeeting
                                      isInviteUser:(BOOL)isInviteUser
+                                        voiceCall:(BOOL)voiceCall
                                   successCallback:(void(^)(UIViewController *vc))successFn
                                      failCallBack:(void (^)(NSError *error))failFn;
 
