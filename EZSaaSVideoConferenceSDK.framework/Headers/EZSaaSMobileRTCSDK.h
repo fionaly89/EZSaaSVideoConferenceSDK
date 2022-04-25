@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
                                 navi:(UINavigationController *)navi
                           memberInfo:(EZSaaSMeetingCallMembersManagerInfo *)memberInfo
                      videoCallEnable:(BOOL)videoCallEnable
-                     successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members))successFn
+                     successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members, cancelCallBlock  _Nonnull cancelBlock))successFn
                         failCallBack:(void (^)(NSError *error))failFn;
 
 /// 呼叫成员-群聊

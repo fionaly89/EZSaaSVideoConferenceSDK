@@ -23,4 +23,6 @@ typedef NS_ENUM(NSInteger, EZSaaSVideoConferenceRole) {
     Role_Host,
 };
 
+typedef void(^cancelCallBlock)(void);
+
 NS_ASSUME_NONNULL_END
