@@ -165,6 +165,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;
 
+///生成新的呼叫ID
++ (NSString *)getMemberCallId;
+
 @end
 
 NS_ASSUME_NONNULL_END
