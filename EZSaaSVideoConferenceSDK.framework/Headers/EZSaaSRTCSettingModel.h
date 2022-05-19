@@ -49,6 +49,9 @@ NS_ASSUME_NONNULL_BEGIN
 //是否需要支持悬浮窗口功能，默认不支持
 @property (nonatomic, assign) BOOL enableFloatWindow;
 
+//是否需要支持多流功能，默认不支持
+@property (nonatomic, assign) BOOL supportMulStream;
+
 //美颜模块key
 @property (nonatomic, assign) char *authData; //authData 密钥地址
 @property (nonatomic, assign) int authDataSize; //authDataSize 密钥长度
