@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *room_id; //会议房间ID
 @property (nonatomic, assign) NSInteger state;
 @property (nonatomic, strong) NSString *title; //会议标题
-@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议
+@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议; 3-单聊会议; 4-群聊会议
 
 @property (nonatomic, strong) EZSaaSVCAccountModel *account; //创建人
 @property (nonatomic, strong) EZSaaSVCRoomModel *room; //会议房间

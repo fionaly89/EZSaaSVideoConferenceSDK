@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
  - RTCCommandEventStateEnded: 会议结束
  - RTCCommandEventStateInvite:  邀请参会
  - RTCCommandEventStatePassthrough:  消息透传
+ - RTCCommandEventStateKickout: 被踢出房间
+ - RTCCommandEventStateInitiativeExit: 主动退出房间
  */
 typedef enum : NSInteger {
     
@@ -36,7 +38,9 @@ typedef enum : NSInteger {
     RTCCommandEventStateBegin,
     RTCCommandEventStateEnded,
     RTCCommandEventStateInvite,
-    RTCCommandEventStatePassthrough
+    RTCCommandEventStatePassthrough,
+    RTCCommandEventStateKickout,
+    RTCCommandEventStateInitiativeExit
 } RTCCommandEventState;
 
 NS_ASSUME_NONNULL_END

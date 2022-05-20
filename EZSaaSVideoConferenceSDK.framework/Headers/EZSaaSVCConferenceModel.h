@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) EZSaaSVCRoomModel *room; //会议房间
 @property (nonatomic, strong) EZSaaSVCCorporationModel *corporation; //所属企业
 
-@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议
+@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议; 3-单聊会议; 4-群聊会议
 @property (nonatomic, assign) NSInteger begin_time; //会议开始时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger end_time; //会议结束时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger duration; //会议持续时间（单位秒）
