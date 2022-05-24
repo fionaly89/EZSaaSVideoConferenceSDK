@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "RTCEnum.h"
 #import "EZSaaSConferenceDefine.h"
 #import "EZSaaSRTCDelegate.h"
 #import "EZSaaSRTCSettingModel.h"
@@ -86,9 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param callingPortrait 主叫人头像
 /// @param callingMeetingName 会议名称
 /// @param callId 主叫方生成的呼叫ID
-/// @param isInviteMeeting 是否邀请对方加入会议
-/// @param isInviteUser 是否邀请对方连线用户
-/// @param voiceCall 标识对方发起的是语音通话还是视频通话
+/// @param callType 被叫类型
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)getEZSaaSMobileRTCCallInVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
@@ -98,9 +97,7 @@ NS_ASSUME_NONNULL_BEGIN
                                   callingPortrait:(NSString *)callingPortrait
                                callingMeetingName:(NSString *)callingMeetingName
                                            callId:(NSString *)callId
-                                  isInviteMeeting:(BOOL)isInviteMeeting
-                                     isInviteUser:(BOOL)isInviteUser
-                                        voiceCall:(BOOL)voiceCall
+                                         callType:(RTCIncomingType)callType
                                   successCallback:(void(^)(UIViewController *vc))successFn
                                      failCallBack:(void (^)(NSError *error))failFn;
 

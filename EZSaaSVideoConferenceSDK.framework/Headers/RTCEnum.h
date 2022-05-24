@@ -43,4 +43,12 @@ typedef enum : NSInteger {
     RTCCommandEventStateInitiativeExit
 } RTCCommandEventState;
 
+#pragma mark - CallType
+typedef enum : NSInteger {
+    RTCIncomingType_normal = 0, //正常视频会议
+    RTCIncomingType_voice, //单聊语音
+    RTCIncomingType_video, //单聊视频
+    RTCIncomingType_meeting, //群聊视频
+} RTCIncomingType;
+
 NS_ASSUME_NONNULL_END
