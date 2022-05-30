@@ -56,6 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) char *authData; //authData 密钥地址
 @property (nonatomic, assign) int authDataSize; //authDataSize 密钥长度
 
+//设备唯一标识
+@property (nonatomic, strong) NSString *device_id;
+
 @end
 
 /*!
