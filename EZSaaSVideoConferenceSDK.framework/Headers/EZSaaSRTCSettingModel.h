@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString * _Nullable domain;
 
+//控制是否将日志写入本地文件，建议 DEBUG模式下设置成 NO
 @property (nonatomic, assign) BOOL enableLog;
 
 //APP 导航栏颜色
