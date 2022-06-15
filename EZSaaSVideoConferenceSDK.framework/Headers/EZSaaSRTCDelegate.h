@@ -139,6 +139,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @protocol EZSaaSMobileRTCAuthDelegate <NSObject>
 
+@optional
 /*!
  @brief Specify to get the response of MobileRTC authorization.
  */

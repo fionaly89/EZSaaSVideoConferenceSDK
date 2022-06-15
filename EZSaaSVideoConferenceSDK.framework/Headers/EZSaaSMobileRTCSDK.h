@@ -146,9 +146,6 @@ NS_ASSUME_NONNULL_BEGIN
                              successCallback:(void(^)(UIViewController *vc))successFn
                                 failCallBack:(void(^)(NSError *error))failFn;
 
-//通知停止视频会议，建议在 applicationWillTerminate 中调用
-- (void)notificateMobileRTCStop;
-
 //通知会议组件退出登录
 - (void)notificateMobileRTCLoginOut;
 
