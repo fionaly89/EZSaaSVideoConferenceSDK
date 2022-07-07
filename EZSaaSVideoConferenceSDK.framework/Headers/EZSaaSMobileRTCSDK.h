@@ -17,6 +17,7 @@
 #import "EZSaaSMeetingCallMembersManagerInfo.h"
 #import "EZSaaSVCJoinMemberModel.h"
 #import "EZSaaSMobileRTCMemberInfo.h"
+#import "RTCMemberCallStatusModel.h"
 
 #import "YSNavigationViewController.h"
 
@@ -159,6 +160,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;
 
+#pragma mark - 检查呼叫状态
+- (void)checkWhetherBeCalling:(void(^)(RTCMemberCallStatusModel *model))successFn
+                 failCallBack:(void(^)(NSError *error))failFn;
+
+#pragma mark - 生成新的呼叫ID
 ///生成新的呼叫ID
 + (NSString *)getMemberCallId;
 

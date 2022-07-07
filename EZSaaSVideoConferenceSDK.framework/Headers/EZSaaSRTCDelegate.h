@@ -145,7 +145,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)oonMobileRTCAuthExpiredWithrefreshSuccessCallback:(void(^)(NSString *token))refreshSuccessCallback;
 
-- (void)onMobileRTCAuthNullCallBack;
+- (void)onMobileRTCAuthNullCallBack:(void(^)(NSString *token))refreshSuccessCallback;
 
 @end
 
