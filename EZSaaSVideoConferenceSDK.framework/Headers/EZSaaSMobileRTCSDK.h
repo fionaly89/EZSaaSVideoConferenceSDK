@@ -24,14 +24,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /*!
-@brief SDK
-*/
+ @brief SDK
+ */
 @interface EZSaaSMobileRTCSDK : NSObject
 
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingServiceDelegate> delegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCAuthDelegate> authDelegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingEventDelegate> eventDelegate;
 
+@property (nonatomic, strong) EZSaaSMobileRTCAuthService *authService;
 @property (nonatomic, strong) EZSaaSMobileRTCSDKInitContext *context;
 
 + (EZSaaSMobileRTCSDK * _Nonnull)sharedRTC;
@@ -152,9 +153,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 切换服务器线路
 /// @param lineId 线路id
+/// @param successFn 成功回调
+/// @param failFn 失败回调
 - (void)switchLineId:(NSString *)lineId
      successCallback:(void(^)(NSError *error))successFn
         failCallBack:(void (^)(NSError *error))failFn;
+
+/// 切换服务器线路
+/// @param sgLineId 服务器分组ID
+/// @param authService 鉴权信息
+/// @param sgLineIdName 服务器分组ID名称
+/// @param successFn 成功回调
+/// @param failFn 失败回调
+- (void)switchSGLineId:(NSString *)sgLineId
+           authService:(EZSaaSMobileRTCAuthService *)authService
+              sgLineIdName:(NSString *)sgLineIdName
+     successCallback:(void(^)(NSError *error))successFn
+          failCallBack:(void (^)(NSError *error))failFn;
 
 /// 切换服务地址
 /// @param domain 服务地址，eg: https://www.example.com:8888
@@ -163,6 +178,10 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 检查呼叫状态
 - (void)checkWhetherBeCalling:(void(^)(RTCMemberCallStatusModel *model))successFn
                  failCallBack:(void(^)(NSError *error))failFn;
+
+#pragma mark - 多语言设置
+//多语言设置
+- (void)setLocalLanguage:(RTCLanguageType)languageType;
 
 #pragma mark - 生成新的呼叫ID
 ///生成新的呼叫ID

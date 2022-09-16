@@ -15,27 +15,30 @@ NS_ASSUME_NONNULL_BEGIN
 */
 @interface EZSaaSMobileRTCSDKInitContext : NSObject
 
-//应用的 App Key
+#pragma mark - 应用的 App Key
 @property (nonatomic, copy) NSString *appid;
 @property (nonatomic, copy) NSString *appkey;
 
-/*!
- @brief [Required] domain The domain is used to start/join a meeting.
- */
+#pragma mark - SDK 服务器地址
 @property (nonatomic, copy) NSString * _Nullable domain;
 
+#pragma mark - SDK 是否保存日志
 //控制是否将日志写入本地文件，建议 DEBUG模式下设置成 NO
 @property (nonatomic, assign) BOOL enableLog;
 
-//APP 导航栏颜色
+#pragma mark - SDK 主题色配置
+
+//SDK 导航栏颜色
 @property (nonatomic, strong) UIColor *appNaviColor;
 
-//APP 导航栏标题颜色
+//SDK 导航栏标题颜色
 @property (nonatomic, strong) UIColor *appNaviTitleColor;
 
-//APP 主题色
+//SDK 主题色
 @property (nonatomic, strong) UIColor *appThemeColor;
 @property (nonatomic, strong) UIColor *appDisableThemeColor;
+
+#pragma mark - SDK 功能配置
 
 //共享屏幕bundle ID
 @property (nonatomic, copy) NSString *replayKitBID;
@@ -53,12 +56,19 @@ NS_ASSUME_NONNULL_BEGIN
 //是否需要支持多流功能，默认不支持
 @property (nonatomic, assign) BOOL supportMulStream;
 
-//美颜模块key
+#pragma mark - 美颜模块key
 @property (nonatomic, assign) char *authData; //authData 密钥地址
 @property (nonatomic, assign) int authDataSize; //authDataSize 密钥长度
 
-//设备唯一标识
+#pragma mark - 设备唯一标识
 @property (nonatomic, strong) NSString *device_id;
+
+#pragma mark - 服务器分组ID
+/// 服务器分组ID，不设置则使用默认分组ID
+@property (nullable, copy, nonatomic) NSString *lineSGId;
+
+/// 服务器分组ID名称，不设置则使用默认分组ID
+@property (nullable, copy, nonatomic) NSString *lineSGIdName;
 
 @end
 
@@ -69,9 +79,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// SDK 登录 token
 @property (nullable, copy, nonatomic) NSString *rtcToken;
-
-/// 网络线路ID，不设置则使用默认线路
-@property (nullable, copy, nonatomic) NSString *lineId;
 
 @end
 

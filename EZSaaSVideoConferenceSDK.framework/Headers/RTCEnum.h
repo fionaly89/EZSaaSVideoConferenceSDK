@@ -51,4 +51,10 @@ typedef enum : NSInteger {
     RTCIncomingType_meeting, //群聊视频
 } RTCIncomingType;
 
+#pragma mark - Language Type
+typedef enum : NSInteger {
+    RTCLanguageType_chinese = 0, //中文
+    RTCLanguageType_english, //英文
+} RTCLanguageType;
+
 NS_ASSUME_NONNULL_END
