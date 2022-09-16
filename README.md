@@ -205,6 +205,38 @@ authService.rtcToken = AUTH_TOKEN;
 
 ```
 
+##### 接入切换服务器、切换语言：
+本次更新新增切换服务器线路和切换SDK语言功能，具体用法：
+```
+1.切换服务器线路：
+--初始化SDK时可以通过 EZSaaSMobileRTCSDKInitContext 中的 lineSGId、lineSGIdName 参数配置SDK默认使用的线路
+--如需要变更线路可以通过调用 [EZSaaSMobileRTCSDK sharedRTC] switchSGLineId 接口来切换线路
+
+2.设置SDK语言：
+--在进行会议之前，可以通过 [EZSaaSMobileRTCSDK sharedRTC] setLocalLanguage 来设置SDK支持的语言
+
+
+新增接口：
+
+/// 切换服务器线路
+/// @param sgLineId 服务器分组ID
+/// @param authService 鉴权信息
+/// @param sgLineIdName 服务器分组ID名称
+/// @param successFn 成功回调
+/// @param failFn 失败回调
+- (void)switchSGLineId:(NSString *)sgLineId
+           authService:(EZSaaSMobileRTCAuthService *)authService
+              sgLineIdName:(NSString *)sgLineIdName
+     successCallback:(void(^)(NSError *error))successFn
+          failCallBack:(void (^)(NSError *error))failFn;
+
+#pragma mark - 多语言设置
+//多语言设置
+- (void)setLocalLanguage:(RTCLanguageType)languageType;
+
+```
+
+
 
 
 
