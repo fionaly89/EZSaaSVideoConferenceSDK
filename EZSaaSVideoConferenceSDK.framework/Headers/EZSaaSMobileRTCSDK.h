@@ -152,14 +152,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)notificateMobileRTCLoginOut;
 
 /// 切换服务器线路
-/// @param lineId 线路id
-/// @param successFn 成功回调
-/// @param failFn 失败回调
-- (void)switchLineId:(NSString *)lineId
-     successCallback:(void(^)(NSError *error))successFn
-        failCallBack:(void (^)(NSError *error))failFn;
-
-/// 切换服务器线路
 /// @param sgLineId 服务器分组ID
 /// @param authService 鉴权信息
 /// @param sgLineIdName 服务器分组ID名称
@@ -176,8 +168,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)switchServiceDomain:(NSString *)domain;
 
 #pragma mark - 检查呼叫状态
-- (void)checkWhetherBeCalling:(void(^)(RTCMemberCallStatusModel *model))successFn
-                 failCallBack:(void(^)(NSError *error))failFn;
+- (void)checkWhetherBeCallingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                                   successFn:(void(^)(RTCMemberCallStatusModel *model))successFn
+                                failCallBack:(void(^)(NSError *error))failFn;
 
 #pragma mark - 多语言设置
 //多语言设置
