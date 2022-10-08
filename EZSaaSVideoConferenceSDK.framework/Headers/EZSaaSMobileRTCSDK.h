@@ -9,17 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "RTCEnum.h"
-#import "EZSaaSConferenceDefine.h"
-#import "EZSaaSRTCDelegate.h"
-#import "EZSaaSRTCSettingModel.h"
-
-#import "EZSaaSMeetingCallMembersManagerInfo.h"
-#import "EZSaaSVCJoinMemberModel.h"
-#import "EZSaaSMobileRTCMemberInfo.h"
-#import "RTCMemberCallStatusModel.h"
-
-#import "YSNavigationViewController.h"
+#import "YSRTCExpressDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -83,45 +73,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 获取视频会议SDK被叫页面
 /// @param authService 鉴权信息
-/// @param roomNo 房间号
-/// @param roomPassWord 房间密码
-/// @param callingName 主叫人昵称
-/// @param callingPortrait 主叫人头像
-/// @param callingMeetingName 会议名称
-/// @param callId 主叫方生成的呼叫ID
-/// @param callType 被叫类型
+/// @param config 配置房间号、密码等
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)getEZSaaSMobileRTCCallInVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                                           roomNo:(NSString *)roomNo
-                                     roomPassWord:(NSString *)roomPassWord
-                                      callingName:(NSString *)callingName
-                                  callingPortrait:(NSString *)callingPortrait
-                               callingMeetingName:(NSString *)callingMeetingName
-                                           callId:(NSString *)callId
-                                         callType:(RTCIncomingType)callType
+                                           config:(YSRTCCallInConfig *)config
                                   successCallback:(void(^)(UIViewController *vc))successFn
                                      failCallBack:(void (^)(NSError *error))failFn;
 
 /// 加入指定会议
 /// @param authService 鉴权信息
 /// @param navi 导航控制器
-/// @param roomNo 房间号
-/// @param nickname 昵称
-/// @param password 密码
-/// @param isAudioOn 入会是否默认开启麦克风
-/// @param isVideoOn 入会是否默认开启摄像头
-/// @param isSoundOn 入会是否默认开启扬声器
+/// @param config 入会参数
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)enterEZSaaSConferenceWithAuthService:(EZSaaSMobileRTCAuthService *)authService
                                         navi:(UINavigationController *)navi
-                                      roomNo:(NSString *)roomNo
-                                    nickname:(NSString *)nickname
-                                    password:(NSString *)password
-                                   isAudioOn:(BOOL)isAudioOn
-                                   isVideoOn:(BOOL)isVideoOn
-                                   isSoundOn:(BOOL)isSoundOn
+                                      config:(YSRTCJoinRoomConfig *)config
                              successCallback:(void(^)(UIViewController *vc))successFn
                                 failCallBack:(void(^)(NSError *error))failFn;
 
@@ -129,24 +97,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 加入指定会议（不包含入会失败处理逻辑）
 /// @param authService 鉴权信息
 /// @param navi 导航控制器
-/// @param roomNo 房间号
-/// @param nickname 昵称
-/// @param password 密码
-/// @param isAudioOn 入会是否默认开启麦克风
-/// @param isVideoOn 入会是否默认开启摄像头
-/// @param isSoundOn 入会是否默认开启扬声器
+/// @param config 入会参数
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)enterEZSaaSConferenceWithOutErrorDisplay:(EZSaaSMobileRTCAuthService *)authService
-                                        navi:(UINavigationController *)navi
-                                      roomNo:(NSString *)roomNo
-                                    nickname:(NSString *)nickname
-                                    password:(NSString *)password
-                                   isAudioOn:(BOOL)isAudioOn
-                                   isVideoOn:(BOOL)isVideoOn
-                                   isSoundOn:(BOOL)isSoundOn
-                             successCallback:(void(^)(UIViewController *vc))successFn
-                                failCallBack:(void(^)(NSError *error))failFn;
+                                            navi:(UINavigationController *)navi
+                                          config:(YSRTCJoinRoomConfig *)config
+                                 successCallback:(void(^)(UIViewController *vc))successFn
+                                    failCallBack:(void(^)(NSError *error))failFn;
 
 //通知会议组件退出登录
 - (void)notificateMobileRTCLoginOut;
@@ -168,9 +126,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)switchServiceDomain:(NSString *)domain;
 
 #pragma mark - 检查呼叫状态
-- (void)checkWhetherBeCallingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                                   successFn:(void(^)(RTCMemberCallStatusModel *model))successFn
-                                failCallBack:(void(^)(NSError *error))failFn;
++ (void)checkWhetherBeCallingWithToken:(NSString *)token
+                             successFn:(void(^)(RTCMemberCallStatusModel *model))successFn
+                          failCallBack:(void(^)(NSError *error))failFn;
 
 #pragma mark - 多语言设置
 //多语言设置
