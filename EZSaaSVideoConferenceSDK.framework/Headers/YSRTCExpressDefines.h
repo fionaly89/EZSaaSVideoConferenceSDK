@@ -17,5 +17,6 @@
 #import "RTCMemberCallStatusModel.h"
 #import "YSRTCCallInConfig.h"
 #import "YSRTCJoinRoomConfig.h"
+#import "RTCErrorCode.h"
 
 #import "YSNavigationViewController.h"
