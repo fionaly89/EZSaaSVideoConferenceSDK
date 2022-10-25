@@ -125,10 +125,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;
 
-#pragma mark - 检查呼叫状态
-+ (void)checkWhetherBeCallingWithToken:(NSString *)token
-                             successFn:(void(^)(RTCMemberCallStatusModel *model))successFn
-                          failCallBack:(void(^)(NSError *error))failFn;
+#pragma mark - 检查能否发起呼叫
+
+/// 检查能否发起呼叫
+/// @param result （enable: 表示是否能够发起会议或呼叫；code:表示不能发起会议或呼叫错误码；domain:表示不能发起会议或呼叫的原因）
+- (void)checkStartMeetingEnable:(void(^)(BOOL enable, RTCErrorCodeType code, NSString *domain))result;
 
 #pragma mark - 多语言设置
 //多语言设置
