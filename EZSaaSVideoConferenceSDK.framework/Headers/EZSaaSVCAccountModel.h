@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *cid; //ID
 @property (nonatomic, copy) NSString *name; //用户名
 @property (nonatomic, copy) NSString *nickname; //昵称
+@property (nonatomic, copy) NSString *aliasName; //昵称别名
 @property (nonatomic, copy) NSString *portrait; //头像地址
 @property (nonatomic, copy) NSString *relative_portrait; //相对头像地址
 @property (nonatomic, copy) NSString *mobile; //手机号

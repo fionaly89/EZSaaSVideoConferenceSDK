@@ -56,6 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
 //是否需要支持多流功能，默认不支持
 @property (nonatomic, assign) BOOL supportMulStream;
 
+//是否需要禁用加入会议页面修改默认名字功能
+@property (nonatomic, assign) BOOL disableModifyName;
+
 #pragma mark - 美颜模块key
 @property (nonatomic, assign) char *authData; //authData 密钥地址
 @property (nonatomic, assign) int authDataSize; //authDataSize 密钥长度

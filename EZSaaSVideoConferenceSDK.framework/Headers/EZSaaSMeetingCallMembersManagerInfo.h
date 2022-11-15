@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <VCSSDK/VCSNetCall.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -45,6 +44,7 @@ typedef NS_ENUM(NSInteger, EZSaaSInviteStatus) {
 @property(nonatomic, copy) NSString *id_p; //用户ID，必须项
 @property(nonatomic, copy) NSString *name; //用户名称，必须项
 @property(nonatomic, copy) NSString *nickname; //用户昵称，必须项
+@property(nonatomic, copy) NSString *aliasName; //用户昵称别名，必须项
 @property(nonatomic, copy) NSString *portrait; //用户头像，必须项
 @property(nonatomic, copy) NSString *roomNo; //房间ID，必须项
 

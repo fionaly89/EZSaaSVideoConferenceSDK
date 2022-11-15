@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *roomNo; //房间号
 @property (nonatomic, copy) NSString *nickname; //昵称
+@property (nonatomic, copy) NSString *aliasName; //用户昵称别名，必须项
 @property (nonatomic, copy) NSString *password; //密码
 
 @property (nonatomic, assign) BOOL isAudioOn; //入会是否默认开启麦克风
