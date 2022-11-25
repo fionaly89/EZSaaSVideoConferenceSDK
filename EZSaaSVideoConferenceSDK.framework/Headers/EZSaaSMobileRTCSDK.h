@@ -48,26 +48,22 @@ NS_ASSUME_NONNULL_BEGIN
 /// 呼叫成员-单聊
 /// @param authService 鉴权信息
 /// @param navi 导航
-/// @param memberInfo 成员信息
-/// @param videoCallEnable 是否开启视频通话
+/// @param config 配置
 /// @param successFn 成功回调，回调会议控制器、创建的会议信息、已呼叫的成员
 /// @param failFn 失败回调
 - (void)inviteMeetingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
                                 navi:(UINavigationController *)navi
-                          memberInfo:(EZSaaSMeetingCallMembersManagerInfo *)memberInfo
-                     videoCallEnable:(BOOL)videoCallEnable
+                              config:(YSRTCInviteMeetingConfig *)config
                      successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members, cancelCallBlock  _Nonnull cancelBlock))successFn
                         failCallBack:(void (^)(NSError *error))failFn;
 
 /// 呼叫成员-群聊
-/// @param memberInfos 成员信息列表
-/// @param videoCallEnable 是否开启视频通话
+/// @param config 配置
 /// @param successFn 成功回调，回调会议控制器、创建的会议信息、已呼叫的成员
 /// @param failFn 失败回调
 - (void)startMeetingGroupWithAuthService:(EZSaaSMobileRTCAuthService *)authService
                                     navi:(UINavigationController *)navi
-                             memberInfos:(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *)memberInfos
-                         videoCallEnable:(BOOL)videoCallEnable
+                                  config:(YSRTCMeetingGroupConfig *)config
                          successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members))successFn
                             failCallBack:(void (^)(NSError *error))failFn;
 
