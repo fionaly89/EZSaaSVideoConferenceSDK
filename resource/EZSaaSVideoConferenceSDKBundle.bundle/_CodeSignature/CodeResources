@@ -429,7 +429,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLsiejAy94oekzGxbTGZuHfzTKM=
+			GxvIa2PLfGnhciH8wEydod1PDxE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2167,7 +2167,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4znwmFihT61T8xdKNIBApD4D1fo=
+			Carj8dtFXPhPzdK0EK7cCS/zNmQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2907,6 +2907,10 @@
 		<key>短信邀请@3x.png</key>
 		<data>
 		NOiI3YNdo1BbdvW5m06CzI+TLfk=
+		</data>
+		<key>竖向视频.m4a</key>
+		<data>
+		GDVhq0R85fDZA+z1wm+XmJjxNVY=
 		</data>
 		<key>等待接听@2x.png</key>
 		<data>
@@ -4245,11 +4249,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLsiejAy94oekzGxbTGZuHfzTKM=
+			GxvIa2PLfGnhciH8wEydod1PDxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TF7j3LYS63ii9q6Ke9bI5Fq1s+dYotiB0CqPbHzHZko=
+			SL3N4eOSp/g2pZ71/fzUVMWY5tWxZ+4+YWgFKeyTP1E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -9001,11 +9005,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4znwmFihT61T8xdKNIBApD4D1fo=
+			Carj8dtFXPhPzdK0EK7cCS/zNmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygubEfw9DAOJ2E+QcJWOIC+p4pZFLtTpGLWHrwgXtVo=
+			TR+8SxjVv02r49628VMkSeR9cJB+RL7NcaY9JDKPYcc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -11032,6 +11036,17 @@
 			<key>hash2</key>
 			<data>
 			wonKFp3jfcbvlsJFHn1NO1wp4tDK+8sj4/11mSkWODM=
+			</data>
+		</dict>
+		<key>竖向视频.m4a</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GDVhq0R85fDZA+z1wm+XmJjxNVY=
+			</data>
+			<key>hash2</key>
+			<data>
+			lxlrgyp/9NPTaAgyGOylgf12ZOvf87YyewCp6GveYp8=
 			</data>
 		</dict>
 		<key>等待接听@2x.png</key>
