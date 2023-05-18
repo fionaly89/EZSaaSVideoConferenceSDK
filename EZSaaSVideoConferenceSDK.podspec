@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EZSaaSVideoConferenceSDK"
-  spec.version      = "1.7.8"
+  spec.version      = "1.7.9"
   spec.summary      = "EZSaaSVideoConferenceSDK 是视频会议SDK"
 
   # This description is used to generate tags and improve search results.
@@ -122,6 +122,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Masonry'
   spec.dependency 'MJRefresh'
   spec.dependency 'SDWebImage'
+  spec.dependency 'SVGKit'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
