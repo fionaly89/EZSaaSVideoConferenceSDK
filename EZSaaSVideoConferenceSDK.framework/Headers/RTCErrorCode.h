@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : NSInteger {
     RTCError_InMeeting = 1000, //EZSaaS.EZSaaSVideoConferenceSDK" code:1000 userInfo:@{@"msg":@"你正在会议中"}
+    RTCError_EnterMeeting = 1001, //EZSaaS.EZSaaSVideoConferenceSDK" code:1001 userInfo:@{@"msg":@"正在加入会议"}
     RTCError_NetworkError = 1015, //code:1015 userInfo:@{@"msg":@"网络不给力哦～"
     RTCError_NetworkError13 = 1013, //code:1013 userInfo:@{@"msg":@"网络异常(-13)，请检查网络设置后重试"
     RTCError_InCalled = 1011, //code:1011 userInfo:@{@"msg":@"你正在被呼叫"}]);

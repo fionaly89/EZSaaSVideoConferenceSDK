@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+//状态：1-会议中;2-待开始;3-结束；
 typedef NS_ENUM(NSInteger, EZSaaSVideoConferenceStatus) {
     EZSaaSVideoConferenceStatusInProgress = 1,
     EZSaaSVideoConferenceStatusPreparing,

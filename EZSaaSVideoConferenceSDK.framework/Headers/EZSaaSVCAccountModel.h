@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *room_id; //房间ID
 @property (nonatomic, strong) EZSaaSVCRoomModel *room; //房间
 
+@property (nonatomic, copy) NSString *third_corp_name; //外协成员关联的企业名字
 @property (nonatomic, copy) NSString *corp_nickname; //帐号在企业内名称
 @property (nonatomic, copy) NSString *corp_role; //帐号在企业内角色
 @property (nonatomic, copy) NSString *corp_id; //企业ID
@@ -42,6 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger version_state; //更新状态 0-未同意 1-同意
 @property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
+
+@property (nonatomic, assign) NSInteger member_type; //内部联系人-0   外部联系人-1
  
 @end
 

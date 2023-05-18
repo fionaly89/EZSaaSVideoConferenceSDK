@@ -131,6 +131,9 @@ NS_ASSUME_NONNULL_BEGIN
 //多语言设置
 - (void)setLocalLanguage:(RTCLanguageType)languageType;
 
+#pragma mark - 视频是否加密
+- (void)setStreamEncrypt:(BOOL)encrypt;
+
 #pragma mark - 生成新的呼叫ID
 ///生成新的呼叫ID
 + (NSString *)getMemberCallId;

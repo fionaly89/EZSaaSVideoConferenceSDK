@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class EZSaaSVCConferenceModel;
 @class EZSaaSMeetingCallMembersManagerInfo;
 @class EZSaaSVCAccountModel;
+@class RTCWaitRoomMembersModel;
 
 /*!
  @brief 回调框架代理
@@ -29,26 +30,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
-/// 打开通讯录回调，传入已选中成员，传回所选的所有成员
-/// @param naviVC 当前成员列表导航控制器
-/// @param meetingModel 当前会议信息
-/// @param selectedMembers 当前已选中的成员信息
-/// @param completion 结果回调
-- (void)onMeetingMembers:(UINavigationController *)naviVC
-            meetingModel:(EZSaaSVCConferenceModel *)meetingModel
-         selectedMembers:(NSMutableArray<EZSaaSVCJoinMemberModel *> *)selectedMembers
-              completion:(void(^)(NSMutableArray<EZSaaSVCJoinMemberModel *> *models))completion;
-
+#pragma mark - 呼叫接口
 /// 打开通讯录回调，传入已入会成员、呼叫中成员，传回呼叫中成员
 /// @param naviVC 当前成员列表导航控制器
 /// @param meetingModel 当前会议信息
 /// @param inMeetingMembers 已入会成员列表
 /// @param callingMembers 呼叫中成员列表
+/// @param waitMembers 等候室成员列表
 /// @param completion 结果回调，传回新的呼叫中成员列表
 - (void)onMeetingCallMembers:(UINavigationController *)naviVC
                 meetingModel:(EZSaaSVCConferenceModel *)meetingModel
             inMeetingMembers:(NSArray<EZSaaSVCJoinMemberModel *> *)inMeetingMembers
               callingMembers:(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *)callingMembers
+                 waitMembers:(NSArray<RTCWaitRoomMembersModel *> *)waitMembers
                   completion:(void(^)(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *models))completion;
 
 /// 重新呼叫某个成员
@@ -63,30 +57,46 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onMeetingCancelCallMember:(EZSaaSMeetingCallMembersManagerInfo *)member
                      meetingModel:(EZSaaSVCConferenceModel *)meetingModel;
 
-/// 分享会议信息回调
+#pragma mark - 会中邀请白名单修改
+/// 打开通讯录回调，传入已选中成员，传回所选的所有成员
+/// @param naviVC 当前成员列表导航控制器
+/// @param meetingModel 当前会议信息
+/// @param innerMembers 当前已选中的企业内成员信息
+/// @param outMembers 当前已选中的外协成员信息
+/// @param completion 结果回调
+- (void)onMeetingMembers:(UINavigationController *)naviVC
+            meetingModel:(EZSaaSVCConferenceModel *)meetingModel
+            innerMembers:(NSMutableArray<EZSaaSVCJoinMemberModel *> *)innerMembers
+              outMembers:(NSMutableArray<EZSaaSVCJoinMemberModel *> *)outMembers
+              completion:(void(^)(NSMutableArray<EZSaaSVCJoinMemberModel *> *models))completion;
+
+#pragma mark - 分享相关接口
+
+/// 拷贝app邀请信息到剪切板
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onMeetingShareClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onCopyAppShareLink:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
-/// 点击会议复制邀请回调
+/// 分享邀请信息到APP
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onMeetingCopyLinkClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onShareToApp:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
-/// 点击短信分享会议信息
+/// 通过微信分享邀请信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onMeetingShareMsgClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onShareToWeixin:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
-/// 点击日历分享会议信息
+/// 通过邮件分享邀请信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onMeetingShareCalendarClicked:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onShareToAppEmail:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
 
+#pragma mark - 页面操作
 //打开我的页面
 - (void)onMeetingOpenMineHomePageVC:(UINavigationController *)naviVC;
 

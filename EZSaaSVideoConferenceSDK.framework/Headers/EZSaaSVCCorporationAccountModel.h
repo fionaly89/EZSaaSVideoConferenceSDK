@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *org_id; //组织ID
 @property (nonatomic, assign) NSInteger role; //角色ID
 @property (nonatomic, strong) NSString *user_id;
+@property (nonatomic, strong) NSString *third_corp_name;
+@property (nonatomic, assign) NSInteger member_type;
 
 @end
 

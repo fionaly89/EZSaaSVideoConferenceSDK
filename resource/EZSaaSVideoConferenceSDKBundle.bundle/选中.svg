@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选中</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="手机端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="手机端预约会议" transform="translate(-409.000000, -1596.000000)">
+            <g id="编组-4" transform="translate(409.000000, 1596.000000)">
+                <g id="Group" transform="translate(0.000000, -0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <path d="M3.60229631,3.23492252 C4.12942231,3.24041051 4.5645549,3.65691125 4.6000165,4.17680087 L4.60229631,4.23497622 L4.63971128,7.86422793 L13.5478745,7.95606466 C14.0750005,7.96149895 14.5101331,8.37799969 14.5455947,8.89788931 L14.5479282,8.95606466 C14.5533088,9.48319067 14.1456923,9.9098272 13.6264234,9.93457582 L13.5682827,9.9356565 L3.67032352,9.83361568 C3.14319751,9.82818139 2.70806493,9.41168066 2.67260333,8.89179103 L2.67032352,8.83361568 L2.62265076,4.21456806 C2.61706891,3.66791887 3.05564712,3.22934067 3.60229631,3.23492252 Z" id="Path" fill="#F02C38" fill-rule="nonzero" transform="translate(8.585290, 6.585290) rotate(-45.000000) translate(-8.585290, -6.585290) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

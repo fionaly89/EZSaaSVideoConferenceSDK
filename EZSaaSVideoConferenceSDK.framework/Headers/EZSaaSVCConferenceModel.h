@@ -31,7 +31,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger begin_time; //会议开始时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger end_time; //会议结束时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger duration; //会议持续时间（单位秒）
-@property (nonatomic, assign) NSInteger state; //状态：0-待开始;1-会议中;2-结束；
+@property (nonatomic, assign) NSInteger state; //状态：1-会议中;2-待开始;3-结束；
+
+@property (nonatomic, assign) BOOL water_mark;
+@property (nonatomic, assign) BOOL screen_shot;//允许成员截图与录屏
+@property (nonatomic, assign) BOOL share_screen;
+
+@property (nonatomic, assign) BOOL inside_water_mark;
+@property (nonatomic, assign) BOOL inside_screen_shot;
+
+@property (nonatomic, assign) BOOL external_screen_shot;
+@property (nonatomic, assign) BOOL external_share_screen;
+@property (nonatomic, assign) BOOL external_water_mark;
 
 @end
 

@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *name; //版本名称
 @property (nonatomic, copy) NSString *line_id; //服务器线路ID
 @property (nonatomic, copy) NSString *sg_id; //服务器分组ID
-@property (nonatomic, assign) NSInteger is_default; //海康易会是否默认线路（为空或0: 否;  1: 是）
+@property (nonatomic, assign) NSInteger is_default; //萤石易会是否默认线路（为空或0: 否;  1: 是）
 
 @end
 
