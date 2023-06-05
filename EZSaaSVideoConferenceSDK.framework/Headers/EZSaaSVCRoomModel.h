@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger external_waiting_room_state; //外部联系人是否开启等候室(0：关闭;1:开启)
 @property (nonatomic, assign) NSInteger inside_waiting_room_state; //内部成员是否开启等候室(0：关闭;1:开启)
 @property (nonatomic, assign) NSInteger mute; //成员入会静音设置 0-关闭 1-开启 2-人员超过6人
+@property (nonatomic, assign) BOOL member_sensitive_state;
 
 @end
 

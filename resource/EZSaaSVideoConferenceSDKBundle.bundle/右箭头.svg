@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>右箭头</title>
+    <g id="切图合集" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1351.000000, -32.000000)" id="Group-11">
+            <g transform="translate(1351.000000, 32.000000)">
+                <g id="Group-21" transform="translate(32.000000, 32.000000) scale(-1, 1) translate(-32.000000, -32.000000) ">
+                    <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    <path d="M25,15 C26.5976809,15 27.9036609,16.24892 27.9949073,17.8237272 L28,18 L28,43 L53,43 C54.5976809,43 55.9036609,44.24892 55.9949073,45.8237272 L56,46 C56,47.5976809 54.75108,48.9036609 53.1762728,48.9949073 L53,49 L25,49 C23.4023191,49 22.0963391,47.75108 22.0050927,46.1762728 L22,46 L22,18 C22,16.3431458 23.3431458,15 25,15 Z" id="Path" fill="#222222" fill-rule="nonzero" transform="translate(39.000000, 32.000000) rotate(45.000000) translate(-39.000000, -32.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

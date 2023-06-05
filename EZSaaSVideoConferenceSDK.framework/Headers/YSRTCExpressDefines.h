@@ -16,6 +16,7 @@
 #import "EZSaaSMobileRTCMemberInfo.h"
 #import "RTCMemberCallStatusModel.h"
 #import "YSRTCAPIConfig.h"
+#import "RTCWaitRoomMembersModel.h"
 #import "RTCErrorCode.h"
 
 #import "YSNavigationViewController.h"
