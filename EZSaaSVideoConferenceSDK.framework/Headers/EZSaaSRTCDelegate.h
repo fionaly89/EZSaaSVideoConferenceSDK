@@ -64,11 +64,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param innerMembers 当前已选中的企业内成员信息
 /// @param outMembers 当前已选中的外协成员信息
 /// @param completion 结果回调
+/// @param failFn 失败回调
 - (void)onMeetingMembers:(UINavigationController *)naviVC
             meetingModel:(EZSaaSVCConferenceModel *)meetingModel
             innerMembers:(NSMutableArray<EZSaaSVCJoinMemberModel *> *)innerMembers
               outMembers:(NSMutableArray<EZSaaSVCJoinMemberModel *> *)outMembers
-              completion:(void(^)(NSMutableArray<EZSaaSVCJoinMemberModel *> *models))completion;
+              completion:(void(^)(NSMutableArray<EZSaaSVCJoinMemberModel *> *models))completion
+            failCallBack:(void (^)(void))failFn;
 
 #pragma mark - 分享相关接口
 
