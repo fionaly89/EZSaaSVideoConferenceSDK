@@ -28,6 +28,7 @@ typedef enum : NSInteger {
     RTCError_MeetingOver = 501, //入会失败，会议已结束
     RTCError_MeetingLocked = 411, //入会失败，会议已锁定，如需加入，请联系主持人
     RTCError_MemberLimit = 413, //入会失败，企业外成员无法加入
+    RTCError_WaitRoomLimit = 415, //入会失败，无法进入等候室
 } RTCErrorCodeType;
 
 NS_ASSUME_NONNULL_END
