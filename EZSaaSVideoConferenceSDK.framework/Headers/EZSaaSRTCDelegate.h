@@ -89,14 +89,26 @@ NS_ASSUME_NONNULL_BEGIN
 /// 通过微信分享邀请信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
+/// @param sharedTitle 会议标题
+/// @param sharedContent 分享的内容
 /// @param naviVC 导航控制器
-- (void)onShareToWeixin:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onShareToWeixin:(EZSaaSVCConferenceModel *)meetingModel
+          sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
+            sharedTitle:(NSString *)sharedTitle
+            sharedContent:(NSString *)sharedContent
+                 naviVC:(UINavigationController *)naviVC;
 
 /// 通过邮件分享邀请信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
+/// @param sharedTitle 会议标题
+/// @param sharedContent 分享的内容
 /// @param naviVC 导航控制器
-- (void)onShareToAppEmail:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+- (void)onShareToAppEmail:(EZSaaSVCConferenceModel *)meetingModel
+            sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
+              sharedTitle:(NSString *)sharedTitle
+              sharedContent:(NSString *)sharedContent
+                   naviVC:(UINavigationController *)naviVC;
 
 #pragma mark - 页面操作
 //打开我的页面
