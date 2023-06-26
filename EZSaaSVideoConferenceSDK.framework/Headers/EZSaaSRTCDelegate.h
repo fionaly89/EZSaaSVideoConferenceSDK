@@ -34,16 +34,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 打开通讯录回调，传入已入会成员、呼叫中成员，传回呼叫中成员
 /// @param naviVC 当前成员列表导航控制器
 /// @param meetingModel 当前会议信息
+/// @param isHost 标识自己是否是主持人身份
 /// @param inMeetingMembers 已入会成员列表
 /// @param callingMembers 呼叫中成员列表
 /// @param waitMembers 等候室成员列表
-/// @param completion 结果回调，传回新的呼叫中成员列表
+/// @param completion 结果回调，传回新的呼叫中成员列表，corp_external_member_support：是否允许外协成员入会
 - (void)onMeetingCallMembers:(UINavigationController *)naviVC
                 meetingModel:(EZSaaSVCConferenceModel *)meetingModel
+                      isHost:(BOOL)isHost
             inMeetingMembers:(NSArray<EZSaaSVCJoinMemberModel *> *)inMeetingMembers
               callingMembers:(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *)callingMembers
                  waitMembers:(NSArray<RTCWaitRoomMembersModel *> *)waitMembers
-                  completion:(void(^)(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *models))completion;
+                  completion:(void(^)(NSArray<EZSaaSMeetingCallMembersManagerInfo *> *models, BOOL corp_external_member_support))completion;
 
 /// 重新呼叫某个成员
 /// @param member 成员信息
