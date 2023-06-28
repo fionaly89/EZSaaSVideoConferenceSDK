@@ -40,9 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - SDK 功能配置
 
-//共享屏幕bundle ID
+//共享屏幕&投屏 bundle ID
 @property (nonatomic, copy) NSString *replayKitBID;
 @property (nonatomic, copy) NSString *replayKitUIBID;
+@property (nonatomic, copy) NSString *replayAppGroupID;
 
 //是否需要支持白板功能，默认支持
 @property (nonatomic, assign) BOOL unRequiredWhiteboard;
