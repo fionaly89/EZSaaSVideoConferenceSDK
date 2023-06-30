@@ -105,24 +105,11 @@ NS_ASSUME_NONNULL_BEGIN
 //通知会议组件退出登录
 - (void)notificateMobileRTCLoginOut;
 
-/// 切换服务器线路
-/// @param sgLineId 服务器分组ID
-/// @param authService 鉴权信息
-/// @param sgLineIdName 服务器分组ID名称
-/// @param successFn 成功回调
-/// @param failFn 失败回调
-- (void)switchSGLineId:(NSString *)sgLineId
-           authService:(EZSaaSMobileRTCAuthService *)authService
-              sgLineIdName:(NSString *)sgLineIdName
-     successCallback:(void(^)(NSError *error))successFn
-          failCallBack:(void (^)(NSError *error))failFn;
-
 /// 切换服务地址
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;
 
 #pragma mark - 检查能否发起呼叫
-
 /// 检查能否发起呼叫
 /// @param result （enable: 表示是否能够发起会议或呼叫；code:表示不能发起会议或呼叫错误码；domain:表示不能发起会议或呼叫的原因）
 - (void)checkStartMeetingEnable:(void(^)(BOOL enable, RTCErrorCodeType code, NSString *domain))result;

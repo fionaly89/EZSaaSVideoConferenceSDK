@@ -19,8 +19,9 @@ typedef enum : NSInteger {
     RTCError_InCalling = 1010, //code:1010 userInfo:@{@"msg":@"呼叫中"}]);
     RTCError_MemberNotExist = 1009, //code:1009 userInfo:@{@"msg":@"找不到被呼成员"}]);
     RTCError_CallFailure = 1012, //code:1012 userInfo:@{@"msg":@"呼叫失败"}]);
-    RTCError_AuthEmpty = 1013, //code:-1 userInfo:@{@"msg":@"鉴权信息为空"}
-    RTCError_InvalidLineId = 1014, //code:-2 userInfo:@{@"msg":@"无效的线路ID"}
+    RTCError_AuthEmpty = 1013, //code:1013 userInfo:@{@"msg":@"鉴权信息为空"}
+    RTCError_InvalidLineId = 1014, //code:1014 userInfo:@{@"msg":@"无效的线路ID"}
+    RTCError_NoLineAvailable = 1015, //code:1015 userInfo:@{@"msg":@"获取线路节点失败"}
     RTCError_RoomNeedPassword = 409, //入会失败，需要输入密码
     RTCError_IncorrectRoomPass = 504, //入会失败，输入密码错误
     RTCError_PersonLimit = 410, //入会失败，房间人数超限

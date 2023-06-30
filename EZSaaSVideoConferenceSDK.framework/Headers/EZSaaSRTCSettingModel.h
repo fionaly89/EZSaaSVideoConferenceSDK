@@ -67,12 +67,12 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 设备唯一标识
 @property (nonatomic, strong) NSString *device_id;
 
-#pragma mark - 服务器分组ID
-/// 服务器分组ID，不设置则使用默认分组ID
-@property (nullable, copy, nonatomic) NSString *lineSGId;
-
-/// 服务器分组ID名称，不设置则使用默认分组ID
-@property (nullable, copy, nonatomic) NSString *lineSGIdName;
+//#pragma mark - 服务器分组ID
+///// 服务器分组ID，不设置则使用默认分组ID
+//@property (nullable, copy, nonatomic) NSString *lineSGId;
+//
+///// 服务器分组ID名称，不设置则使用默认分组ID
+//@property (nullable, copy, nonatomic) NSString *lineSGIdName;
 
 @end
 
