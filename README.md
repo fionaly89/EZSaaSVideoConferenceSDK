@@ -17,22 +17,22 @@ target 'YSRTCDemo' do
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
  
-  pod 'VCSSDK'
-  pod 'EZSaaSVideoConferenceSDK'
+  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
+  pod 'EZSaaSVideoConferenceSDK', '1.8.9'
 end
 
 #屏幕共享工程配置
 target 'YSRTCDemoReplayKit' do
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
-  pod 'VCSSDK'
+  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
 end
 
 #屏幕共享工程配置
 target 'YSRTCDemoReplayKitSetupUI' do
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
-  pod 'VCSSDK'
+  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
 end
 
 post_install do |installer_representation|
