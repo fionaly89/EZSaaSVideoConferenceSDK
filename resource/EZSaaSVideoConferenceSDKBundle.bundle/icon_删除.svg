@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <g id="h5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设置布局" transform="translate(-423.000000, -4322.000000)">
+            <g id="icon" transform="translate(423.000000, 4322.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 Z M10.625,7.125 L5.375,7.125 C4.89175084,7.125 4.5,7.51675084 4.5,8 C4.5,8.48324916 4.89175084,8.875 5.375,8.875 L10.625,8.875 C11.1082492,8.875 11.5,8.48324916 11.5,8 C11.5,7.51675084 11.1082492,7.125 10.625,7.125 Z" id="形状结合" fill="#CCCCCC"></path>
+            </g>
+        </g>
+    </g>
+</svg>
