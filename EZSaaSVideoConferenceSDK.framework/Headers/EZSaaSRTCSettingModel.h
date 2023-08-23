@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YSRTCMobileRTCAuthService.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -73,16 +74,6 @@ NS_ASSUME_NONNULL_BEGIN
 //
 ///// 服务器分组ID名称，不设置则使用默认分组ID
 //@property (nullable, copy, nonatomic) NSString *lineSGIdName;
-
-@end
-
-/*!
-@brief SDK鉴权参数
-*/
-@interface EZSaaSMobileRTCAuthService : NSObject
-
-/// SDK 登录 token
-@property (nullable, copy, nonatomic) NSString *rtcToken;
 
 @end
 
