@@ -10,6 +10,7 @@
 #import "EZSaaSVCAccountModel.h"
 #import "EZSaaSVCRoomModel.h"
 #import "EZSaaSVCCorporationModel.h"
+#import "RTCRoomVideoRecordModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +44,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL external_screen_shot;
 @property (nonatomic, assign) BOOL external_share_screen;
 @property (nonatomic, assign) BOOL external_water_mark;
+
+@property (nonatomic, assign) BOOL isRecord; //是否有录像（true：有；false：否）
+@property (nonatomic, assign) int record_file_num; //录像文件个数
+
+@property (nonatomic, strong) RTCRoomVideoRecordModel *RoomVideoRecord;
 
 @end
 
