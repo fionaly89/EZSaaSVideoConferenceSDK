@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) EZSaaSVCRoomModel *room; //会议房间
 @property (nonatomic, strong) EZSaaSVCCorporationModel *corporation; //所属企业
 
-@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议; 3-单聊会议; 4-群聊会议
+@property (nonatomic, assign) NSInteger type; //会议类型: 1-即时会议; 2-预约会议; 3-单聊会议; 4-群聊会议; 5-网络研讨会
 @property (nonatomic, assign) NSInteger begin_time; //会议开始时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger end_time; //会议结束时间（Unix时间戳）
 @property (nonatomic, assign) NSInteger duration; //会议持续时间（单位秒）
@@ -49,6 +49,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) int record_file_num; //录像文件个数
 
 @property (nonatomic, strong) RTCRoomVideoRecordModel *RoomVideoRecord;
+
+@property (nonatomic, assign) NSInteger guest_total; //嘉宾数量
+@property (nonatomic, assign) NSInteger audience_total; //观众数量
+
+@property (nonatomic, assign) NSInteger guest_num; //会中真实参会嘉宾人数
+@property (nonatomic, assign) NSInteger audience_num; //会中真实参会观众人数
 
 @end
 

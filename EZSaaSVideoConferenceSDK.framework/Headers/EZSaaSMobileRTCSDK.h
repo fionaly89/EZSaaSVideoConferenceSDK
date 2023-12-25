@@ -125,6 +125,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///生成新的呼叫ID
 + (NSString *)getMemberCallId;
 
+#pragma mark - 检查控制器是否是会议控制器
++ (BOOL)checkViewControllerIsYSRTCVC:(UIViewController *)vc;
+
 @end
 
 NS_ASSUME_NONNULL_END
