@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger org_count;
 @property (nonatomic, assign) NSInteger mem_count;
 
+@property (nonatomic, strong) EZSaaSVCCorporationOrgModel *parent;
+
 @property (nonatomic, strong) NSArray<EZSaaSVCCorporationMemberModel *> *subMembers;
 @property (nonatomic, strong) NSArray<EZSaaSVCCorporationOrgModel *> *subOrgs;
 

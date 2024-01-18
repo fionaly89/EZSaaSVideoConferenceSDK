@@ -23,6 +23,16 @@ NS_ASSUME_NONNULL_BEGIN
 /** 登录终端类型 */
 @property(nonatomic, readwrite) int terminalType;
 
+//成员状态
+@property (nonatomic, assign) int waitingRoomState;
+
+//表示是否已经处理过该等候室成员
+-(BOOL)hasProcessed;
+
+-(BOOL)isAgreed;
+
+-(BOOL)isRefused;
+
 @end
 
 NS_ASSUME_NONNULL_END
