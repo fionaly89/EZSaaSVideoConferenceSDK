@@ -10,15 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum : NSUInteger {
-    YSRTCAppShareRoleType_normal = 0, //普通会议邀请
-    YSRTCAppShareRoleType_guest, //嘉宾身份邀请
-    YSRTCAppShareRoleType_audience, //观众身份邀请
-} YSRTCAppShareRoleType;
-
 @interface YSRTCAppShareExtension : NSObject
 
-@property (nonatomic, assign) YSRTCAppShareRoleType roleType; //当前以什么身份分享会议链接
+@property (nonatomic, copy) NSString *invitedCode; //会议邀请码
 
 @end
 
