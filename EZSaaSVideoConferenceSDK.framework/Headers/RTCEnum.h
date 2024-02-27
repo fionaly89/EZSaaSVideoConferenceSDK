@@ -57,4 +57,11 @@ typedef enum : NSInteger {
     RTCLanguageType_english, //英文
 } RTCLanguageType;
 
+#pragma mark - Invite link Type
+typedef enum : int {
+    YSRTCInviteLinkType_normal = 0, //普通会议
+    YSRTCInviteLinkType_audience, //研讨会邀请观众
+    YSRTCInviteLinkType_guest, //研讨会邀请嘉宾
+} YSRTCInviteLinkType;
+
 NS_ASSUME_NONNULL_END

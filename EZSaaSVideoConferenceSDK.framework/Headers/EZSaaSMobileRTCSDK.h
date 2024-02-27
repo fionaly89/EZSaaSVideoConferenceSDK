@@ -109,6 +109,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;
 
+///开启应用内小窗口模式
+- (void)startInAppWindow;
+
 #pragma mark - 检查能否发起呼叫
 /// 检查能否发起呼叫
 /// @param result （enable: 表示是否能够发起会议或呼叫；code:表示不能发起会议或呼叫错误码；domain:表示不能发起会议或呼叫的原因）
@@ -121,9 +124,18 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 视频是否加密
 - (void)setStreamEncrypt:(BOOL)encrypt;
 
+#pragma mark - 生成邀请信息
+- (void)getInviteInfoWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                              config:(YSRTCInvitedLinkConfig *)config
+                     successCallback:(void(^)(NSString *inviteInfo))successFn
+                        failCallBack:(void(^)(NSError *error))failFn;
+
 #pragma mark - 生成新的呼叫ID
 ///生成新的呼叫ID
 + (NSString *)getMemberCallId;
+
+#pragma mark - 检查控制器是否是会议控制器
++ (BOOL)checkViewControllerIsYSRTCVC:(UIViewController *)vc;
 
 @end
 
