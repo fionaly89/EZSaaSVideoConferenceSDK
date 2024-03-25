@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) EZSaaSVCCorporationOrgModel *org;
 @property (nonatomic, strong) EZSaaSVCCorporationModel *corporation;
 @property (nonatomic, strong) NSString *account_id; //帐号ID
+@property (nonatomic, strong) NSString *im_acc_id; //帐号对应im_acc_id
 @property (nonatomic, strong) NSString *corp_id; //公司ID
 @property (nonatomic, strong) NSString *cid; //ID
 @property (nonatomic, strong) NSString *nickname; //ID
