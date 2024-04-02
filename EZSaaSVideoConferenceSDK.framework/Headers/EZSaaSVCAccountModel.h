@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface EZSaaSVCAccountModel : NSObject
 
 @property (nonatomic, copy) NSString *cid; //ID
+@property (nonatomic, copy) NSString *im_acc_id; //帐号对应im_acc_id
 @property (nonatomic, copy) NSString *name; //用户名
 @property (nonatomic, copy) NSString *nickname; //昵称
 @property (nonatomic, copy) NSString *aliasName; //昵称别名

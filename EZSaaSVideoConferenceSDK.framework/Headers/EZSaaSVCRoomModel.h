@@ -31,6 +31,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger mute; //成员入会静音设置 0-关闭 1-开启 2-人员超过6人
 @property (nonatomic, assign) BOOL member_sensitive_state;
 
+//只有会议类型是网络研讨会该字段必填。新增入参截屏录屏字段，默认0都不禁止；1代表已禁止嘉宾；2代表已禁止观众；3代表已禁止嘉宾和观众。
+@property (nonatomic, assign) NSInteger webinar_screen_shot;
+//只有会议类型是网络研讨会该字段必填。新增入参聊天字段，默认0不禁止；1代表已禁止嘉宾；2代表已禁止观众；3代表已禁止嘉宾和观众。
+@property (nonatomic, assign) NSInteger webinar_chat;
+
 @end
 
 NS_ASSUME_NONNULL_END

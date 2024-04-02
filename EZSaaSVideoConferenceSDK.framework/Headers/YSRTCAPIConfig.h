@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *aliasName; //用户昵称别名，必须项
 @property (nonatomic, copy) NSString *password; //密码
 @property (nonatomic, copy) NSString *inviterId; //邀请人ID
+@property (nonatomic, copy) NSString *invitationCode; //邀请码
 
 @property (nonatomic, assign) BOOL isAudioOn; //入会是否默认开启麦克风
 @property (nonatomic, assign) BOOL isVideoOn; //入会是否默认开启摄像头
@@ -58,5 +59,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface YSRTCInvitedLinkConfig : NSObject
+
+@property (nonatomic, assign) YSRTCInviteLinkType linkType; //邀请链接类型
+@property (nonatomic, copy) NSString *nickname; //邀请人昵称
+@property (nonatomic, copy) NSString *title; //会议标题
+@property (nonatomic, copy) NSString *content; //会议标题(可选)
+@property (nonatomic, copy) NSString *startDate; //会议开始时间 2024-02-20
+@property (nonatomic, copy) NSString *startTime; //会议开始时间 19:00
+@property (nonatomic, copy) NSString *endDate; //会议开始时间 2024-02-21
+@property (nonatomic, copy) NSString *endTime; //会议开始时间 22:00
+@property (nonatomic, copy) NSString *roomNo; //房间号
+@property (nonatomic, copy) NSString *roomId; //房间ID
+@property (nonatomic, assign) BOOL whiteListOnly; //是否仅允许白名单人员入会
+
+@end
 
 NS_ASSUME_NONNULL_END

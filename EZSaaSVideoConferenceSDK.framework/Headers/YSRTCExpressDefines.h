@@ -10,6 +10,7 @@
 #import "EZSaaSConferenceDefine.h"
 #import "EZSaaSRTCDelegate.h"
 #import "EZSaaSRTCSettingModel.h"
+#import "YSRTCAppShareExtension.h"
 
 #import "EZSaaSMeetingCallMembersManagerInfo.h"
 #import "EZSaaSVCJoinMemberModel.h"

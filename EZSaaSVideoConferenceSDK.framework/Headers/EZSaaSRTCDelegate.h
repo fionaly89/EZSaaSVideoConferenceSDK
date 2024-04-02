@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class EZSaaSMeetingCallMembersManagerInfo;
 @class EZSaaSVCAccountModel;
 @class RTCWaitRoomMembersModel;
+@class YSRTCAppShareExtension;
 
 /*!
  @brief 回调框架代理
@@ -80,13 +81,21 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onCopyAppShareLink:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+/// @param extension 其他扩展字段
+- (void)onCopyAppShareLink:(EZSaaSVCConferenceModel *)meetingModel
+             sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
+                    naviVC:(UINavigationController *)naviVC
+                 extension:(YSRTCAppShareExtension *)extension;
 
 /// 分享邀请信息到APP
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人
 /// @param naviVC 导航控制器
-- (void)onShareToApp:(EZSaaSVCConferenceModel *)meetingModel sharedAccount:(EZSaaSVCAccountModel *)sharedAccount naviVC:(UINavigationController *)naviVC;
+/// @param extension 其他扩展字段
+- (void)onShareToApp:(EZSaaSVCConferenceModel *)meetingModel
+       sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
+              naviVC:(UINavigationController *)naviVC
+           extension:(YSRTCAppShareExtension *)extension;
 
 /// 通过微信分享邀请信息
 /// @param meetingModel 分享的会议信息
@@ -94,11 +103,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sharedTitle 会议标题
 /// @param sharedContent 分享的内容
 /// @param naviVC 导航控制器
+/// @param extension 其他扩展字段
 - (void)onShareToWeixin:(EZSaaSVCConferenceModel *)meetingModel
           sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
             sharedTitle:(NSString *)sharedTitle
             sharedContent:(NSString *)sharedContent
-                 naviVC:(UINavigationController *)naviVC;
+                 naviVC:(UINavigationController *)naviVC
+              extension:(YSRTCAppShareExtension *)extension;
 
 /// 通过邮件分享邀请信息
 /// @param meetingModel 分享的会议信息
@@ -106,11 +117,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param sharedTitle 会议标题
 /// @param sharedContent 分享的内容
 /// @param naviVC 导航控制器
+/// @param extension 其他扩展字段
 - (void)onShareToAppEmail:(EZSaaSVCConferenceModel *)meetingModel
             sharedAccount:(EZSaaSVCAccountModel *)sharedAccount
               sharedTitle:(NSString *)sharedTitle
               sharedContent:(NSString *)sharedContent
-                   naviVC:(UINavigationController *)naviVC;
+                   naviVC:(UINavigationController *)naviVC
+                extension:(YSRTCAppShareExtension *)extension;
 
 #pragma mark - 页面操作
 //打开我的页面
