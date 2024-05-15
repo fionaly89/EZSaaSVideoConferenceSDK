@@ -31,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *third_corp_name; //外部联系人所属企业
 @property (nonatomic, strong) EZSaaSVCCorporationOrgModel *org; //企业
 @property (nonatomic, strong) NSString *orgsTreeName;
+@property (nonatomic, strong) NSString *position;
+@property (nonatomic, strong) NSString *inviter_acc_name; //邀请人企业下昵称
+@property (nonatomic, assign) NSInteger invitation_method; //加入企业方式:(0-通过添加萤石易联账户成员方式；1-通过生成企业邀请链接方式；2-通过主动加入企业方式。)
 
 @end
 
