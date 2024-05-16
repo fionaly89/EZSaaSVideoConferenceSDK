@@ -51,11 +51,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param config 配置
 /// @param successFn 成功回调，回调会议控制器、创建的会议信息、已呼叫的成员
 /// @param failFn 失败回调
-- (void)inviteYSRTCMeetingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                                     navi:(UINavigationController *)navi
-                                   config:(YSRTCInviteMeetingConfig *)config
-                          successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members, cancelCallBlock  _Nonnull cancelBlock))successFn
-                             failCallBack:(void (^)(NSError *error))failFn;
+- (void)inviteMeetingWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                                navi:(UINavigationController *)navi
+                              config:(YSRTCInviteMeetingConfig *)config
+                     successCallback:(void(^)(UIViewController *vc, EZSaaSVCConferenceModel * _Nonnull model, NSArray<EZSaaSMeetingCallMembersManagerInfo *> *members, cancelCallBlock  _Nonnull cancelBlock))successFn
+                        failCallBack:(void (^)(NSError *error))failFn;
 
 /// 呼叫成员-群聊
 /// @param config 配置
@@ -77,16 +77,6 @@ NS_ASSUME_NONNULL_BEGIN
                                            config:(YSRTCCallInConfig *)config
                                   successCallback:(void(^)(UIViewController *vc))successFn
                                      failCallBack:(void (^)(NSError *error))failFn;
-
-//获取视频会议SDK被叫页面
-/// @param authService 鉴权信息
-/// @param config 配置房间号、密码等
-/// @param successFn 成功回调
-/// @param failFn 失败回调
-- (void)getYSRTCCallInVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                                 config:(YSRTCCallInConfig *)config
-                        successCallback:(void(^)(UIViewController *vc))successFn
-                           failCallBack:(void (^)(NSError *error))failFn;
 
 /// 加入指定会议
 /// @param authService 鉴权信息
