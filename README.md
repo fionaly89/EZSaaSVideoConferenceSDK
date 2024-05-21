@@ -1,6 +1,7 @@
 # EZSaaSVideoConferenceSDK
 ### 概要介绍
-萤石视频会议 SDK 提供完善的音视频通话开发框架，提供基于网络的视频会议功能。SDK 兼容 iOS 11.0+。
+萤石视频会议 SDK 提供完善的音视频通话开发框架，提供基于网络的视频会议功能。SDK 兼容 iOS 12.0+。
+
 #### 集成方式
 EZSaaSVideoConferenceSDK 集成方式：通过 CocoaPods 自动集成我们的 SDK
 
@@ -8,31 +9,29 @@ Podfile 范例：
 ```
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
-source 'http://code.zaoing.com/meeting/freewindSpecs.git'
 
-platform :ios, '11.0'
+platform :ios, '12.0'
+
+pod 'VCSSDK', '1.3.24'
 
 target 'YSRTCDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
- 
-  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
-  pod 'EZSaaSVideoConferenceSDK', '1.8.9'
+
+  pod 'EZSaaSVideoConferenceSDK', '2.0.4'
 end
 
 #屏幕共享工程配置
 target 'YSRTCDemoReplayKit' do
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
-  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
 end
 
 #屏幕共享工程配置
 target 'YSRTCDemoReplayKitSetupUI' do
   use_frameworks!
   project 'YSRTCDemo.xcodeproj'
-  pod 'VCSSDK', '1.3.17', :inhibit_warnings => true
 end
 
 post_install do |installer_representation|
@@ -66,11 +65,11 @@ end
 ```
 #如果不需要，可以不用修改默认配置
 EZSaaSMobileRTCSDKInitContext *context = [EZSaaSMobileRTCSDKInitContext new];
+
+//配置域名
 context.domain = @"";
-context.appNaviColor = [UIColor redColor];
-context.appThemeColor = [UIColor yellowColor];
-context.appDisableThemeColor = [UIColor grayColor];
 context.enableLog = YES;
+
 //配置鉴权appid、appkey
 context.appid = ;
 context.appkey = ;
@@ -78,6 +77,7 @@ context.appkey = ;
 //如果需要使用美颜功能
 context.authData = ;
 context.authDataSize = ;
+
 [[EZSaaSMobileRTCSDK sharedRTC] initializeWithContext:context];
     
 [EZSaaSMobileRTCSDK sharedRTC].delegate = self;
@@ -95,17 +95,6 @@ SDK 通过两种方式通知上层 API 调用结果：回调（callback）和委
     self.bSupportLandscape = bSupport;
 }
 
-#如果主工程里集成了 FDFullscreenPopGesture 三方库，那么需要实现该代理
-- (void)supportedInteractivePop:(BOOL)bSupport vc:(nonnull UIViewController *)vc
-{
-    vc.fd_interactivePopDisabled = !bSupport;
-}
-
-#如果主工程里集成了 IQKeyboardManager 三方库，那么需要实现该代理
-- (void)supportedIQKeyboardManager:(BOOL)bSupport
-{
-    [IQKeyboardManager sharedManager].enable = bSupport;
-}
 ```
 ##### 鉴权信息回调：
 当鉴权信息过期或者失效时，SDK通过该回调通知主工程刷新 token，并将新的 token 设置给 SDK
@@ -205,7 +194,7 @@ authService.rtcToken = AUTH_TOKEN;
 
 ```
 
-##### 接入切换服务器、切换语言：
+##### 切换语言：
 ```
 1.设置SDK语言：
 --在进行会议之前，可以通过 [EZSaaSMobileRTCSDK sharedRTC] setLocalLanguage 来设置SDK支持的语言
