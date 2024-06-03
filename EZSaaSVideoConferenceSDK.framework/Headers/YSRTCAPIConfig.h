@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "RTCEnum.h"
 #import "EZSaaSMeetingCallMembersManagerInfo.h"
+#import "EZSaaSVCJoinMemberModel.h"
+#import "RTCWaitRoomMembersModel.h"
+#import "EZSaaSVCConferenceModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -72,6 +75,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *roomNo; //房间号
 @property (nonatomic, copy) NSString *roomId; //房间ID
 @property (nonatomic, assign) BOOL whiteListOnly; //是否仅允许白名单人员入会
+
+@end
+
+@interface YSRTCMemberInviteModel : NSObject
+
+@property (nonatomic, strong) UINavigationController *naviVC; //展示页面的导航控制器
+@property (nonatomic, strong) EZSaaSVCConferenceModel *meetingModel; //当前会议信息
+@property (nonatomic, strong) NSArray<EZSaaSVCJoinMemberModel *> *inMeetingMembers; //当前会中已入会人员列表
+@property (nonatomic, strong) NSArray<EZSaaSMeetingCallMembersManagerInfo *> *callingMembers; //当前会中呼叫列表中的人员列表
+@property (nonatomic, strong) NSArray<RTCWaitRoomMembersModel *> *waitMembers; //当前会议中等候室中的人员列表
+@property (nonatomic, assign) BOOL isHost; //邀请人是否是主持人
+@property (nonatomic, assign) RTCIncomingType callType; //呼叫类型
 
 @end
 
