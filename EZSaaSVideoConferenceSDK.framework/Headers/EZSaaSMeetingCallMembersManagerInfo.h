@@ -46,6 +46,9 @@ typedef NS_ENUM(NSInteger, EZSaaSInviteStatus) {
     
     /** 网络异常 */
     EZSaaSInviteStatus_Abnormal = 11,
+    
+    /** 另一端已接听 */
+    EZSaaSInviteStatus_AcceptedByOther = 12,
 };
 
 @interface EZSaaSMeetingCallMembersManagerInfo : NSObject
