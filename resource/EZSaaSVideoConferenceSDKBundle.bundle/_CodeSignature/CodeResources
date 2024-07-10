@@ -280,26 +280,6 @@
 		<data>
 		qE7vJhOQogL7lL1vHo1JsZUTYZs=
 		</data>
-		<key>bg_my.png</key>
-		<data>
-		XM5zmB+Y5gSIDPPh5UItUXiUA90=
-		</data>
-		<key>bg_my@2x.png</key>
-		<data>
-		EKpRa3wSeVf1s2Huf4zQbsbUZl0=
-		</data>
-		<key>bg_my@3x.png</key>
-		<data>
-		UFPzdaIovzyHHOe+ZcM0RcUhxAQ=
-		</data>
-		<key>bg_new_version@2x.png</key>
-		<data>
-		PG/85wmADnFXebYstVT+/VD5xxQ=
-		</data>
-		<key>bg_new_version@3x.png</key>
-		<data>
-		uaMlCPPCdHrK+6piIecb3CJ9vVw=
-		</data>
 		<key>bg_testing.png</key>
 		<data>
 		daOouJNNuHpXsPRIg+FxOAMBk24=
@@ -469,7 +449,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lkCJ42E24LYTQFdtsEnWcy2FJSQ=
+			Nlij5WD7dhjJHJBgCNCPL88zxBU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2294,18 +2274,6 @@
 		<data>
 		3hQ0sRmGbAUcASlc+rli2aHiDR4=
 		</data>
-		<key>img_zaizhizhengming.png</key>
-		<data>
-		qRvRwX4vPp0inLR/rHPQbb7jW+4=
-		</data>
-		<key>img_zaizhizhengming@2x.png</key>
-		<data>
-		C6PUvqEv38C4KuJBCacW+Htvnqc=
-		</data>
-		<key>img_zaizhizhengming@3x.png</key>
-		<data>
-		uIkcqhjm2rd5J8s+3bu+nAPAzpA=
-		</data>
 		<key>info.png</key>
 		<data>
 		lLhZcI8crZUbZ5zzhEnBcEfXZdU=
@@ -2875,7 +2843,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nn9jVl03lWdlhS8UuX9VQAlmtKc=
+			LvYMJbRtfz8nxb4XPeHFieZzg8Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3908,14 +3876,6 @@
 		<data>
 		pEh4RjHZUEQJxK5vmRhFrtfsEVM=
 		</data>
-		<key>背景色@2x.png</key>
-		<data>
-		ytkpvZ3wmVkaaAdDiZ6Zpd4yHf8=
-		</data>
-		<key>背景色@3x.png</key>
-		<data>
-		Cy+/6BHma3VMj0IA9eJqRwvbCNc=
-		</data>
 		<key>荧光笔@2x.png</key>
 		<data>
 		6231JpXtP/4X4eVsRgcmv4wUZKg=
@@ -4922,61 +4882,6 @@
 			38mPfptMe+Wpd/IpdAv1y7GyiZ/Thdu/mKoqi4/weh4=
 			</data>
 		</dict>
-		<key>bg_my.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XM5zmB+Y5gSIDPPh5UItUXiUA90=
-			</data>
-			<key>hash2</key>
-			<data>
-			tQaD8M7nFN1gDX2zGvFh3gPN6j/fYw+0sr56dh6wy24=
-			</data>
-		</dict>
-		<key>bg_my@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EKpRa3wSeVf1s2Huf4zQbsbUZl0=
-			</data>
-			<key>hash2</key>
-			<data>
-			R9glDTUKsb7VUH5Rbcm1wJ+cRFKu+Sp4Z+Whx1zI1lw=
-			</data>
-		</dict>
-		<key>bg_my@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UFPzdaIovzyHHOe+ZcM0RcUhxAQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			9XrJF5PRRMj2Z9/cwfZGWWOss/8AqLDPNSE37cNNNUk=
-			</data>
-		</dict>
-		<key>bg_new_version@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PG/85wmADnFXebYstVT+/VD5xxQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			PmbDMhTYE1yKl1JoA2bclyBMOeKphVd+f9dZFX/4f5c=
-			</data>
-		</dict>
-		<key>bg_new_version@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uaMlCPPCdHrK+6piIecb3CJ9vVw=
-			</data>
-			<key>hash2</key>
-			<data>
-			C4XuYkc6BiKMgyEzv1pYQuFhtcQ0vow5t8QuMZshyG4=
-			</data>
-		</dict>
 		<key>bg_testing.png</key>
 		<dict>
 			<key>hash</key>
@@ -5423,11 +5328,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lkCJ42E24LYTQFdtsEnWcy2FJSQ=
+			Nlij5WD7dhjJHJBgCNCPL88zxBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mCx4P0JGF+kfKS2UD+MvAie+hRkiGENwaYyj5UvlZ1Y=
+			yEvvCtSi7DMhgAZqJO0I7Si8qCBV/DCtIQyWREKDN7g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -10437,39 +10342,6 @@
 			6YlL8ZuIaDDu/mhjm1VseJXExaAnUQlD8fzBI85VjRU=
 			</data>
 		</dict>
-		<key>img_zaizhizhengming.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qRvRwX4vPp0inLR/rHPQbb7jW+4=
-			</data>
-			<key>hash2</key>
-			<data>
-			cU5G/ed7Dzpdcf3jMY/mgPrfcWeIeRV9IiSHEMiySuU=
-			</data>
-		</dict>
-		<key>img_zaizhizhengming@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C6PUvqEv38C4KuJBCacW+Htvnqc=
-			</data>
-			<key>hash2</key>
-			<data>
-			aCWtxfJvMFevbfyMnE3slT/ciwdabteDXCGzhyCQDTY=
-			</data>
-		</dict>
-		<key>img_zaizhizhengming@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uIkcqhjm2rd5J8s+3bu+nAPAzpA=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lgjw4jqV6x9Bi/6BRtWGYlLTih3bd3LPuwCMPFvAUH4=
-			</data>
-		</dict>
 		<key>info.png</key>
 		<dict>
 			<key>hash</key>
@@ -12016,11 +11888,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nn9jVl03lWdlhS8UuX9VQAlmtKc=
+			LvYMJbRtfz8nxb4XPeHFieZzg8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			NMibxO9G2+bluacFP0DMkmj9w2NIO+Q/sRJV22rSL88=
+			7DNbZkjbBNORLDYxAO94iP3kfcj+mnnnNzl+axgl6Z4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -14850,28 +14722,6 @@
 			<key>hash2</key>
 			<data>
 			RLGOJ0s+fVq0zEXXI8mZ4gZkP/CN54tx2qccgj9Fv2A=
-			</data>
-		</dict>
-		<key>背景色@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ytkpvZ3wmVkaaAdDiZ6Zpd4yHf8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ismegqc+YtrgwKVQLQ/lYi8SjvBJoKJgvt5niIbApxw=
-			</data>
-		</dict>
-		<key>背景色@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cy+/6BHma3VMj0IA9eJqRwvbCNc=
-			</data>
-			<key>hash2</key>
-			<data>
-			N67OFxYhm56srqQcy/RXVVqgEsVBBtC/eYONjVTnkbk=
 			</data>
 		</dict>
 		<key>荧光笔@2x.png</key>
