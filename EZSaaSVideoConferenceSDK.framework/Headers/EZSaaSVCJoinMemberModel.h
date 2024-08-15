@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EZSaaSVCJoinMemberModel : NSObject
 
+@property (nonatomic, strong) NSString *im_acc_id;
+@property (nonatomic, strong) NSString *account_id;
+@property (nonatomic, strong) NSString *corp_id;
 @property (nonatomic, strong) NSString *cid; //ID
 @property (nonatomic, strong) NSString *name; //用户名
 @property (nonatomic, strong) NSString *portrait; //头像地址
@@ -20,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) EZSaaSVideoConferenceRole meetingRole; //会议角色：0-普通成员;1-创建者;2-主持人
 @property (nonatomic, assign) NSInteger member_type; //内部联系人-0   外部联系人-1
 @property (nonatomic, strong) NSString *companyName; //关联公司
+@property (nonatomic, copy) NSString *chatNo;   //对应会话ID
 
 @end
 

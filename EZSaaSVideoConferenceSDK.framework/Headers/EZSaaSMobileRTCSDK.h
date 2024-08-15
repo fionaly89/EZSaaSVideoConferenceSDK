@@ -73,6 +73,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param successFn 成功回调
 /// @param failFn 失败回调
 - (void)getEZSaaSMobileRTCCallInVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
+                                               vc:(UIViewController *)vc
                                            config:(YSRTCCallInConfig *)config
                                   successCallback:(void(^)(UIViewController *vc))successFn
                                      failCallBack:(void (^)(NSError *error))failFn;

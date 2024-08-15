@@ -30,11 +30,16 @@ typedef enum : int {
 @property (nonatomic, strong) NSString *corp_city; //所在城市(省市区|分割)
 @property (nonatomic, assign) CorpAuditStatus corp_audit_status; //企业认证状态： 0-未认证  1-已认证
 @property (nonatomic, assign) int corp_type; //企业类型(1:企业;2:政府/事业单位3:个体工商户;4:其他组织)
-@property (nonatomic, strong) NSString *corp_industry; //所在行业
+@property (nonatomic, strong) NSString *corp_industry; //所属行业
 @property (nonatomic, assign) BOOL vas_conc; //是否开启并发验证
 @property (nonatomic, assign) BOOL vas_time; //是否开启期限验证
 
 @property (nonatomic, strong) NSString *corp_nickname; //创建者企业内名称
+
+@property (nonatomic, assign) BOOL show_gift; //是否展示需要赠送的会议并发信息（true:展示，false：不展示）
+@property (nonatomic, assign) int conc; //赠送会议并发量
+@property (nonatomic, strong) NSString *expiration_at; //赠送会议并发有效期
+@property (nonatomic, assign) int publish_find;
 
 @end
 

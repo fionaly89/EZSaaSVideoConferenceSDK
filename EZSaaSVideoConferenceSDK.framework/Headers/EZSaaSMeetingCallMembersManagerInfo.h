@@ -37,6 +37,18 @@ typedef NS_ENUM(NSInteger, EZSaaSInviteStatus) {
     
     /** 已邀请 */
     EZSaaSInviteStatus_Invite = 8,
+    
+    /** 通话中断 */
+    EZSaaSInviteStatus_Interrupt = 9,
+
+    /** 挂断 */
+    EZSaaSInviteStatus_Hangup = 10,
+    
+    /** 网络异常 */
+    EZSaaSInviteStatus_Abnormal = 11,
+    
+    /** 另一端已接听 */
+    EZSaaSInviteStatus_AcceptedByOther = 12,
 };
 
 @interface EZSaaSMeetingCallMembersManagerInfo : NSObject
