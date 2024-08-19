@@ -90,4 +90,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface YSRTCAppAuthInfoModel : NSObject
+
+@property (nonatomic, assign) RTCAPPSysAuth authType; //权限主类型
+@property (nonatomic, assign) RTCAPPSysAuthSubType authSubType; //权限子类型
+@property (nonatomic, strong) NSString *title; //提示窗标题
+@property (nonatomic, strong) NSString *content; //提示窗内容
+
+@end
+
 NS_ASSUME_NONNULL_END
