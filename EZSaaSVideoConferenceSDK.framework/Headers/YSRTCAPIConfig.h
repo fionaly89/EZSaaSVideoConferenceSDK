@@ -94,8 +94,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) RTCAPPSysAuth authType; //权限主类型
 @property (nonatomic, assign) RTCAPPSysAuthSubType authSubType; //权限子类型
+@property (nonatomic, strong) NSString *authSubName; //模块名称
 @property (nonatomic, strong) NSString *title; //提示窗标题
 @property (nonatomic, strong) NSString *content; //提示窗内容
+@property (nonatomic, strong) NSString *btnDesc; //操作按钮内容
+
 
 @end
 
