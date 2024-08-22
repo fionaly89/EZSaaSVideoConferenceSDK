@@ -116,16 +116,6 @@ NS_ASSUME_NONNULL_BEGIN
                    naviVC:(UINavigationController *)naviVC
                 extension:(YSRTCAppShareExtension *)extension;
 
-/// 获取手机系统权限
-/// @param auth 权限信息
-/// @param result 授权结果
-- (void)obtainAppAuth:(YSRTCAppAuthInfoModel *)auth
-               result:(void(^)(BOOL status))result;
-
-/// 检查手机系统权限
-/// @param auth 权限信息
-- (BOOL)checkAppAuth:(YSRTCAppAuthInfoModel *)auth;
-
 #pragma mark - 页面操作
 //打开我的页面
 - (void)onMeetingOpenMineHomePageVC:(UINavigationController *)naviVC;

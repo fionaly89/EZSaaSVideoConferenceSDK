@@ -35,11 +35,6 @@ NS_ASSUME_NONNULL_BEGIN
        successCallback:(void(^)(NSError *error))successFn
           failCallBack:(void (^)(NSError *error))failFn;
 
-//获取首页
-- (void)getYSRTCMeetingHomePageVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
-                                    successCallback:(void(^)(UIViewController *vc))successFn
-                                       failCallBack:(void (^)(NSError *error))failFn;
-
 //获取视频会议SDK加入会议页面
 - (void)getEZSaaSMobileRTCJoinMeetingVCWithAuthService:(EZSaaSMobileRTCAuthService *)authService
                                        successCallback:(void(^)(UIViewController *vc))successFn
