@@ -40,6 +40,10 @@
 		<data>
 		wwVX3iDNg0fLN0TXumtSXc5AQZ0=
 		</data>
+		<key>EmptyHomeE@3x.png</key>
+		<data>
+		CVnAkDMSZavqTHQ+1sSFcnDEjpg=
+		</data>
 		<key>HIKLINK logo_97x16@2x.png</key>
 		<data>
 		w18lWrpu+Cd3CjOQnRAjuwx9oeE=
@@ -1913,6 +1917,14 @@
 		<key>icn_zoom_out@3x.png</key>
 		<data>
 		0jRStvoM5jQpaLMx98jNnUOEFDA=
+		</data>
+		<key>icn_加入会议_svg.svg</key>
+		<data>
+		ZxsnqFf9yQu8Mat1/Q3dYXgPFW8=
+		</data>
+		<key>icn_即时会议_svg.svg</key>
+		<data>
+		H/u+8/gJ5wuepQmne1sklPFx6Wo=
 		</data>
 		<key>icon-1024.png</key>
 		<data>
@@ -4220,6 +4232,17 @@
 			<key>hash2</key>
 			<data>
 			qbJcLfUap/BlSgGO23e8CAIhhDlQDP47TR3F5F7/sQo=
+			</data>
+		</dict>
+		<key>EmptyHomeE@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CVnAkDMSZavqTHQ+1sSFcnDEjpg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MWk4Vq3hVoseXbd+jEOEblYpFxgLx/mkfBPgUiU8n18=
 			</data>
 		</dict>
 		<key>HIKLINK logo_97x16@2x.png</key>
@@ -9350,6 +9373,28 @@
 			<key>hash2</key>
 			<data>
 			tGFiZrQ9VjjOMdsqgPN9nIBtpO9eHsyxcRbteTbAdsU=
+			</data>
+		</dict>
+		<key>icn_加入会议_svg.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZxsnqFf9yQu8Mat1/Q3dYXgPFW8=
+			</data>
+			<key>hash2</key>
+			<data>
+			aLkHb2WfT0Tauo7oJavaGUBrHhbBPvVzGk7jXcleZVw=
+			</data>
+		</dict>
+		<key>icn_即时会议_svg.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H/u+8/gJ5wuepQmne1sklPFx6Wo=
+			</data>
+			<key>hash2</key>
+			<data>
+			YAzGKcwzGlnmHiZck636Clelee+YFbOHX7SAHUVpKpA=
 			</data>
 		</dict>
 		<key>icon-1024.png</key>
