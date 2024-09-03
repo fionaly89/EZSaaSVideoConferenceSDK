@@ -99,6 +99,29 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *content; //提示窗内容
 @property (nonatomic, strong) NSString *btnDesc; //操作按钮内容
 
+@end
+
+@interface YSRTCInstantMeetingConfigOptionsModel : NSObject
+
+//内部成员入会限制，是否只允许被邀请人员进入，默认允许所有(NO)
+@property (nonatomic, assign) BOOL access_wl;
+
+//外协-企业内外部联系人入会类型限制(0：不允许外部联系人入会;1:允许外部联系人入会；2：仅受邀外部联系人入会)，默认不允许
+@property (nonatomic, assign) NSInteger corp_external_memberLimit;
+
+//外部联系人入会类型限制(0：不允许外部联系人入会;1:允许外部联系人入会；2：仅受邀外部联系人入会)，默认不允许
+@property (nonatomic, assign) NSInteger external_memberLimit;
+
+//内部成员权限配置
+@property (nonatomic, assign) BOOL inner_waitRoom; //等候室开关，默认关闭(NO)
+@property (nonatomic, assign) BOOL inner_waterMark; //内部成员-会议水印，默认开启(YES)
+@property (nonatomic, assign) BOOL inner_screenShot; //内部成员-允许成员截图录屏；默认允许(YES)
+
+//外协、外部联系人权限配置
+@property (nonatomic, assign) BOOL external_waitRoom; //等候室开关，默认开启(YES)
+@property (nonatomic, assign) BOOL external_waterMark; //会议水印，默认开启(YES)
+@property (nonatomic, assign) BOOL external_screenShot; //允许外部联系人截图与录屏，默认不允许(NO)
+@property (nonatomic, assign) BOOL external_meetingShare; //允许外部联系人共享屏幕，默认允许(YES)
 
 @end
 

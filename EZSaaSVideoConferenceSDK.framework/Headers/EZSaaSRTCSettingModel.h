@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YSRTCAPIConfig.h"
 #import "YSRTCMobileRTCAuthService.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -67,6 +68,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 设备唯一标识
 @property (nonatomic, strong) NSString *device_id;
+
+#pragma mark - 即时会议默认配置
+@property (nonatomic, strong) YSRTCInstantMeetingConfigOptionsModel *configOptionsModel;
 
 @end
 
