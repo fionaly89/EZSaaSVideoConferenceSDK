@@ -48,6 +48,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isRecord; //是否有录像（true：有；false：否）
 @property (nonatomic, assign) int record_file_num; //录像文件个数
 
+@property (nonatomic, assign) BOOL is_speech; //是否有语音转写（true：有；false：否）
+@property (nonatomic, assign) BOOL is_summary; //是否有会议纪要（true：有；false：否）
+
 @property (nonatomic, strong) RTCRoomVideoRecordModel *RoomVideoRecord;
 
 @property (nonatomic, assign) NSInteger guest_total; //嘉宾数量
@@ -55,6 +58,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger guest_num; //会中真实参会嘉宾人数
 @property (nonatomic, assign) NSInteger audience_num; //会中真实参会观众人数
+
+@property (nonatomic, assign) NSInteger attend_num; //参会人员数量
 
 @end
 
