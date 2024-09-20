@@ -111,6 +111,9 @@ NS_ASSUME_NONNULL_BEGIN
 //通知会议组件退出登录
 - (void)notificateMobileRTCLoginOut;
 
+//挂断视频通话
+- (void)hangUpMeeting;
+
 /// 切换服务地址
 /// @param domain 服务地址，eg: https://www.example.com:8888
 - (void)switchServiceDomain:(NSString *)domain;

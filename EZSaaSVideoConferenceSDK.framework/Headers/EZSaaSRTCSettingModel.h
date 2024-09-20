@@ -62,6 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
 //是否需要禁用加入会议页面修改默认名字功能
 @property (nonatomic, assign) BOOL disableModifyName;
 
+//是否需要禁用音视频通话添加功能
+@property (nonatomic, assign) BOOL disableAddMemberFunction;
+
 #pragma mark - 美颜模块key
 @property (nonatomic, assign) char *authData; //authData 密钥地址
 @property (nonatomic, assign) int authDataSize; //authDataSize 密钥长度
