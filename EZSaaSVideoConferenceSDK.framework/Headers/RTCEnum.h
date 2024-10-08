@@ -40,7 +40,9 @@ typedef enum : NSInteger {
     RTCCommandEventStateInvite,
     RTCCommandEventStatePassthrough,
     RTCCommandEventStateKickout,
-    RTCCommandEventStateInitiativeExit
+    RTCCommandEventStateInitiativeExit,
+    
+    RTCCommandEventStateDialingTimeOut = 4000, //单人主叫方超时
 } RTCCommandEventState;
 
 #pragma mark - CallType

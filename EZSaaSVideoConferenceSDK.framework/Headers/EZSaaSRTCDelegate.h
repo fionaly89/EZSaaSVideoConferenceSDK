@@ -162,6 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol EZSaaSMobileRTCMeetingEventDelegate <NSObject>
 
+@optional
 /// 会议内事件命令透传通知
 /// @param command 消息指令
 /// @param content 消息内容
