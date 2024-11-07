@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class YSRTCVCAccountCorp_extModel;
 @class EZSaaSVCAccountModel;
 @class EZSaaSVCCorporationModel;
 @class EZSaaSVCCorporationOrgModel;
@@ -34,7 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *orgsTreeName;
 @property (nonatomic, strong) NSString *position;
 @property (nonatomic, strong) NSString *inviter_acc_name; //邀请人企业下昵称
+@property (nonatomic, strong) NSString *inviter_acc_id; //邀请人企业下ID
 @property (nonatomic, assign) NSInteger invitation_method; //加入企业方式:(0-通过添加觅讯账户成员方式；1-通过生成企业邀请链接方式；2-通过主动加入企业方式。)
+@property (nonatomic, assign) BOOL corp_cooperation_established;
+
+@property (nonatomic, strong) YSRTCVCAccountCorp_extModel *corp_ext;
 
 @end
 

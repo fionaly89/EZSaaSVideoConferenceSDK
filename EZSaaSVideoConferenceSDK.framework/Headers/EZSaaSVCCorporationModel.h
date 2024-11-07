@@ -28,6 +28,7 @@ typedef enum : int {
 @property (nonatomic, assign) NSInteger deleted_at; //创建时间（Unix时间戳）
 
 @property (nonatomic, strong) NSString *corp_city; //所在城市(省市区|分割)
+@property (nonatomic, strong) NSString *city_name; //所在城市(省市区|分割)
 @property (nonatomic, assign) CorpAuditStatus corp_audit_status; //企业认证状态： 0-未认证  1-已认证
 @property (nonatomic, assign) int corp_type; //企业类型(1:企业;2:政府/事业单位3:个体工商户;4:其他组织)
 @property (nonatomic, strong) NSString *corp_industry; //所属行业
@@ -40,6 +41,10 @@ typedef enum : int {
 @property (nonatomic, assign) int conc; //赠送会议并发量
 @property (nonatomic, strong) NSString *expiration_at; //赠送会议并发有效期
 @property (nonatomic, assign) int publish_find;
+
+@property (nonatomic, strong) NSString *corp_id; //ID
+@property (nonatomic, strong) NSString *corp_name; //企业名称
+@property (nonatomic, strong) NSString *corp_logo;//企业Logo
 
 @end
 
