@@ -12,6 +12,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface YSRTCVCAccountCorp_extModel : NSObject
+
+@property (nonatomic, copy) NSString *private_mobile; //私人号码
+@property (nonatomic, copy) NSString *station; //工位
+@property (nonatomic, copy) NSString *fixed_telephone; //固定电话
+@property (nonatomic, copy) NSString *mail; //邮箱
+@property (nonatomic, copy) NSString *usersStatus;
+
+@end
+
 @interface EZSaaSVCAccountModel : NSObject
 
 @property (nonatomic, copy) NSString *cid; //ID
@@ -46,6 +56,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
 
 @property (nonatomic, assign) NSInteger member_type; //内部联系人-0   外部联系人-1
+
+@property (nonatomic, strong) YSRTCVCAccountCorp_extModel *corp_ext;
  
 @end
 

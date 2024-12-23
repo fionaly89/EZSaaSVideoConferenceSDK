@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *user_id;
 @property (nonatomic, assign) NSInteger member_type; //内部联系人-0   外部联系人-1
 @property (nonatomic, strong) NSString *third_corp_name; //外部联系人所属企业
+@property (nonatomic, strong) NSString *org_path; //组织架构路径
 
 @end
 

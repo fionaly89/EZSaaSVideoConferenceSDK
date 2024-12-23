@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger member_type; //内部联系人-0   外部联系人-1
 @property (nonatomic, strong) NSString *companyName; //关联公司
 @property (nonatomic, copy) NSString *chatNo;   //对应会话ID
+@property (nonatomic, strong) NSString *third_corp_name; //第三方企业公司
 
 @end
 

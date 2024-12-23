@@ -49,7 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param member 成员信息
 /// @param meetingModel 当前会议信息
 - (void)onMeetingCancelCallMember:(EZSaaSMeetingCallMembersManagerInfo *)member
-                     meetingModel:(EZSaaSVCConferenceModel *)meetingModel;
+                     meetingModel:(EZSaaSVCConferenceModel *)meetingModel
+                    myAccountInfo:(EZSaaSVCAccountModel *)myAccountInfo;
 
 #pragma mark - 会中邀请白名单修改
 /// 打开通讯录回调，传入已选中成员，传回所选的所有成员
