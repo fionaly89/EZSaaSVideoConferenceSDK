@@ -89,6 +89,12 @@ NS_ASSUME_NONNULL_BEGIN
               naviVC:(UINavigationController *)naviVC
            extension:(YSRTCAppShareExtension *)extension;
 
+/// 分享邀请信息到APP
+/// @param shareInfo 分享的会议信息
+/// @param naviVC 导航控制器
+- (void)onShareToApp:(NSString *)shareInfo
+              naviVC:(UINavigationController *)naviVC;
+
 /// 通过微信分享邀请信息
 /// @param meetingModel 分享的会议信息
 /// @param sharedAccount 分享操作发起人

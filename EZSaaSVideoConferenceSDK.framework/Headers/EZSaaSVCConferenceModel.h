@@ -61,6 +61,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger attend_num; //参会人员数量
 
+@property (nonatomic, assign) NSInteger white_list_num;
+
 @end
 
 NS_ASSUME_NONNULL_END
