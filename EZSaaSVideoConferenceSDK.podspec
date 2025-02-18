@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EZSaaSVideoConferenceSDK"
-  spec.version      = "2.0.13"
+  spec.version      = "2.0.15"
   spec.summary      = "EZSaaSVideoConferenceSDK 是视频会议SDK"
 
   # This description is used to generate tags and improve search results.
