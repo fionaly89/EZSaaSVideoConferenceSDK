@@ -92,6 +92,7 @@ typedef NS_ENUM(NSUInteger, RTCAPPSysAuthSubType) {
     Auth_album_identification = 103, //实人认证页面
     Auth_album_companyEditInfo = 104, //企业信息页面
     Auth_album_IMSendImage = 105, //消息_相册
+    Auth_album_SaveIntegralCode = 106, //消息_相册
     Auth_calendar_meeting = 150, //会中日历分享页面
     Auth_calendar_meetingDetail = 151, //会议详情日历分享页面
     Auth_contacts_meeting = 200, //会中日历分享页面通讯录中选择分享人

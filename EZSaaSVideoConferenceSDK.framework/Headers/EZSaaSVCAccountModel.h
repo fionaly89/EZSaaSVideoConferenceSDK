@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *corp_orgid; //分组id
 @property (nonatomic, copy) NSString *corp_org; //分组名称
 
+@property (nonatomic, assign) int forbid_state; //账号的封禁状态(0:正常;1:封禁)
+
 //仅限 conference/get-members 接口返回
 @property (nonatomic, assign) EZSaaSVideoConferenceRole role; //类型：0-普通成员;1-创建者;2-主持人
 

@@ -396,6 +396,14 @@
 		<data>
 		BgXKBkm3mr3XKXycV5469Av57ns=
 		</data>
+		<key>common_judge_correct@2x.png</key>
+		<data>
+		zUCIuwfVGfqWCetG3v87k0Y7Wpk=
+		</data>
+		<key>common_judge_correct@3x.png</key>
+		<data>
+		vNqHMzSXlSBDq7/KwDtt0gf+644=
+		</data>
 		<key>dagou@2x.png</key>
 		<data>
 		cP+vOX0dN+Rmpv6hVM2vtB84ZUw=
@@ -453,7 +461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JsH0VX0Zg0adSgOqYrcw84dOlio=
+			a4qT75DCx28p0TbciohydwSGFwg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -906,6 +914,10 @@
 		<data>
 		5dOSDjyjcZUoP0OUAg5+OhGtfdY=
 		</data>
+		<key>icn_biaozhunshitu.svg</key>
+		<data>
+		Q1FURujiKLy05BrnZXfuQelIaZ8=
+		</data>
 		<key>icn_bullet_screen@3x.png</key>
 		<data>
 		uJO7lI1nT+VINjSsrMUKTV+tays=
@@ -1122,6 +1134,14 @@
 		<data>
 		i8qbrFo8+DAogNcraLWB7QnLB6U=
 		</data>
+		<key>icn_ear@2x.png</key>
+		<data>
+		1Pm0UKiBViKK8go4LSKl7tfCcO4=
+		</data>
+		<key>icn_ear@3x.png</key>
+		<data>
+		O9iZWzCPgWjlAHmvCyXXL2wxpn4=
+		</data>
 		<key>icn_edit_1_nor.png</key>
 		<data>
 		o0zD10O/zBKlqogI7zK+WFRlVlU=
@@ -1185,6 +1205,10 @@
 		<key>icn_floating_window@3x.png</key>
 		<data>
 		asS7hSQKJAOB0OUrgXiCX3cv8JU=
+		</data>
+		<key>icn_gonggeshitu.svg</key>
+		<data>
+		lkyCQSljKV3y8JKS0IDGVTZSwJw=
 		</data>
 		<key>icn_government.png</key>
 		<data>
@@ -1330,6 +1354,10 @@
 		<data>
 		st92AUcMtDvUiTHYffyuDDN2ErI=
 		</data>
+		<key>icn_microphone_off@3x.png</key>
+		<data>
+		4yqM9gwyAqnajWfDkvM8kj3orvU=
+		</data>
 		<key>icn_microphone_off_1@2x.png</key>
 		<data>
 		jHP4M7cuCWlL6loAJ7AOz1Pl5vw=
@@ -1361,6 +1389,10 @@
 		<key>icn_microphone_off_nor_44@3x.png</key>
 		<data>
 		hsKv85iA/Wr2xb8LallwDRrF9O0=
+		</data>
+		<key>icn_microphone_on@3x.png</key>
+		<data>
+		3uaBGG9/1PaQ67N6eovRZ1AfgLQ=
 		</data>
 		<key>icn_microphone_on_nor@2x.png</key>
 		<data>
@@ -2046,6 +2078,14 @@
 		<data>
 		mR9lPWnJYw6rkwVXNqkXH3UI4aI=
 		</data>
+		<key>icon_closeRight@2x.png</key>
+		<data>
+		04GDHH+2k2+qpcC/mHIGj4KXFG8=
+		</data>
+		<key>icon_closeRight@3x.png</key>
+		<data>
+		04GDHH+2k2+qpcC/mHIGj4KXFG8=
+		</data>
 		<key>icon_close_banner.png</key>
 		<data>
 		AfonRg1chXJDA7hddqc2fCtuDT0=
@@ -2117,6 +2157,10 @@
 		<key>icon_huiyijiyao_AI@3x.png</key>
 		<data>
 		swroe0HhxFgeI+PKIdVdMpbeHf8=
+		</data>
+		<key>icon_huiyijiyao_NOAI@3x.png</key>
+		<data>
+		AXXUDu5JveDiy1XLPfJ6xHhWBsI=
 		</data>
 		<key>icon_huiyishezhi.svg</key>
 		<data>
@@ -2198,6 +2242,18 @@
 		<data>
 		Dn4AMpXrcoTI/T1CNeMkLqYYhqo=
 		</data>
+		<key>icon_shitu@3x.png</key>
+		<data>
+		Bph3f81z74EhIsx0l1CWu2oaNew=
+		</data>
+		<key>icon_success@2x.png</key>
+		<data>
+		M5p4uZJUZ0mbMoLRBiVFgg+tqSE=
+		</data>
+		<key>icon_success@3x.png</key>
+		<data>
+		cYFhSLtQELqVrLu5osnp7+40APE=
+		</data>
 		<key>icon_tab_录制中@2x.png</key>
 		<data>
 		DaX+OUh/i2qpR7yrBVPgNZ7yhqo=
@@ -2205,6 +2261,14 @@
 		<key>icon_tab_录制中@3x.png</key>
 		<data>
 		YkyA1O4rtA861od8vHVatgJORKo=
+		</data>
+		<key>icon_xian_mian@3x.png</key>
+		<data>
+		cMKCP86HMZezl8miT6xRXJlahac=
+		</data>
+		<key>icon_yaoqingchengyuan@3x.png</key>
+		<data>
+		tu1Iq7dg8RtqiLmKkHVw2o1CsFg=
 		</data>
 		<key>icon_yunluzhi_16x16@3x.png</key>
 		<data>
@@ -2225,6 +2289,10 @@
 		<key>icon_zhuanxie_AI@3x.png</key>
 		<data>
 		vCHLIZLaRld9kQJDeFTUdiHct1o=
+		</data>
+		<key>icon_zhuanxie_NOAI@3x.png</key>
+		<data>
+		DxOX+F2Hjg0pFl88uaKDISJaz/4=
 		</data>
 		<key>icon_云录制@2x.png</key>
 		<data>
@@ -2309,6 +2377,14 @@
 		<key>icons_checkmark@3x.png</key>
 		<data>
 		rs5p7pgVqjN4y0unuUj6EHss0fQ=
+		</data>
+		<key>icons_defaultalarmnotification@2x.png</key>
+		<data>
+		U4ix4IO2JNDuGo5YRNQBDoIvmk0=
+		</data>
+		<key>icons_defaultalarmnotification@3x.png</key>
+		<data>
+		DjUs8uX0cuuprZxXIXw36lKv9Co=
 		</data>
 		<key>icons_delete_deleteoutlined.png</key>
 		<data>
@@ -2975,7 +3051,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vs7HjfMsDvZgLh5tpnkNk3rL+0=
+			UFAN9Te2cUABbs4hd61KOtx9M+s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3480,6 +3556,10 @@
 		<data>
 		xCnou/tyB9ahHNBq7MKLBJQHOu0=
 		</data>
+		<key>小0_new@3x.png</key>
+		<data>
+		bstV7BvXwYgjEFxVl5KBTnvGIAM=
+		</data>
 		<key>小1@2x.png</key>
 		<data>
 		4ly9tne6turKR3Gugodu+aHA18M=
@@ -3487,6 +3567,10 @@
 		<key>小1@3x.png</key>
 		<data>
 		WGMcQxH3hZ4J7H0pWjfIJazyZGw=
+		</data>
+		<key>小1_new@3x.png</key>
+		<data>
+		s1o7PMzFecnQRuXxf0GVX5RsjTE=
 		</data>
 		<key>小2@2x.png</key>
 		<data>
@@ -3496,6 +3580,10 @@
 		<data>
 		NE99Ub9JpNr7zhtgFsMtwSN1lYA=
 		</data>
+		<key>小2_new@3x.png</key>
+		<data>
+		JoWzaS3jz0GXej5CRwX1FhFYAzw=
+		</data>
 		<key>小3@2x.png</key>
 		<data>
 		FdCtcpPwAu4QtyK+esckoBQyKRQ=
@@ -3503,6 +3591,10 @@
 		<key>小3@3x.png</key>
 		<data>
 		XoyZhPmLmDNYZuKw5Sja9fnxDaM=
+		</data>
+		<key>小3_new@3x.png</key>
+		<data>
+		A9hZemLERivvEwbOp/NqMMJaxls=
 		</data>
 		<key>小4@2x.png</key>
 		<data>
@@ -3512,6 +3604,10 @@
 		<data>
 		OH7zIuiciKgtpVTwFnfBkbc1O7I=
 		</data>
+		<key>小4_new@3x.png</key>
+		<data>
+		6b0WrR1Dzg2EHjiSTsecOFPgaEc=
+		</data>
 		<key>小5@2x.png</key>
 		<data>
 		i7HtKmN4x9YbKZIAyeo1HMuI4jk=
@@ -3519,6 +3615,10 @@
 		<key>小5@3x.png</key>
 		<data>
 		EhSyG0nzAUl90nZ+FRaXJ5OAZ+o=
+		</data>
+		<key>小5_new@3x.png</key>
+		<data>
+		Xvzx+2IxKMeLsJKC5sfkwya3NTY=
 		</data>
 		<key>小程序端@2x.png</key>
 		<data>
@@ -3671,6 +3771,10 @@
 		<key>成功@3x.png</key>
 		<data>
 		ikmfLuS21fNz2xQvJxv6a3MQon8=
+		</data>
+		<key>成员列表@3x.png</key>
+		<data>
+		sn0fZ9W+aQ0QoEUimkC+Pee63eA=
 		</data>
 		<key>所有人@2x.png</key>
 		<data>
@@ -5297,6 +5401,28 @@
 			xvLzBRquaaLdvX7x6WmqXH+1u1Q4BO+jZ4NTaMqlxsU=
 			</data>
 		</dict>
+		<key>common_judge_correct@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zUCIuwfVGfqWCetG3v87k0Y7Wpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			6UOeffwyl4ce+m/CidGVnVHpRD4FPggyfLpl+HxCgTE=
+			</data>
+		</dict>
+		<key>common_judge_correct@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vNqHMzSXlSBDq7/KwDtt0gf+644=
+			</data>
+			<key>hash2</key>
+			<data>
+			P+QBGTzj9KEt0uCFEtytOODzxb53NFnUwKEOjWjPQAI=
+			</data>
+		</dict>
 		<key>dagou@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -5435,11 +5561,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JsH0VX0Zg0adSgOqYrcw84dOlio=
+			a4qT75DCx28p0TbciohydwSGFwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qj21UP4ELfW4F8b3IA6USL25x7ECmTzXLfcnJQS87qM=
+			/PwAveUjnTqDaTatnNdacDBUZ8RL78xEhnVckUF6ZlY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6676,6 +6802,17 @@
 			U7GQIQHXS4i0MnbhB5IqKTLwPPLzWq7rqUd+j5DI/Y4=
 			</data>
 		</dict>
+		<key>icn_biaozhunshitu.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q1FURujiKLy05BrnZXfuQelIaZ8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7K84n+2akdXkgof198ya7REDU1mvT0m+2apBxepPqbc=
+			</data>
+		</dict>
 		<key>icn_bullet_screen@3x.png</key>
 		<dict>
 			<key>hash</key>
@@ -7270,6 +7407,28 @@
 			9KvPJJhGbnkoXmsxtQo00PaNMitcjvAY4nTrkWGajf0=
 			</data>
 		</dict>
+		<key>icn_ear@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Pm0UKiBViKK8go4LSKl7tfCcO4=
+			</data>
+			<key>hash2</key>
+			<data>
+			7UTrOswUP4+si6u7FC90GVblvAeU2lRxs32Naeg5sag=
+			</data>
+		</dict>
+		<key>icn_ear@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O9iZWzCPgWjlAHmvCyXXL2wxpn4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mc0OeTM4p2JERCxnJs2mBqxf1PL/916NcMSqEatu8eA=
+			</data>
+		</dict>
 		<key>icn_edit_1_nor.png</key>
 		<dict>
 			<key>hash</key>
@@ -7444,6 +7603,17 @@
 			<key>hash2</key>
 			<data>
 			MxjUE2W1/aGZp/325pNOKenQRWD+ZOo4DS8FUtGx1BI=
+			</data>
+		</dict>
+		<key>icn_gonggeshitu.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lkyCQSljKV3y8JKS0IDGVTZSwJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			dKbDiXtqGIS5+NFE/2Gn4/DGfxzZR4yLS3YWgOsPP4Y=
 			</data>
 		</dict>
 		<key>icn_government.png</key>
@@ -7842,6 +8012,17 @@
 			F+RakUy2x82PAiCNT32iH9YgTZMZP1b3WBCNntVwld8=
 			</data>
 		</dict>
+		<key>icn_microphone_off@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4yqM9gwyAqnajWfDkvM8kj3orvU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1P/CXZBV8dJdIsmfWsd/Vsdzjyq+/x6FHEmxh9HQJ0M=
+			</data>
+		</dict>
 		<key>icn_microphone_off_1@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -7928,6 +8109,17 @@
 			<key>hash2</key>
 			<data>
 			i0z7yDWkQ0yZBhfOyKhLml0vYBbaEW53p/AfUrUuk88=
+			</data>
+		</dict>
+		<key>icn_microphone_on@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3uaBGG9/1PaQ67N6eovRZ1AfgLQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			5SLlFFaCekES6/umsTVwPTo+ZkTAb4/xpb+rM9dgXaE=
 			</data>
 		</dict>
 		<key>icn_microphone_on_nor@2x.png</key>
@@ -9811,6 +10003,28 @@
 			EUK0nX7mAWxkYFfykISyuFpzyHUx973AKLBdKGxBizY=
 			</data>
 		</dict>
+		<key>icon_closeRight@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			04GDHH+2k2+qpcC/mHIGj4KXFG8=
+			</data>
+			<key>hash2</key>
+			<data>
+			h/QE9rdFRXYvQU4U3fB8NQVeERSkaeuwBpLQF+0BXXg=
+			</data>
+		</dict>
+		<key>icon_closeRight@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			04GDHH+2k2+qpcC/mHIGj4KXFG8=
+			</data>
+			<key>hash2</key>
+			<data>
+			h/QE9rdFRXYvQU4U3fB8NQVeERSkaeuwBpLQF+0BXXg=
+			</data>
+		</dict>
 		<key>icon_close_banner.png</key>
 		<dict>
 			<key>hash</key>
@@ -10007,6 +10221,17 @@
 			<key>hash2</key>
 			<data>
 			iy6QXyI5TqZ6ET9aPrmCmYAtu+uBll4Tdx6Lt0/9Wqo=
+			</data>
+		</dict>
+		<key>icon_huiyijiyao_NOAI@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AXXUDu5JveDiy1XLPfJ6xHhWBsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			dZJK2isGFXdR2ShKwGCVlhFH8TdwjcCPa81spusfxPo=
 			</data>
 		</dict>
 		<key>icon_huiyishezhi.svg</key>
@@ -10229,6 +10454,39 @@
 			dB+SMl/4nVZQYdAUeT2ObWiK3prLeNJfZi8qLx0NNek=
 			</data>
 		</dict>
+		<key>icon_shitu@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bph3f81z74EhIsx0l1CWu2oaNew=
+			</data>
+			<key>hash2</key>
+			<data>
+			40XJlzjplX+N8W45bnGYZN2wdGWBJpiLhINS9pLI2jY=
+			</data>
+		</dict>
+		<key>icon_success@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M5p4uZJUZ0mbMoLRBiVFgg+tqSE=
+			</data>
+			<key>hash2</key>
+			<data>
+			n6LvlvrjTVYmmGp8UUBqssXdjEYDtHT9N5enMaWIxK4=
+			</data>
+		</dict>
+		<key>icon_success@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cYFhSLtQELqVrLu5osnp7+40APE=
+			</data>
+			<key>hash2</key>
+			<data>
+			96vixsD8QWuUcii3VJ9aP+FGs8Pmf0VYkVp3DMfWHjI=
+			</data>
+		</dict>
 		<key>icon_tab_录制中@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -10249,6 +10507,28 @@
 			<key>hash2</key>
 			<data>
 			XphDGdc0qllENZioQlSahIUch/75/8V0zK4okjiUliM=
+			</data>
+		</dict>
+		<key>icon_xian_mian@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cMKCP86HMZezl8miT6xRXJlahac=
+			</data>
+			<key>hash2</key>
+			<data>
+			EuwvtO8F5SZ6uLFzDcIM8y9michUH8CPalLffBJ0dWo=
+			</data>
+		</dict>
+		<key>icon_yaoqingchengyuan@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tu1Iq7dg8RtqiLmKkHVw2o1CsFg=
+			</data>
+			<key>hash2</key>
+			<data>
+			bqUEXyvyAITEADbtSWifZ2CDOVSZiJkqR9sQBrY2Y2s=
 			</data>
 		</dict>
 		<key>icon_yunluzhi_16x16@3x.png</key>
@@ -10304,6 +10584,17 @@
 			<key>hash2</key>
 			<data>
 			c60ueR/cyKlTgs0NfiY9q27FYL2s1dre6tisgwpul40=
+			</data>
+		</dict>
+		<key>icon_zhuanxie_NOAI@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DxOX+F2Hjg0pFl88uaKDISJaz/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			N3xBLfgY/TgYEu94oSlXqBC8RtBHNK6K2cUGOqvmFzk=
 			</data>
 		</dict>
 		<key>icon_云录制@2x.png</key>
@@ -10535,6 +10826,28 @@
 			<key>hash2</key>
 			<data>
 			xgYkuIjzwwSNFSl2RgKRs/A1IRMPv0A7Z+Y/SiLe8RI=
+			</data>
+		</dict>
+		<key>icons_defaultalarmnotification@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U4ix4IO2JNDuGo5YRNQBDoIvmk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			XH06tudPGumorAjzkoWXmwWrEnQRx2d1CkFZncauv9g=
+			</data>
+		</dict>
+		<key>icons_defaultalarmnotification@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DjUs8uX0cuuprZxXIXw36lKv9Co=
+			</data>
+			<key>hash2</key>
+			<data>
+			UqtrOtOz9/2dDQ6DWz2+jsn24uiXEgc599gYkvdqjRc=
 			</data>
 		</dict>
 		<key>icons_delete_deleteoutlined.png</key>
@@ -12347,11 +12660,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vs7HjfMsDvZgLh5tpnkNk3rL+0=
+			UFAN9Te2cUABbs4hd61KOtx9M+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			0pIe5ve3zokFzrbwL6JYard94kBM9zoJweCVj4OQJbY=
+			YncDVJpGuZ+CykAnE8SiPJTafLZNEvHW0SCvBQx2I74=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -13731,6 +14044,17 @@
 			129bBRSLDGa2VDj8I3TuL7wFgjERI9I5lNEmuzTQVSI=
 			</data>
 		</dict>
+		<key>小0_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bstV7BvXwYgjEFxVl5KBTnvGIAM=
+			</data>
+			<key>hash2</key>
+			<data>
+			KBlEDvAsClTfzNTH5uztHjJVbFmoH2xwzEFXi61O7lQ=
+			</data>
+		</dict>
 		<key>小1@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -13751,6 +14075,17 @@
 			<key>hash2</key>
 			<data>
 			4AqJB6T4InhAo3k3wBhCyvP6c8Mtm4mChcUybLRZfvQ=
+			</data>
+		</dict>
+		<key>小1_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s1o7PMzFecnQRuXxf0GVX5RsjTE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tWS9VsvIoAC+haILq+5XmVV9SmW6nyOTA/1AJu46nWs=
 			</data>
 		</dict>
 		<key>小2@2x.png</key>
@@ -13775,6 +14110,17 @@
 			Nwki4hOdQo2M8RADN0VWcxHYLV4jr3JYbw+2ML6/aY0=
 			</data>
 		</dict>
+		<key>小2_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JoWzaS3jz0GXej5CRwX1FhFYAzw=
+			</data>
+			<key>hash2</key>
+			<data>
+			WFLNZeOndZxuoHDG7NQglFTG4gcyo6WufzHMwT74wKs=
+			</data>
+		</dict>
 		<key>小3@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -13795,6 +14141,17 @@
 			<key>hash2</key>
 			<data>
 			4SpjAF01aVH0/Wtt8dJWdhXQtJw4/tzm1VQYpgCiRwI=
+			</data>
+		</dict>
+		<key>小3_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A9hZemLERivvEwbOp/NqMMJaxls=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+dH9X7bFdM1UJroXWYX7zkOb9U1aDZ2jxQwW4Bn2fE=
 			</data>
 		</dict>
 		<key>小4@2x.png</key>
@@ -13819,6 +14176,17 @@
 			dWxW6Jzyyi/pZf+U39nn887kqdqrGpcBshrWbO+GKVY=
 			</data>
 		</dict>
+		<key>小4_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6b0WrR1Dzg2EHjiSTsecOFPgaEc=
+			</data>
+			<key>hash2</key>
+			<data>
+			xZShcfHC9wm8taha/NyNYp+8FBQm//NTbD+A6PMH6og=
+			</data>
+		</dict>
 		<key>小5@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -13839,6 +14207,17 @@
 			<key>hash2</key>
 			<data>
 			gdoxYmhXACDnnnWIw0nfoB7So0w3HuzWoK0e9nX+aXU=
+			</data>
+		</dict>
+		<key>小5_new@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xvzx+2IxKMeLsJKC5sfkwya3NTY=
+			</data>
+			<key>hash2</key>
+			<data>
+			adsY9gFpbGGa5lHmuASwRzNcYMNW+IFnpFQghZAasF4=
 			</data>
 		</dict>
 		<key>小程序端@2x.png</key>
@@ -14257,6 +14636,17 @@
 			<key>hash2</key>
 			<data>
 			oO1tTi1sp2uyyaJ+FkZ5fe+p0XsHCM0BwF+iHxkeT4o=
+			</data>
+		</dict>
+		<key>成员列表@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sn0fZ9W+aQ0QoEUimkC+Pee63eA=
+			</data>
+			<key>hash2</key>
+			<data>
+			xYgb7P8znADlLpalaW1jitoqEaX+LztBVsEnWSpIcAU=
 			</data>
 		</dict>
 		<key>所有人@2x.png</key>

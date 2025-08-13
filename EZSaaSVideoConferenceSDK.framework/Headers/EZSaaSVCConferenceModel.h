@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *corp_id; //所属企业ID
 @property (nonatomic, strong) NSString *room_id; //会议房间ID
 @property (nonatomic, strong) NSString *log_id; //会议日志ID
+@property (nonatomic, strong) NSString *share_cfg_id; //分享的id
 
 @property (nonatomic, strong) EZSaaSVCAccountModel *account; //创建人
 @property (nonatomic, strong) EZSaaSVCRoomModel *room; //会议房间
@@ -61,7 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger attend_num; //参会人员数量
 
-@property (nonatomic, assign) NSInteger white_list_num;
+@property (nonatomic, assign) NSInteger white_list_num;  //白名单成员数量
 
 @end
 
