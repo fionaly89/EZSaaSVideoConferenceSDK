@@ -461,7 +461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a4qT75DCx28p0TbciohydwSGFwg=
+			aeaCErgwoZkfAYc3rFh56tWLdqc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -918,9 +918,13 @@
 		<data>
 		Q1FURujiKLy05BrnZXfuQelIaZ8=
 		</data>
+		<key>icn_bullet_screen@2x.png</key>
+		<data>
+		Ff8ppCdxq3kYf1eFKrZ5ecyJ0yA=
+		</data>
 		<key>icn_bullet_screen@3x.png</key>
 		<data>
-		uJO7lI1nT+VINjSsrMUKTV+tays=
+		SRCmaUXgCngkocvWkGJa/jq3XFk=
 		</data>
 		<key>icn_bumen_nor.png</key>
 		<data>
@@ -1064,11 +1068,11 @@
 		</data>
 		<key>icn_copy@2x.png</key>
 		<data>
-		c8053BJx339sgmm7/8F8kumbhWo=
+		RZuahCWdtugsSw4aCfFFI8zjYhc=
 		</data>
 		<key>icn_copy@3x.png</key>
 		<data>
-		7Ng43N1FXJY+Cy0NmFESIveOiHk=
+		Jq+2s0SdieOa3ArINinFm+Ybl5E=
 		</data>
 		<key>icn_delete_01@2x.png</key>
 		<data>
@@ -1318,9 +1322,13 @@
 		<data>
 		WAfUNQg0eAZpCC5hK0MZMg/6Sgs=
 		</data>
+		<key>icn_landscape_of_meeting@2x.png</key>
+		<data>
+		QMq0EuXe5MBSYCfNXqFGj7LYOiM=
+		</data>
 		<key>icn_landscape_of_meeting@3x.png</key>
 		<data>
-		adcJAufHyJZmrs1LHBYFclD//AA=
+		/rN6GSXtwQCIYyZv6dMG30hzOQg=
 		</data>
 		<key>icn_man.png</key>
 		<data>
@@ -2256,11 +2264,11 @@
 		</data>
 		<key>icon_tab_录制中@2x.png</key>
 		<data>
-		DaX+OUh/i2qpR7yrBVPgNZ7yhqo=
+		xbTQ1DEBPNOx52rrEEaJMR8io40=
 		</data>
 		<key>icon_tab_录制中@3x.png</key>
 		<data>
-		YkyA1O4rtA861od8vHVatgJORKo=
+		w6CZxvzxHoUTZCmJ8WqOYuWFzng=
 		</data>
 		<key>icon_xian_mian@3x.png</key>
 		<data>
@@ -3051,7 +3059,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UFAN9Te2cUABbs4hd61KOtx9M+s=
+			p1HMpz9oPnxjRGCD5gxLw92SDaw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3070,11 +3078,11 @@
 		</data>
 		<key>下拉@2x.png</key>
 		<data>
-		qhjSbDyYcMlWwLI3sfqWxnffqG8=
+		0AItsUEgf/+gRV5aPf9SKqX8Osg=
 		</data>
 		<key>下拉@3x.png</key>
 		<data>
-		a164CcQR8pBVjZLFPa3z9zQXjlk=
+		pmLbBktjnBZdQEP+nkEJ4YOFVK4=
 		</data>
 		<key>个人@2x.png</key>
 		<data>
@@ -3106,11 +3114,11 @@
 		</data>
 		<key>云录制@2x.png</key>
 		<data>
-		ldfkw7QhtBc831yVHlIFBmQjQDQ=
+		gXV2dsMPUp8KQccoCNwZaQ9XjbU=
 		</data>
 		<key>云录制@3x.png</key>
 		<data>
-		HUMM5IW7vz/3YXkQH9RPh3Pj8vc=
+		J55ZGq/O6drvCz46jJyylMffUig=
 		</data>
 		<key>企业@2x.png</key>
 		<data>
@@ -3135,6 +3143,14 @@
 		<key>会议2@3x.png</key>
 		<data>
 		TNW29BhAfc3RjOromK/m22dabVk=
+		</data>
+		<key>会议更多@2x.png</key>
+		<data>
+		t+3FnEPmUjuyoWvKaoLsF3KxI0M=
+		</data>
+		<key>会议更多@3x.png</key>
+		<data>
+		fEK+76AmdR5vd98npo6G2HgKAtc=
 		</data>
 		<key>信号-1@2x.png</key>
 		<data>
@@ -3182,11 +3198,11 @@
 		</data>
 		<key>停止视频@2x.png</key>
 		<data>
-		NCvfEpLTqSznE3BL707hXB5qFOI=
+		QlARnvk74H7VEHy3hmwjrSACmQs=
 		</data>
 		<key>停止视频@3x.png</key>
 		<data>
-		7eEhDvXx7O9Bt/MI7Csa9FOQdas=
+		Jyq1xWZudyq1AdU8aEurdhC2Hrk=
 		</data>
 		<key>共享.png</key>
 		<data>
@@ -3200,9 +3216,13 @@
 		<data>
 		bVxR1JqFb9TExJdjeSZAU9zAAmU=
 		</data>
+		<key>共享屏幕@2x.png</key>
+		<data>
+		GLC+9vawrbOZob1baLJtrAwZ+oY=
+		</data>
 		<key>共享屏幕@3x.png</key>
 		<data>
-		qIB9S0w4WGuAqxhAxLCEILvKqmQ=
+		S+QLd0iYLaz13PID33DrN1iA9nA=
 		</data>
 		<key>共享屏幕关@3x.png</key>
 		<data>
@@ -3262,11 +3282,11 @@
 		</data>
 		<key>加入会议@2x.png</key>
 		<data>
-		gD/pXHeLLNeQuWKzBjj+fXKXHdY=
+		fv9cOpwslZACLnu88deKjdSlfqo=
 		</data>
 		<key>加入会议@3x.png</key>
 		<data>
-		fjSdrk9pK+GRbE/NQqOAuER+poU=
+		qJx69Uy/Wbv//daYsbmWllTeBus=
 		</data>
 		<key>单选未选@2x.png</key>
 		<data>
@@ -3290,11 +3310,11 @@
 		</data>
 		<key>即时会议@2x.png</key>
 		<data>
-		XoNyYIix2+uIwM7U2jb6sXf+gSU=
+		sD5iWttSgihvVp2DpEyKIFEBCU8=
 		</data>
 		<key>即时会议@3x.png</key>
 		<data>
-		KVNjUfFSg27yaRQbTcxwH/QgmBI=
+		ZTS7Atxlwc9BGQWKVRV7oUhv/sI=
 		</data>
 		<key>历史会议@2x.png</key>
 		<data>
@@ -3414,59 +3434,59 @@
 		</data>
 		<key>大0@2x.png</key>
 		<data>
-		5Yim1gl48OzhLt6IHycvuZgJbLA=
+		MzTbev7MOFb9suft7M1k2+67RRk=
 		</data>
 		<key>大0@3x.png</key>
 		<data>
-		JDj44EpVuK3SlM/6aHqIJv9EKjI=
+		VxM6fmxZMEAQ78ksGW8ycffDTF0=
 		</data>
 		<key>大1@2x.png</key>
 		<data>
-		m5rtomXYU/E+Ec63vQZYU3iYZd8=
+		SX6ettadnUNgFLajPiu8U3RaXC4=
 		</data>
 		<key>大1@3x.png</key>
 		<data>
-		6koGcAkZpYzKs14mpPoHUtmW9Nk=
+		1nzSDWFBcuCZpkMd/B8pvHSa8lY=
 		</data>
 		<key>大2@2x.png</key>
 		<data>
-		Zx5brjzz+3panoyh8KXnr+MUIMQ=
+		4/h4JcyE7/NatZkD4ZZdIv64CYM=
 		</data>
 		<key>大2@3x.png</key>
 		<data>
-		f3UXu7xzjvgqUmgFxc0C2o9RbUM=
+		60k03dgVKSXm2Lkcf7tab01rdp4=
 		</data>
 		<key>大3@2x.png</key>
 		<data>
-		ZpDnnx5EOHxktEmFo9ZanqeFm4U=
+		0tYw3oer1SmuMol6ZLu5py+GEqY=
 		</data>
 		<key>大3@3x.png</key>
 		<data>
-		8/OadYwuSUEikH+QlYyTWalv4C0=
+		mLWnsIxawP1C3vQanH7cN/jmPQQ=
 		</data>
 		<key>大4@2x.png</key>
 		<data>
-		ZBx1bJ6BukCb2Q0qBLuuJvQCgKg=
+		dCmFJtg55GBjtpUpipY22tbAn/U=
 		</data>
 		<key>大4@3x.png</key>
 		<data>
-		ldhhywwbKom/SvXC6BWAb7GP5m0=
+		iR8wOAmYmPzRluqj8hOEvxsaAVo=
 		</data>
 		<key>大5@2x.png</key>
 		<data>
-		p+lDiTWTckmY24vlLxm9+4snXXU=
+		yTuqQJ3g8j0Ae+x9WKBNlbeIBWA=
 		</data>
 		<key>大5@3x.png</key>
 		<data>
-		sk20TKTBrk64jzYQvxHAacz/MDw=
+		oEIf6hi45BWj4RnyDpI2Gu8S39U=
 		</data>
 		<key>大静音@2x.png</key>
 		<data>
-		6zlnmV3wE3+z6DHc93jEuFTTC0w=
+		58pk9QdsMbdspIRfL3Xzy1YuxFc=
 		</data>
 		<key>大静音@3x.png</key>
 		<data>
-		etdp0j1Slt37IFV/r5Vz+ddarQI=
+		Z/rc8wp5B616Ieo9jztJkfya2tE=
 		</data>
 		<key>失败@2x.png</key>
 		<data>
@@ -3652,6 +3672,14 @@
 		<data>
 		sgf+J+1+eSG/bax+aULI8rjwGUY=
 		</data>
+		<key>已认证-人员@2x.png</key>
+		<data>
+		U89qQtBdjxY7GdyGswKpl3JohGc=
+		</data>
+		<key>已认证-人员@3x.png</key>
+		<data>
+		ELgbk51Bifzsna6dnIGzpxRDlLI=
+		</data>
 		<key>底板1 2@2x.png</key>
 		<data>
 		rTN4bayMqumslr+iPeynaMd8kL8=
@@ -3702,11 +3730,11 @@
 		</data>
 		<key>开启视频@2x.png</key>
 		<data>
-		SCiwmeBfJFZKvkCxIiMlzmmLb48=
+		UtsBugIgXAxVbqpQ/N07TK8u+oM=
 		</data>
 		<key>开启视频@3x.png</key>
 		<data>
-		ElWy8cnjF1q8Bf5dvoybUbC0iyI=
+		1Vqi3jxoudGfMl1tXMatqjagrps=
 		</data>
 		<key>弹幕底板@2x.png</key>
 		<data>
@@ -3772,9 +3800,13 @@
 		<data>
 		ikmfLuS21fNz2xQvJxv6a3MQon8=
 		</data>
+		<key>成员列表@2x.png</key>
+		<data>
+		Jme/H1A1wxbLQ4JsEr1zm8Ap3QQ=
+		</data>
 		<key>成员列表@3x.png</key>
 		<data>
-		sn0fZ9W+aQ0QoEUimkC+Pee63eA=
+		UOeOe6aj3tcs1VcrZqnLeuje3ZM=
 		</data>
 		<key>所有人@2x.png</key>
 		<data>
@@ -3992,6 +4024,14 @@
 		<data>
 		TA5zIYO6T4uscfhKaTet4RJKv+8=
 		</data>
+		<key>直播@2x.png</key>
+		<data>
+		OfqOP/fCg9cqN9/SuoVvstj7oIw=
+		</data>
+		<key>直播@3x.png</key>
+		<data>
+		mtBDsuPNd4ckmAFi+tiZmB0DEKY=
+		</data>
 		<key>矩形@2x.png</key>
 		<data>
 		zcQPt+e/6qcjuQ+V0T449hlxq4Q=
@@ -4156,6 +4196,14 @@
 		<data>
 		DbVz9oqzuqb+YQ23zeWH1P8Wbrc=
 		</data>
+		<key>说话@2x.png</key>
+		<data>
+		v6BqxhRZ/quCoVa9M1akkbizFUo=
+		</data>
+		<key>说话@3x.png</key>
+		<data>
+		hhgejV70K884/v2UF4MXvOtkLC8=
+		</data>
 		<key>返回.svg</key>
 		<data>
 		aEzyXizSZRDqdl8XL6cPV/UhBbM=
@@ -4248,13 +4296,29 @@
 		<data>
 		5sYgrIRypa95MFKSZphPjTJmlwo=
 		</data>
+		<key>随声录@2x.png</key>
+		<data>
+		QqUNxNOheiMWAsdjnfxG6GRqz6s=
+		</data>
+		<key>随声录@3x.png</key>
+		<data>
+		q/0IYRbnhDQrgSaag/LOWKTBstc=
+		</data>
+		<key>随身纪要@2x.png</key>
+		<data>
+		LtStEA5hSFYM+NEb9+Fa7zLN/jA=
+		</data>
+		<key>随身纪要@3x.png</key>
+		<data>
+		22EXmJe62a4qP2lIu3ftjSyzGSY=
+		</data>
 		<key>预约会议@2x.png</key>
 		<data>
-		/FXiJRw5JI+J3Qqr7mTsprtV8Ns=
+		q2pf9nr1O1n7eGqzIWUHdAD1ZtU=
 		</data>
 		<key>预约会议@3x.png</key>
 		<data>
-		15wzSUK2Fht0q6/wfSoKY8xzycg=
+		GIGXhNsccviF79WSMtU+mnzMz2I=
 		</data>
 		<key>麦克风.png</key>
 		<data>
@@ -5561,11 +5625,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a4qT75DCx28p0TbciohydwSGFwg=
+			aeaCErgwoZkfAYc3rFh56tWLdqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PwAveUjnTqDaTatnNdacDBUZ8RL78xEhnVckUF6ZlY=
+			3ttJeUFOSBrcYbFGlA786DJ8nQ5DLpHhRwdOhdfRRoQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6813,15 +6877,26 @@
 			7K84n+2akdXkgof198ya7REDU1mvT0m+2apBxepPqbc=
 			</data>
 		</dict>
+		<key>icn_bullet_screen@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ff8ppCdxq3kYf1eFKrZ5ecyJ0yA=
+			</data>
+			<key>hash2</key>
+			<data>
+			eY2osw5nLOdkN8frLdX7w6sipNIqL4O2XFBAylr5s6I=
+			</data>
+		</dict>
 		<key>icn_bullet_screen@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uJO7lI1nT+VINjSsrMUKTV+tays=
+			SRCmaUXgCngkocvWkGJa/jq3XFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0AwBjnXtwCsv2/gRCPi0mrPl4J++Cy9z7GF2BRBONqc=
+			ruzOPNc3vgltKpWvJDN/LnX4XOf8tkTDSGtBd6NmRZo=
 			</data>
 		</dict>
 		<key>icn_bumen_nor.png</key>
@@ -7213,22 +7288,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c8053BJx339sgmm7/8F8kumbhWo=
+			RZuahCWdtugsSw4aCfFFI8zjYhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			mineq5xWc1TB+MzdcBUN0uNRakIiQ4sfZgg2tUmDaGk=
+			J+4D+Hf27uR2rK8iNTHzJWyd3je19YhICuPrXKTSEco=
 			</data>
 		</dict>
 		<key>icn_copy@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Ng43N1FXJY+Cy0NmFESIveOiHk=
+			Jq+2s0SdieOa3ArINinFm+Ybl5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			M8nuMU6bezlF0VgJ0ARpas92aRVkBINfS1ogGWiEfAs=
+			tRHgFoAN/t/fBxuEaSRG37WjpYXK3a3oaq8JQkaH52o=
 			</data>
 		</dict>
 		<key>icn_delete_01@2x.png</key>
@@ -7913,15 +7988,26 @@
 			uLyhUFLz7wilePSd8leCQkmpPoBRERAyW8OkMZdrgXI=
 			</data>
 		</dict>
+		<key>icn_landscape_of_meeting@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QMq0EuXe5MBSYCfNXqFGj7LYOiM=
+			</data>
+			<key>hash2</key>
+			<data>
+			t4za50uCR+DC7Ixzral0UTw+nEOc545PNIWWOZtFmS4=
+			</data>
+		</dict>
 		<key>icn_landscape_of_meeting@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			adcJAufHyJZmrs1LHBYFclD//AA=
+			/rN6GSXtwQCIYyZv6dMG30hzOQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TbHFC3iXkBxaSvtH1KGhEhhHjVF4kPqTmEwB6tIHzvM=
+			70HJ6hvyGmgDA+76pl2m/AwKioCpNfnFH6lVT2tWD8M=
 			</data>
 		</dict>
 		<key>icn_man.png</key>
@@ -10491,22 +10577,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DaX+OUh/i2qpR7yrBVPgNZ7yhqo=
+			xbTQ1DEBPNOx52rrEEaJMR8io40=
 			</data>
 			<key>hash2</key>
 			<data>
-			U+QtkRNnbSTarfdTeLkJawfUg2isf6fcF8ztFr/jxoI=
+			UmBb4DPV9pPanWwQBQK5cjGLA4PRubKHHkwHTncwXBA=
 			</data>
 		</dict>
 		<key>icon_tab_录制中@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YkyA1O4rtA861od8vHVatgJORKo=
+			w6CZxvzxHoUTZCmJ8WqOYuWFzng=
 			</data>
 			<key>hash2</key>
 			<data>
-			XphDGdc0qllENZioQlSahIUch/75/8V0zK4okjiUliM=
+			hTura/wzddCZFQj8qY1qSt/tUAF1xQg0kWcWgUL6YZ4=
 			</data>
 		</dict>
 		<key>icon_xian_mian@3x.png</key>
@@ -12660,11 +12746,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UFAN9Te2cUABbs4hd61KOtx9M+s=
+			p1HMpz9oPnxjRGCD5gxLw92SDaw=
 			</data>
 			<key>hash2</key>
 			<data>
-			YncDVJpGuZ+CykAnE8SiPJTafLZNEvHW0SCvBQx2I74=
+			1f2hAYdm8d0DGWfPra7y27lTBpHJL/lajWn4UmeOkio=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -12706,22 +12792,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qhjSbDyYcMlWwLI3sfqWxnffqG8=
+			0AItsUEgf/+gRV5aPf9SKqX8Osg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vas9s/W0X5D9u3lt3O5babQKZkdOITkNMAtAElHIxvI=
+			GWpiYLxHySdWfuhZxT/kltz4VV04QyK/6RTi2jxEVgw=
 			</data>
 		</dict>
 		<key>下拉@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a164CcQR8pBVjZLFPa3z9zQXjlk=
+			pmLbBktjnBZdQEP+nkEJ4YOFVK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			H3eeuN0yafxosYEBf6KgCH18Xs5w/KSEnCLLU7SSgBM=
+			NdczJy2tUnTysZVmVBYlJoBmbcnDf0yvAwhMgQjWwBk=
 			</data>
 		</dict>
 		<key>个人@2x.png</key>
@@ -12805,22 +12891,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ldfkw7QhtBc831yVHlIFBmQjQDQ=
+			gXV2dsMPUp8KQccoCNwZaQ9XjbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vaZ9R5HBUQJtZW7lLV3Zw3kJiAqCaOJiySf17ehfsFw=
+			EZ++eAT7IprhFCGrvFldP6BqWZpK331a2xiP8eXaOck=
 			</data>
 		</dict>
 		<key>云录制@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HUMM5IW7vz/3YXkQH9RPh3Pj8vc=
+			J55ZGq/O6drvCz46jJyylMffUig=
 			</data>
 			<key>hash2</key>
 			<data>
-			7B2qtP1b80kdphDmqX8HwCT31hti4ojkvX1dSNYENfU=
+			hg1iMhygsP2PwPuIsSzlvbRZxT8izmiSQYdUOJhNIec=
 			</data>
 		</dict>
 		<key>企业@2x.png</key>
@@ -12887,6 +12973,28 @@
 			<key>hash2</key>
 			<data>
 			TbmKLkwqpF7CbuI94BAU2IVo3XJ4sTBwi5fBPuLjfC0=
+			</data>
+		</dict>
+		<key>会议更多@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t+3FnEPmUjuyoWvKaoLsF3KxI0M=
+			</data>
+			<key>hash2</key>
+			<data>
+			H5GblBE4Hn+YbfHOnz1s+g7p+jr8SikOzNyMc9njYr8=
+			</data>
+		</dict>
+		<key>会议更多@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fEK+76AmdR5vd98npo6G2HgKAtc=
+			</data>
+			<key>hash2</key>
+			<data>
+			NJVj3DOSZ4mRYZvPrUV89gZ9pNAQI9iPddB3GVhRuqs=
 			</data>
 		</dict>
 		<key>信号-1@2x.png</key>
@@ -13014,22 +13122,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NCvfEpLTqSznE3BL707hXB5qFOI=
+			QlARnvk74H7VEHy3hmwjrSACmQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			8I2ROY8UMOFfeh3G6jzHu2pmVfs3c8T3qHWXumOq2zg=
+			/NunhRw/uHSHWX7lvR02TDTY4E/v22x1OLSwPH7myZU=
 			</data>
 		</dict>
 		<key>停止视频@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7eEhDvXx7O9Bt/MI7Csa9FOQdas=
+			Jyq1xWZudyq1AdU8aEurdhC2Hrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			wYRZFACERLOnlzYQjij1ALW14Xj8rR0N1voPQk4XynE=
+			/EAe+WssdPevZV4KfQchCfS0izO+4k2AaCmLJ6VU63A=
 			</data>
 		</dict>
 		<key>共享.png</key>
@@ -13065,15 +13173,26 @@
 			+p8TfJH2WOKQ1PAlkJlJHg1VOJlgY9zaQabSFUAahmM=
 			</data>
 		</dict>
+		<key>共享屏幕@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GLC+9vawrbOZob1baLJtrAwZ+oY=
+			</data>
+			<key>hash2</key>
+			<data>
+			macl5bwm1RTiyQCvemD7AVzp/ySnnROfJh09N6KbfiI=
+			</data>
+		</dict>
 		<key>共享屏幕@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qIB9S0w4WGuAqxhAxLCEILvKqmQ=
+			S+QLd0iYLaz13PID33DrN1iA9nA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vi4z5wCDYUSUkYGrp2tbADdEhdBR0dSLgkvXI5PJ2wg=
+			zQmQSN1Z9XhaMwawZuITg/FQ/n/uuFLmvcIjKQfNPNQ=
 			</data>
 		</dict>
 		<key>共享屏幕关@3x.png</key>
@@ -13234,22 +13353,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gD/pXHeLLNeQuWKzBjj+fXKXHdY=
+			fv9cOpwslZACLnu88deKjdSlfqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+USlFJ2eEuDORYlfNVxnAl1VFIlRKRZdeHIfkmzn9GM=
+			j4XXoSTgHZGtdtjzkoprQom0mEiKeET7xb6Us7N75qE=
 			</data>
 		</dict>
 		<key>加入会议@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fjSdrk9pK+GRbE/NQqOAuER+poU=
+			qJx69Uy/Wbv//daYsbmWllTeBus=
 			</data>
 			<key>hash2</key>
 			<data>
-			BWC4rfHxOEEu203/e7lPu4pVjXTeUjFvgFWzG5XfmiA=
+			D+1RnSPtzyAweGidz3jV++hZIwr/+Pyig5RGgc1wmuY=
 			</data>
 		</dict>
 		<key>单选未选@2x.png</key>
@@ -13311,22 +13430,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XoNyYIix2+uIwM7U2jb6sXf+gSU=
+			sD5iWttSgihvVp2DpEyKIFEBCU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIz+btTJdOhhC9gW0OMACNMlzD8e7sxI3vSqym3p3iI=
+			E371Fu7n8tzKU1mE+zvV3pGdzhI385Ah95VV3GdWSNs=
 			</data>
 		</dict>
 		<key>即时会议@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KVNjUfFSg27yaRQbTcxwH/QgmBI=
+			ZTS7Atxlwc9BGQWKVRV7oUhv/sI=
 			</data>
 			<key>hash2</key>
 			<data>
-			JdDf2AVPBjabUFV7S9zh30E0dk4LI3Y5hCjtcB0meoA=
+			CWaIh6gxWpHbvGVzFxzYpbHSf7AV417VbTnLVORxKgM=
 			</data>
 		</dict>
 		<key>历史会议@2x.png</key>
@@ -13652,154 +13771,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5Yim1gl48OzhLt6IHycvuZgJbLA=
+			MzTbev7MOFb9suft7M1k2+67RRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			98RMKE/LEkDA8S2xPWk0WUxQAauVXo/+kAQ/GJfYspE=
+			yOI1m7PJkMaPo9kU4AmYxp6IVR6b0P5FPTbIQFxHXUE=
 			</data>
 		</dict>
 		<key>大0@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JDj44EpVuK3SlM/6aHqIJv9EKjI=
+			VxM6fmxZMEAQ78ksGW8ycffDTF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5STyssSjD49aqDv2eUPkKIG0PO+4KtZy5MeRIMiEQDg=
+			+ynQTMZ7kynzFEG4pqtTyBT3Od0wKRK8VLAf8yFhqbo=
 			</data>
 		</dict>
 		<key>大1@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m5rtomXYU/E+Ec63vQZYU3iYZd8=
+			SX6ettadnUNgFLajPiu8U3RaXC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			N8jkH2pXNkilcXV333pMVzFhgNLx7Uoa8RgtgB7owlw=
+			mqp97vXrqcMOWoTg972FOWDzr1RQo6O43hUAkjFwa0k=
 			</data>
 		</dict>
 		<key>大1@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6koGcAkZpYzKs14mpPoHUtmW9Nk=
+			1nzSDWFBcuCZpkMd/B8pvHSa8lY=
 			</data>
 			<key>hash2</key>
 			<data>
-			mWun3UIKg/29uWNBaZes4AaGPKTV90jKED+QZ82pfmY=
+			93KGcqJ2F/WaUO6mX4DMVjsWYx1zShT1yCzeyhQAVhc=
 			</data>
 		</dict>
 		<key>大2@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zx5brjzz+3panoyh8KXnr+MUIMQ=
+			4/h4JcyE7/NatZkD4ZZdIv64CYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jXJUZy7Xjn6ppvQ5NgdS+/brAhicCPywykkCT1ITqag=
+			OD8MvtX9WwaVaCX8BRcJ68WIG8dKu4ZvoJvuvd83nwk=
 			</data>
 		</dict>
 		<key>大2@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f3UXu7xzjvgqUmgFxc0C2o9RbUM=
+			60k03dgVKSXm2Lkcf7tab01rdp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BssVbQDEMLmOAuPnkVKtBGC6DP8vsPbnJDQYy/Omy3s=
+			XJJYCkPMpY1KKnvk0EQs/URMihdt9FloklvEwnQPEXM=
 			</data>
 		</dict>
 		<key>大3@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZpDnnx5EOHxktEmFo9ZanqeFm4U=
+			0tYw3oer1SmuMol6ZLu5py+GEqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uf0TGCMcLugWk8BAz+OWmGGk7nbETdKXCJCIPDWmOe8=
+			xpk3cj7T6SomSnCyUCdDxsv5uNHmdW+lCMMNfDNlU/I=
 			</data>
 		</dict>
 		<key>大3@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8/OadYwuSUEikH+QlYyTWalv4C0=
+			mLWnsIxawP1C3vQanH7cN/jmPQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			NVN05QtbM9gNPPFpS8DSKrRl7kU30m/Yk4B0llKJeN4=
+			APP9H/PvtCQPP1ZaVRV8vdcsavFWTHdArbbjmSqMIcs=
 			</data>
 		</dict>
 		<key>大4@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZBx1bJ6BukCb2Q0qBLuuJvQCgKg=
+			dCmFJtg55GBjtpUpipY22tbAn/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			+U59hQw86gFMFE2eiNDJh0dLeMXtrWdZz3vnYlQmR0Q=
+			qaaLU4lnc0UXFW1P7AE1yqmcpVa5ytrUGERPqWwC7AQ=
 			</data>
 		</dict>
 		<key>大4@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ldhhywwbKom/SvXC6BWAb7GP5m0=
+			iR8wOAmYmPzRluqj8hOEvxsaAVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			A1LJe+G5wpDFlnxUnd56Y2PD+gdNBjO+IxVErfuOO00=
+			KH7tDrAhauKFWg80a4nHy3CjVFbMYcNd6yq5/cra+NY=
 			</data>
 		</dict>
 		<key>大5@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p+lDiTWTckmY24vlLxm9+4snXXU=
+			yTuqQJ3g8j0Ae+x9WKBNlbeIBWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1SqhwgOCR+lxri28QL8wHKR/EEfdOqv8w8HoLF0cZk=
+			2H2CYpiExAVHNIFHplwJ650IkPhId+x9cuuf2JNSGto=
 			</data>
 		</dict>
 		<key>大5@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sk20TKTBrk64jzYQvxHAacz/MDw=
+			oEIf6hi45BWj4RnyDpI2Gu8S39U=
 			</data>
 			<key>hash2</key>
 			<data>
-			5TdxaSdqNOBDMKTc45ehARXghhDrKfDIV2NpmZeqejA=
+			vHaQTyUIJl7YeSt4CkuulUHTYK2kGd2sw5V+lWkavUs=
 			</data>
 		</dict>
 		<key>大静音@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6zlnmV3wE3+z6DHc93jEuFTTC0w=
+			58pk9QdsMbdspIRfL3Xzy1YuxFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vp17NK1jtFMYinHanfxiXnsGb7jRNSIR90BceMxoSzw=
+			z1ER2OdaqAnX3nK3LLWaJIz8++R1HlwOPupCadAvBg4=
 			</data>
 		</dict>
 		<key>大静音@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			etdp0j1Slt37IFV/r5Vz+ddarQI=
+			Z/rc8wp5B616Ieo9jztJkfya2tE=
 			</data>
 			<key>hash2</key>
 			<data>
-			BPkI7Mc6eViOSm26GPRJPvjjkYRWnDvRzldemwzwfMc=
+			cvnazW04mw/XU4OfojiZgn+dO28h+6WlrMhOUbhQaUU=
 			</data>
 		</dict>
 		<key>失败@2x.png</key>
@@ -14308,6 +14427,28 @@
 			sF5df7x78ysdCy8oxbJMW13oeV5Zqq0tibXp+ktdD9M=
 			</data>
 		</dict>
+		<key>已认证-人员@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U89qQtBdjxY7GdyGswKpl3JohGc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vgg1NhLw9UYUzEkSmF82R5kUNJn9pFtfGUzJb10R/Ms=
+			</data>
+		</dict>
+		<key>已认证-人员@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ELgbk51Bifzsna6dnIGzpxRDlLI=
+			</data>
+			<key>hash2</key>
+			<data>
+			XNu6a+S5ssS5DsNG8tT7FcWYcb9Uo5DP7qhceQk7Jko=
+			</data>
+		</dict>
 		<key>底板1 2@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -14444,22 +14585,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SCiwmeBfJFZKvkCxIiMlzmmLb48=
+			UtsBugIgXAxVbqpQ/N07TK8u+oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Do8ttYC1lAytSVNoTHPzJ3ugWEqD52etCymRc1Wrr0=
+			yk8Riy66UYeMjuUkEc8CTqgEKKgq6K8OZH8gAqMYQZw=
 			</data>
 		</dict>
 		<key>开启视频@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ElWy8cnjF1q8Bf5dvoybUbC0iyI=
+			1Vqi3jxoudGfMl1tXMatqjagrps=
 			</data>
 			<key>hash2</key>
 			<data>
-			3fcUNRF622DgZg0O8cCv9pjP0ozerAVIwNi3YHghp58=
+			aJldR+Hh2Oj4G2LcZjHppiI19ou1TgGF3uzRyEVWIvQ=
 			</data>
 		</dict>
 		<key>弹幕底板@2x.png</key>
@@ -14638,15 +14779,26 @@
 			oO1tTi1sp2uyyaJ+FkZ5fe+p0XsHCM0BwF+iHxkeT4o=
 			</data>
 		</dict>
+		<key>成员列表@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jme/H1A1wxbLQ4JsEr1zm8Ap3QQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cS463QZYuiEnRs42SOPUBJtgQi94ethXfuI3cFtgJ2Y=
+			</data>
+		</dict>
 		<key>成员列表@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sn0fZ9W+aQ0QoEUimkC+Pee63eA=
+			UOeOe6aj3tcs1VcrZqnLeuje3ZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xYgb7P8znADlLpalaW1jitoqEaX+LztBVsEnWSpIcAU=
+			S7A44I96O62mYHcr3gnnAvf4JT6WMxVuxaJX1AUNhnM=
 			</data>
 		</dict>
 		<key>所有人@2x.png</key>
@@ -15243,6 +15395,28 @@
 			SyEuK4Liz+t9Lri6kcTpQnX4KF1SB3BbaoceF6w2hKA=
 			</data>
 		</dict>
+		<key>直播@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OfqOP/fCg9cqN9/SuoVvstj7oIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			gaG4mHAOwFkjkngmMbDescirUHto1UKoWJVTnIrenLs=
+			</data>
+		</dict>
+		<key>直播@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mtBDsuPNd4ckmAFi+tiZmB0DEKY=
+			</data>
+			<key>hash2</key>
+			<data>
+			sMccnuvI1geS5iC+OgQLzKw/mzZuPiCPAslMpAhMtBc=
+			</data>
+		</dict>
 		<key>矩形@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -15694,6 +15868,28 @@
 			WJjwqFN+N3kzZzBPdc4BumFxLiP/LBKu1ydgx60+ka4=
 			</data>
 		</dict>
+		<key>说话@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v6BqxhRZ/quCoVa9M1akkbizFUo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7/lfuM6yAnTr5MAXKSnshmmHJ3Mp1rCKMeBj7RaVP/I=
+			</data>
+		</dict>
+		<key>说话@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hhgejV70K884/v2UF4MXvOtkLC8=
+			</data>
+			<key>hash2</key>
+			<data>
+			02uC9uBqRmM9AjRx2Ptj6IYXXR/THb7GwlcXchfH4Xw=
+			</data>
+		</dict>
 		<key>返回.svg</key>
 		<dict>
 			<key>hash</key>
@@ -15947,26 +16143,70 @@
 			5+g1dQhOEcYZ98ss+hkFKtkPJD23Vx/oyQhMRW2o8qk=
 			</data>
 		</dict>
+		<key>随声录@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QqUNxNOheiMWAsdjnfxG6GRqz6s=
+			</data>
+			<key>hash2</key>
+			<data>
+			mbl60YHkTHTXdWFyjb+tFG0gjquuDiiETHou534U+qw=
+			</data>
+		</dict>
+		<key>随声录@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q/0IYRbnhDQrgSaag/LOWKTBstc=
+			</data>
+			<key>hash2</key>
+			<data>
+			VI3iwJE0Zh4Ru9I5SMbOXWMJjuPdiJpTELYfj7ru/Ng=
+			</data>
+		</dict>
+		<key>随身纪要@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LtStEA5hSFYM+NEb9+Fa7zLN/jA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZuB/rIJ9sdjTn6ENTTtpnPoS+8AT9w6OPCyHhiK8t8I=
+			</data>
+		</dict>
+		<key>随身纪要@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			22EXmJe62a4qP2lIu3ftjSyzGSY=
+			</data>
+			<key>hash2</key>
+			<data>
+			5bc+uc7CjdRKfQG0Df8HLO9WSHJH65b5ccEK4i8M/kA=
+			</data>
+		</dict>
 		<key>预约会议@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/FXiJRw5JI+J3Qqr7mTsprtV8Ns=
+			q2pf9nr1O1n7eGqzIWUHdAD1ZtU=
 			</data>
 			<key>hash2</key>
 			<data>
-			57U/40PdHB4wk8Sbp8HKQaLtSX4jU8oNAdAwtmTP/LQ=
+			LfG69IU+ClPl99+EYbAIi1Zdh7Z/3NpCu7o4Kb+D5RY=
 			</data>
 		</dict>
 		<key>预约会议@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			15wzSUK2Fht0q6/wfSoKY8xzycg=
+			GIGXhNsccviF79WSMtU+mnzMz2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z7zTZX8eGvyWM1z/q2fXqt/vPKVutfPuAq/ZyP4Mn8k=
+			xHuWj/jZM62+IU90Maqdy618FnkJXnrV6jKgikfkjtE=
 			</data>
 		</dict>
 		<key>麦克风.png</key>

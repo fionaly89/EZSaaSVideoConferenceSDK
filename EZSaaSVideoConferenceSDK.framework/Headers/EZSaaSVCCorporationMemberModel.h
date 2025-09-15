@@ -44,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger is_executive; //是否为高管，0 表示不是，1 表示是, 默认0
 @property (nonatomic, assign) NSInteger power_view_executive; //is_executive字段为1时，才会进一步判断该字段，代表该高管手机号码和办公电话对当前token用户是否真正可见, 0 表示不可见，1 表示可见, 默认0
+//@property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
 
 @end
 

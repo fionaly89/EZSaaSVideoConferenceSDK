@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *companyName; //关联公司
 @property (nonatomic, copy) NSString *chatNo;   //对应会话ID
 @property (nonatomic, strong) NSString *third_corp_name; //第三方企业公司
+@property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
 
 @end
 

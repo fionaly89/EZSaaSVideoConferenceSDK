@@ -11,11 +11,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class AccountBase;
+@class Account;
 @interface RTCWaitRoomMembersModel : NSObject
 
 @property (nonatomic, strong) NSString *key;
 @property (nonatomic, copy) NSString *id_p;
 @property (nonatomic, strong) AccountBase *accountBase;
+@property (nonatomic, strong) Account *account;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *portrait;
 @property (nonatomic, strong) NSString *mobile;
