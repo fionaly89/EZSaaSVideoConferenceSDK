@@ -23,6 +23,7 @@ typedef enum : NSInteger {
     RTCError_InvalidLineId = 1014, //code:1014 userInfo:@{@"msg":@"无效的线路ID"}
     RTCError_NoLineAvailable = 1015, //code:1015 userInfo:@{@"msg":@"获取线路节点失败"}
     RTCError_InSystemCall = 1016, //code:1016 userInfo:@{@"msg":@"系统通话中，请稍后再试"}]);
+    RTCError_InYSRTCLive = 1017, //code:1017 userInfo:@{@"msg":@"直播中，请稍后再试"}]);
     RTCError_RoomNeedPassword = 409, //入会失败，需要输入密码
     RTCError_IncorrectRoomPass = 504, //入会失败，输入密码错误
     RTCError_PersonLimit = 410, //入会失败，房间人数超限

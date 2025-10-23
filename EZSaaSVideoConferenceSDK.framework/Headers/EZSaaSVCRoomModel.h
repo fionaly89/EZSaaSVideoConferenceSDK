@@ -36,6 +36,9 @@ NS_ASSUME_NONNULL_BEGIN
 //只有会议类型是网络研讨会该字段必填。新增入参聊天字段，默认0不禁止；1代表已禁止嘉宾；2代表已禁止观众；3代表已禁止嘉宾和观众。
 @property (nonatomic, assign) NSInteger webinar_chat;
 
+//im群组id，如果通过im群组创建的话需要传入
+@property (nonatomic, assign) NSInteger im_session_id;
+
 @end
 
 NS_ASSUME_NONNULL_END

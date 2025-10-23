@@ -64,6 +64,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger white_list_num;  //白名单成员数量
 
+//@property (nonatomic, assign) BOOL isRecord; // 是否开启过录像
+//@property (nonatomic, assign) BOOL is_speech; // 是否开启过转写
+//@property (nonatomic, assign) BOOL is_summary; // 是否开启过会议纪要
+@property (nonatomic, assign) NSInteger record_state; //录像文件状态：0-生成中，1-已生成，2-生成失败，3-已过期，4-已删除，5-即将过期
+@property (nonatomic, assign) NSInteger record_expire_at;  //录像文件过期时间（单位秒）
+
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

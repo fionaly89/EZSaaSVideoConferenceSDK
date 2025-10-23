@@ -26,11 +26,11 @@
 		</data>
 		<key>Headers/EZSaaSMobileRTCSDK.h</key>
 		<data>
-		m1hGpoEzfSL10K2Von0/LDToAzU=
+		Opxm1822mj/NhkzHy3ExWRwT5lg=
 		</data>
 		<key>Headers/EZSaaSRTCDelegate.h</key>
 		<data>
-		kEoihh6IBqC/5DWcYvBUQIyaok0=
+		XJ69XZSFSPTaFOF6EYdlgTrklrY=
 		</data>
 		<key>Headers/EZSaaSRTCSettingModel.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/EZSaaSVCConferenceModel.h</key>
 		<data>
-		inoYrSdYT7ora1AQsOPGLgBHAoI=
+		sdJ794yhgUxiN/oGRgYFr/VIfGo=
 		</data>
 		<key>Headers/EZSaaSVCCorporationAccountModel.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/EZSaaSVCRoomModel.h</key>
 		<data>
-		ZXOud4nVfe24BU+JzTloFQSZk7M=
+		ZThBtV0MWK0WR+887EBBz8TGTrQ=
 		</data>
 		<key>Headers/EZSaaSVCSearchResultModel.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/RTCErrorCode.h</key>
 		<data>
-		KjzJ1U9DAZduPER5augKPi3c9c4=
+		ksHVRWoHtQpfre91ZH1t9AZhlW4=
 		</data>
 		<key>Headers/RTCLineGroupModel.h</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/kpsFm+ajTsjXF8ONXnAn3YP8/Q=
+		2pjOGbR2hcQnLCrVY5Cgk7PLhzM=
 		</data>
 		<key>VCSAudio.bundle/Info.plist</key>
 		<data>
-		vxLlr6owf//qWj68+tN1gkD4PII=
+		yfZq9phDivdknDHO97ZYZB/em1U=
 		</data>
 		<key>VCSAudio.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -184,7 +184,7 @@
 		</dict>
 		<key>VCSBeauty.bundle/Info.plist</key>
 		<data>
-		j2CsF/093eiKaoSSW46JeEUKP3c=
+		GffxoX5FZxYRW97pMfg4/rjBSZ0=
 		</data>
 		<key>VCSBeauty.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -246,7 +246,7 @@
 		</dict>
 		<key>VCSDrawing.bundle/Assets.car</key>
 		<data>
-		+z8b7FCR53Kd6Y4m1D6F6A9y/OU=
+		e4xdp4iDfNX0MK9LReD9NPTWHgc=
 		</data>
 		<key>VCSDrawing.bundle/Base.lproj/VCSWhiteBoardView.nib</key>
 		<dict>
@@ -259,7 +259,7 @@
 		</dict>
 		<key>VCSDrawing.bundle/Info.plist</key>
 		<data>
-		Syb//XUleQkSiJVejOFP6EfyLl0=
+		XCuZfqMLpD35ZWTV7DtKOOZdrbI=
 		</data>
 		<key>VCSDrawing.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -371,7 +371,7 @@
 		</dict>
 		<key>VCSLogger.bundle/Info.plist</key>
 		<data>
-		FVsU4l4ggxLJQhRJ2k5TMtZ0mdg=
+		gRqMhZPLDsLBD4vNpFeb31kQTR8=
 		</data>
 		<key>VCSLogger.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -429,7 +429,7 @@
 		</dict>
 		<key>VCSLogin.bundle/Info.plist</key>
 		<data>
-		pR4+3/rTBSwQKtdebriSB0ij1UY=
+		m1LQjJ3HNcba1xDkwkZaSR/TrtI=
 		</data>
 		<key>VCSLogin.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -487,7 +487,7 @@
 		</dict>
 		<key>VCSMessage.bundle/Info.plist</key>
 		<data>
-		eJ2RGn/d3F/+AQPYlLG70qtBdUI=
+		DD1llJy6d3Jep7pPCIZwbyEO7PQ=
 		</data>
 		<key>VCSMessage.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -545,7 +545,7 @@
 		</dict>
 		<key>VCSNetCall.bundle/Info.plist</key>
 		<data>
-		wImtSSnHbmUD/Gk6qKAtgk1k3mY=
+		iRXmbFdGhZ+i5nWvU5S7US1vgus=
 		</data>
 		<key>VCSNetCall.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -603,7 +603,7 @@
 		</dict>
 		<key>VCSSDK.bundle/Info.plist</key>
 		<data>
-		z2OwX43d6jR33gCS0IYmt1GRC3w=
+		TAGZz2HrNoPsXA/UE8tzrA/5nuY=
 		</data>
 		<key>VCSSDK.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -962,10 +962,6 @@
 	<dict>
 		<key>Headers/EZSaaSConferenceDefine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l3BlE5Qo392hJRAUNxL/+F0cp0M=
-			</data>
 			<key>hash2</key>
 			<data>
 			TLG4951tanI/CO1dYlx8cDPVTybekj3lMireaqdTJxA=
@@ -973,10 +969,6 @@
 		</dict>
 		<key>Headers/EZSaaSConferenceRegModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			scdGb8HRVVNedvC6drGoMIEQP8w=
-			</data>
 			<key>hash2</key>
 			<data>
 			3jqw/MCxQXZHzZHY0Ye80cdXG96OxitPBqY/otZrlWM=
@@ -984,10 +976,6 @@
 		</dict>
 		<key>Headers/EZSaaSFileUploadTokenInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2TI2bKJmmWSeXq+h7FDapOTNhFw=
-			</data>
 			<key>hash2</key>
 			<data>
 			fdITJDxRMN+5VLUI8kZqDx7FKTg83jhpsML7IGPDXwY=
@@ -995,10 +983,6 @@
 		</dict>
 		<key>Headers/EZSaaSMeetingCallMembersManagerInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7v+ht9lLixjC/HAtF3MeN1r26wg=
-			</data>
 			<key>hash2</key>
 			<data>
 			N0vaatrfiHcfn+1gWehbZ94IIeWJ3nlY+OGkYn8sVko=
@@ -1006,10 +990,6 @@
 		</dict>
 		<key>Headers/EZSaaSMobileRTCMemberInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4b1lXqtMn5uKBz028O83DMQo0gI=
-			</data>
 			<key>hash2</key>
 			<data>
 			+5cHlTflp/Lydr9HJ6uB9BO3eOaqaosXwCm8aQ5tUYo=
@@ -1017,32 +997,20 @@
 		</dict>
 		<key>Headers/EZSaaSMobileRTCSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m1hGpoEzfSL10K2Von0/LDToAzU=
-			</data>
 			<key>hash2</key>
 			<data>
-			ymZy2ERpqIk6kvIh5Pb+aFOSadtEwxbz9AAyaK5YZD8=
+			VsdkYYl4nQQuTokuoxqxUTyWEsEozC7zmeVLdkGv3mM=
 			</data>
 		</dict>
 		<key>Headers/EZSaaSRTCDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kEoihh6IBqC/5DWcYvBUQIyaok0=
-			</data>
 			<key>hash2</key>
 			<data>
-			2A9uo7RzPz6bqTw0aHfUU0Qd5wTQqX2WR5OuCfuGnoo=
+			c07KPf0CQOSW14Qg+8RfSiv0wjUoQbyS+ejPVTvi9pU=
 			</data>
 		</dict>
 		<key>Headers/EZSaaSRTCSettingModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qiS1m89iS6Xd0Jx4UVloWfNvz7o=
-			</data>
 			<key>hash2</key>
 			<data>
 			dNKn6mVjFLyZ0z8USGr2h7l6w8Q4NI3PImFthG2m7Xk=
@@ -1050,10 +1018,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCAccountModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qroIgROmIKZDTOj/NPKqUSJjXLs=
-			</data>
 			<key>hash2</key>
 			<data>
 			3IyYfhn06DwPxY3oMVVG44GSVegb+aoqPKEu9/j/T1c=
@@ -1061,21 +1025,13 @@
 		</dict>
 		<key>Headers/EZSaaSVCConferenceModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			inoYrSdYT7ora1AQsOPGLgBHAoI=
-			</data>
 			<key>hash2</key>
 			<data>
-			r5TJgfb4hTXZXQy96nozhZmhO6NTS5cVe3w+q6VUxHc=
+			O2BtMOt7ekJF9blrRh2G3DEZmKPgoYZYPNf0D/e/GpE=
 			</data>
 		</dict>
 		<key>Headers/EZSaaSVCCorporationAccountModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			saeZx2v95JtCcP1zqlkllLNM1i0=
-			</data>
 			<key>hash2</key>
 			<data>
 			hIkuJADni4XKDM5yf6+XSfTs6t6Bf8o6YB5ZA8wctsM=
@@ -1083,10 +1039,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCCorporationMemberModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TgT3D8kaR+LBPkCz6zSZZAII25c=
-			</data>
 			<key>hash2</key>
 			<data>
 			hOIzw21g2dUPWOhgtgTFl9magSQsIGc07dsa6F3Ze4Y=
@@ -1094,10 +1046,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCCorporationModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YVB5bllC2xO64uSkKKL4i4PBTfY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ea/Tfn3KWffUjRSRttOy1XXSmLshyfJiqH39M58Q0G8=
@@ -1105,10 +1053,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCCorporationOrgModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			821k9XN9QLRRISFtFcW59kNALVA=
-			</data>
 			<key>hash2</key>
 			<data>
 			siRxMUOU1zO1yvh7XlLX+85/s2+kssYWVIfHM9cVdcI=
@@ -1116,10 +1060,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCJoinMemberModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8ZWiAW2zXw8aDtfFLYyN5LwW+t4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZNfuZahyJdUVjX6df/pvL9LRaQTLcUT5GzDQg42dcjc=
@@ -1127,10 +1067,6 @@
 		</dict>
 		<key>Headers/EZSaaSVCOwnerModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1eE0ziT9x0wrgrS8bq6C2R1Fwsk=
-			</data>
 			<key>hash2</key>
 			<data>
 			wg29g4BjvGVsUJ8XUMyhP+5Vc4iJs5LXMtJphXpw1DM=
@@ -1138,21 +1074,13 @@
 		</dict>
 		<key>Headers/EZSaaSVCRoomModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZXOud4nVfe24BU+JzTloFQSZk7M=
-			</data>
 			<key>hash2</key>
 			<data>
-			oFAioxtLY//QQvow3AEBSQXKOGBVWRQifShAgd3TsrM=
+			YIh1nEyN8M4w/hgL0vkTnjZwj/W9xoEWqJrx6US6hxE=
 			</data>
 		</dict>
 		<key>Headers/EZSaaSVCSearchResultModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F1S9TpTHMR6FBKMlSu6fswQ9MaA=
-			</data>
 			<key>hash2</key>
 			<data>
 			+V/gr2fbNRIcVTB6tIszOeARfXAsmqcw16hJksWV/Zc=
@@ -1160,10 +1088,6 @@
 		</dict>
 		<key>Headers/RTCEnum.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			95yT8AIL7qiC0owBYqNAD3qH6Eg=
-			</data>
 			<key>hash2</key>
 			<data>
 			b9sXCVx3QXMsnKztHvUJ01yK9DsmsV4S/9xbTmCGK0I=
@@ -1171,21 +1095,13 @@
 		</dict>
 		<key>Headers/RTCErrorCode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KjzJ1U9DAZduPER5augKPi3c9c4=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ykj132e3P5DosSi9Kr9IsTMXsZRp0sVGltId/FAWa6o=
+			3PyI9IkbKKVueV7kom4iMLHF9phAC9uz7iR0wfl2YXk=
 			</data>
 		</dict>
 		<key>Headers/RTCLineGroupModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m+8QhGKSCYYI07hCHzdjSlrvg1M=
-			</data>
 			<key>hash2</key>
 			<data>
 			VBrET9nykHIyEzEYRQZ3J95UtEcJ9aU80VtWwetElSQ=
@@ -1193,10 +1109,6 @@
 		</dict>
 		<key>Headers/RTCMemberCallStatusModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xqs1AjoVzhhPLx6sKH1z6xlrAG0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ReBnrsplgWUW6nVJqyZrgen6W6AvWdOIo0AZYGaaiZg=
@@ -1204,10 +1116,6 @@
 		</dict>
 		<key>Headers/RTCRoomVideoRecordModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZdhwbazLHmVS1NfkOFFERvNXTO0=
-			</data>
 			<key>hash2</key>
 			<data>
 			SnttHvgy/4Ggw9gtc88hprK6fMW3vne+6+mbZi7PfmM=
@@ -1215,10 +1123,6 @@
 		</dict>
 		<key>Headers/RTCWaitRoomMembersModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			65rWGl/snSzQVIpxt/76eNz4bN4=
-			</data>
 			<key>hash2</key>
 			<data>
 			+HOS1JdMFJMOA0vNpTiwPABHQ7xxHhhCIe7GEiC1vwM=
@@ -1226,10 +1130,6 @@
 		</dict>
 		<key>Headers/YSNavigationViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lK7v/5Ja/hBb9noEbNRldXwzx+M=
-			</data>
 			<key>hash2</key>
 			<data>
 			RZ8iBxPSytSW48XS2SCjuvnEV6/1s6/R/wFLt4l1giA=
@@ -1237,10 +1137,6 @@
 		</dict>
 		<key>Headers/YSRTCAPIConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pS1JufyHEkFJIYgNOEYfocyr3j0=
-			</data>
 			<key>hash2</key>
 			<data>
 			W1cn7YK1xylAFNrYIv371x4eWO/+9w8vigp4l8AnPN0=
@@ -1248,10 +1144,6 @@
 		</dict>
 		<key>Headers/YSRTCAppShareExtension.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xHgPnek9BcbWvYaMzKTPhxjTRxM=
-			</data>
 			<key>hash2</key>
 			<data>
 			lf3vJkJAVybIinS5xAemw56mEjBRCCGuIrOj6yYTCiU=
@@ -1259,10 +1151,6 @@
 		</dict>
 		<key>Headers/YSRTCExpressDefines.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oAbvyhhmaFto52QMeFTGXOPxQNM=
-			</data>
 			<key>hash2</key>
 			<data>
 			3T4M9MtYjPsHK+wsigT3xoQ6DwS4RvnEfiD90WXSlFc=
@@ -1270,10 +1158,6 @@
 		</dict>
 		<key>Headers/YSRTCMobileRTCAuthService.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7nm59JE2cds/jNvlOB5r+dALpH8=
-			</data>
 			<key>hash2</key>
 			<data>
 			YgWHPGopxyUDf+5SlU1dso8OoExETPMGkP1pf54Qt6Y=
@@ -1281,21 +1165,13 @@
 		</dict>
 		<key>VCSAudio.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vxLlr6owf//qWj68+tN1gkD4PII=
-			</data>
 			<key>hash2</key>
 			<data>
-			xSWpqRKlhHRfEsmHAX9h+le0Esd9/g4vUDUtjSxevmQ=
+			Xe9xZxqjBU0CB2n76pBzgcWe4DNQV/zKFJZN+HOGuZE=
 			</data>
 		</dict>
 		<key>VCSAudio.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x34WNwT+k7FLwMYbO69hJDMyl+M=
-			</data>
 			<key>hash2</key>
 			<data>
 			ANAy6Q8+xss5Fksbpi2b7n2YvVCSXgtOej4DUFdQ1T0=
@@ -1305,10 +1181,6 @@
 		</dict>
 		<key>VCSAudio.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Kz23S7AIPU8H1xGLt/LeHIzE0RE=
-			</data>
 			<key>hash2</key>
 			<data>
 			RkMyOGCJXw22mEu0/eCtYLrkyrS/jzO7cHQ4IwX0gX4=
@@ -1318,10 +1190,6 @@
 		</dict>
 		<key>VCSAudio.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q6om0728AI94osZRTUurKf5A8Bg=
-			</data>
 			<key>hash2</key>
 			<data>
 			dTgxnVAvnxGiaDCtiyIMQ5MmcbTXIHsc6mtX5tQnMc8=
@@ -1331,10 +1199,6 @@
 		</dict>
 		<key>VCSAudio.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w7UKf8kJIAhrDluH72yZRo7Ntaw=
-			</data>
 			<key>hash2</key>
 			<data>
 			nGQFiahZ5X5YM/Qg90XbFDR2q7OmkIVQpi/D2VEDwOI=
@@ -1344,10 +1208,6 @@
 		</dict>
 		<key>VCSAudio.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mbhBUdJyUQw8TLfiWDXs1V0O2/I=
-			</data>
 			<key>hash2</key>
 			<data>
 			1zYfOBRkeiJfcvMdi2hMfWH+N6QQpVyt5eG9ySMt3lw=
@@ -1357,10 +1217,6 @@
 		</dict>
 		<key>VCSAudio.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HqukTQoChiXjPjLOauepDCQ1MoM=
-			</data>
 			<key>hash2</key>
 			<data>
 			0K51BQElV5GIChOczph5rY+AhlMv0ajYcNcBOK46/nk=
@@ -1370,21 +1226,13 @@
 		</dict>
 		<key>VCSBeauty.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j2CsF/093eiKaoSSW46JeEUKP3c=
-			</data>
 			<key>hash2</key>
 			<data>
-			TuWOZAICD4P+isSmaMi+ZSNTiNCBsU9se1o08HCFDx4=
+			CKS1adUDFkfTBYfztC4ic++8wlKo4/wqMocAmJWYpo4=
 			</data>
 		</dict>
 		<key>VCSBeauty.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXkZErVoVNae+DkJsQbWuCLl6hk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VjfitwKbKxnxa6v4gL6Pv7hJVslfOPBKv09piVdWJxQ=
@@ -1394,10 +1242,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i5dBTZF2NyGRFPOGYnbQ40NI5Ss=
-			</data>
 			<key>hash2</key>
 			<data>
 			UNHDVngKgq90viJMhpZ4j6wgO4iAQjvKceX9/tRydG4=
@@ -1407,10 +1251,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/face_beautification.bundle</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IFC0VnbhbHx+bQKvzC7PlKMwGf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			B/1+A/LL/daYW38AIX1sr8ZozAE5TYj4iEGDlyr32So=
@@ -1418,10 +1258,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fHyM1U7TOEngagIL1Vxal3YnrsQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			OeurVVoGoXaQpKgDL6t5GP+UjZM4GegJEgkrX44eyYY=
@@ -1431,10 +1267,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TAezVSGOgahMCGDc+QywMIkjyHE=
-			</data>
 			<key>hash2</key>
 			<data>
 			PCFggYMfRU6//8VWaFBaWAxir9I7Ov/MPI3jq9+yaX4=
@@ -1444,10 +1276,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q0EgkWgSmUhEQydk7+5TBawGkkA=
-			</data>
 			<key>hash2</key>
 			<data>
 			O6racnyGhMt39v2PqQw2+Kfr1raQfUtYNoMfLj0TMa8=
@@ -1457,10 +1285,6 @@
 		</dict>
 		<key>VCSBeauty.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ybk62ZyT4mdRGx21iagYIRhSygM=
-			</data>
 			<key>hash2</key>
 			<data>
 			QUjpGYu67f4OyQGt/I0U0gPIIL7uIJvf2KZc7RMOpLk=
@@ -1470,21 +1294,13 @@
 		</dict>
 		<key>VCSDrawing.bundle/Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+z8b7FCR53Kd6Y4m1D6F6A9y/OU=
-			</data>
 			<key>hash2</key>
 			<data>
-			YQOEMO2aa+v+GOzk9V4Bx0zRIlzymw5RS6Y1MoDfGzQ=
+			y5IbMCCm+nn86UkXQdijCIyz9AIaFptHrWLDaVTsxeA=
 			</data>
 		</dict>
 		<key>VCSDrawing.bundle/Base.lproj/VCSWhiteBoardView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			buNaodCYFY0wYTYxFidO93zF1tk=
-			</data>
 			<key>hash2</key>
 			<data>
 			fsVQgTr6pQ8YbDPLk/ZHlxiVr1WJ8peW2PYBsewCyFk=
@@ -1494,21 +1310,13 @@
 		</dict>
 		<key>VCSDrawing.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Syb//XUleQkSiJVejOFP6EfyLl0=
-			</data>
 			<key>hash2</key>
 			<data>
-			VSJNMqnChJ84TTmMvu0RRRQYwfpTZtHE/wsapzIywGQ=
+			EfxtZiIf7pgMyzcG44ReZ+Z3wJITAfyg5wVKdUt+k3c=
 			</data>
 		</dict>
 		<key>VCSDrawing.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			unDdCC2mNS69Gj6Wo6Mo4a94Gsc=
-			</data>
 			<key>hash2</key>
 			<data>
 			UkANM7cjbXsFChPjXHkPITk9/gdEBBmuqC5NkaD1tzw=
@@ -1518,10 +1326,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/en.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MRN7cgPC6AztejZQHnhgRU/Bjfg=
-			</data>
 			<key>hash2</key>
 			<data>
 			7pXQuOeXofvN4JVO3th0f4vApvCtiNB7le3kh6l4C8g=
@@ -1531,10 +1335,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tr99m5yCAk/Fr+qGVIf39O1zo2Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			LgFZlRrSFGgQ3bE72wEGCJPBf6STM5nglYyQeyJI/JI=
@@ -1544,10 +1344,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/es.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			viN4zAtUx54xr4HkEcC9II498XU=
-			</data>
 			<key>hash2</key>
 			<data>
 			bnp5yLXByN/tI5Y01LNVMNsP2wXyfLQn/506SmCu7SA=
@@ -1557,10 +1353,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QmxhIoCEuI/w++6MGq71TDWSvsY=
-			</data>
 			<key>hash2</key>
 			<data>
 			zBA38FSu7/WVqHRkrPyN2TNoxL/bwNoqf8yMOfR+70I=
@@ -1570,10 +1362,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/ja.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7fwXCSi3dJiw9MuoH0eIgNbuneQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			1onBOv6hDmcgqRjHf4uLdGnUQFM/QyaIot/BUrP02JQ=
@@ -1583,10 +1371,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iaOHJWyFT4BgB7rASTekBiuOzTE=
-			</data>
 			<key>hash2</key>
 			<data>
 			53nzCpMdTvN6UnN33EC9zMvBGZUlUFckLPzp2MfyWYo=
@@ -1596,10 +1380,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/ko.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4LN0FM+NVARWqhNz4HCefmFrUdM=
-			</data>
 			<key>hash2</key>
 			<data>
 			4cS/CdniXrz/+Wbi0P9kUqTORLba2rbAuzGCK0ScEw0=
@@ -1609,10 +1389,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qlbcktHdaBjFPN0GUk9Y+Ws46JA=
-			</data>
 			<key>hash2</key>
 			<data>
 			AgGNUrFd9CTSIgyNGWyuXJ0vFL8/r56wiOHvm7oYSqU=
@@ -1622,10 +1398,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/zh-Hans.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GXBaNfiJmP+W4I3xB1JFj2L1MXE=
-			</data>
 			<key>hash2</key>
 			<data>
 			bxpJ8vXcaLiUcOugIJjO9pEXCkQ4YeCVTRRek6d9JNw=
@@ -1635,10 +1407,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qCJE5s6r+zapshtiAlAB39q/YDU=
-			</data>
 			<key>hash2</key>
 			<data>
 			TBIuzUBFnqN24hg7nOySJcZiyaDrb+jZjaz9uNvtPPE=
@@ -1648,10 +1416,6 @@
 		</dict>
 		<key>VCSDrawing.bundle/zh-Hant.lproj/VCSWhiteBoardView.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/RhXai3AHWa/nOPxjfAnevpk5OY=
-			</data>
 			<key>hash2</key>
 			<data>
 			057Oe34HaloDCvXm+dQC4/rhB6q757Yi17ORUWwC/4o=
@@ -1661,21 +1425,13 @@
 		</dict>
 		<key>VCSLogger.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FVsU4l4ggxLJQhRJ2k5TMtZ0mdg=
-			</data>
 			<key>hash2</key>
 			<data>
-			0gqv0z8iWeXZzQQHh/N7ZcS+W5HjXxwbkejsgDn9fUs=
+			lAFCgHcF88r17gGgf9LjGzIzLHwYDgKIqsjiV1br3So=
 			</data>
 		</dict>
 		<key>VCSLogger.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1685,10 +1441,6 @@
 		</dict>
 		<key>VCSLogger.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1698,10 +1450,6 @@
 		</dict>
 		<key>VCSLogger.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1711,10 +1459,6 @@
 		</dict>
 		<key>VCSLogger.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1724,10 +1468,6 @@
 		</dict>
 		<key>VCSLogger.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1737,10 +1477,6 @@
 		</dict>
 		<key>VCSLogger.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1750,21 +1486,13 @@
 		</dict>
 		<key>VCSLogin.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pR4+3/rTBSwQKtdebriSB0ij1UY=
-			</data>
 			<key>hash2</key>
 			<data>
-			lBcvXVywpN4SJBlbZXTeb2JJdd4lG/Ko6hkOOK9j3ps=
+			Ucqm2KYxku4DqH9fDBZmtmFqCd4UKs7FCS27fkcQS/0=
 			</data>
 		</dict>
 		<key>VCSLogin.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1774,10 +1502,6 @@
 		</dict>
 		<key>VCSLogin.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1787,10 +1511,6 @@
 		</dict>
 		<key>VCSLogin.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1800,10 +1520,6 @@
 		</dict>
 		<key>VCSLogin.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1813,10 +1529,6 @@
 		</dict>
 		<key>VCSLogin.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1826,10 +1538,6 @@
 		</dict>
 		<key>VCSLogin.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1839,21 +1547,13 @@
 		</dict>
 		<key>VCSMessage.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eJ2RGn/d3F/+AQPYlLG70qtBdUI=
-			</data>
 			<key>hash2</key>
 			<data>
-			y0lEhI5qvU1O9JvGtagFH8OFlJVtwau2+iD0TmCNYx0=
+			pCls8IiMTRa/DlvHIsbr0xWnkq2XLj7psFneknJK99E=
 			</data>
 		</dict>
 		<key>VCSMessage.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1863,10 +1563,6 @@
 		</dict>
 		<key>VCSMessage.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1876,10 +1572,6 @@
 		</dict>
 		<key>VCSMessage.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1889,10 +1581,6 @@
 		</dict>
 		<key>VCSMessage.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1902,10 +1590,6 @@
 		</dict>
 		<key>VCSMessage.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1915,10 +1599,6 @@
 		</dict>
 		<key>VCSMessage.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
 			<key>hash2</key>
 			<data>
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
@@ -1928,21 +1608,13 @@
 		</dict>
 		<key>VCSNetCall.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wImtSSnHbmUD/Gk6qKAtgk1k3mY=
-			</data>
 			<key>hash2</key>
 			<data>
-			Z2re8rbTvJHu9OaXj6Nk+4FC7zK/L1bbAheb5iR+gpg=
+			160lQOWKGw2sofAIG+ydPJFwz4er1L47u77qlTH2tU4=
 			</data>
 		</dict>
 		<key>VCSNetCall.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Os+mgHZV5eZSDZcGz4z+ojr2SWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			dObfvJ0Tb029WY43/Kzlzs/kWbMQ3r7CVNgz5aSkHok=
@@ -1952,10 +1624,6 @@
 		</dict>
 		<key>VCSNetCall.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mnZzPMksZMNkE22odUTQbULi1b4=
-			</data>
 			<key>hash2</key>
 			<data>
 			voBjKc2nDM1rN/Ez02IHcAKv43heHq2/GKtocN4JUqw=
@@ -1965,10 +1633,6 @@
 		</dict>
 		<key>VCSNetCall.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VFJKtWfv8i+Bv9teZPSuPmaGc0E=
-			</data>
 			<key>hash2</key>
 			<data>
 			n/Dt8P/kT0z/a0VKsZLKBEfWiY1aDLkEZeouTenI6Fs=
@@ -1978,10 +1642,6 @@
 		</dict>
 		<key>VCSNetCall.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3AV7YWgr/u3InDo9LQeOlc46bvk=
-			</data>
 			<key>hash2</key>
 			<data>
 			8aGLMpV4fMHM1BQQjoJea08O1SBSHdDC2c0Smltgu6k=
@@ -1991,10 +1651,6 @@
 		</dict>
 		<key>VCSNetCall.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Qh/9Q3rSVxg661WgmbHE6YTsaSQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			VQQ4JVVE8RjbmL+UCzu9bJUa5x532kT7oxsg10xZJWU=
@@ -2004,10 +1660,6 @@
 		</dict>
 		<key>VCSNetCall.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZV01WgA3i7XuVIH7gNWAXxAYIck=
-			</data>
 			<key>hash2</key>
 			<data>
 			OIc9xwWYFyRkEtYBDn4sDj6zm97mqQHDxqx13hBttuc=
@@ -2017,21 +1669,13 @@
 		</dict>
 		<key>VCSSDK.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z2OwX43d6jR33gCS0IYmt1GRC3w=
-			</data>
 			<key>hash2</key>
 			<data>
-			R/sqNk1BNrSD3u0t/TrPKOOE48OLXzDPs74Ao6F+Q+k=
+			3OahVFciLdjFbpdFagUxzHXeVLw5h8gfmTXZyGANFI0=
 			</data>
 		</dict>
 		<key>VCSSDK.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kSacKTJV9X2HIkMKB1IxuEYNfkw=
-			</data>
 			<key>hash2</key>
 			<data>
 			0RjQLUeX1gv+VVLVroVV3RTPkY3LriGsujHfeVY/vBY=
@@ -2041,10 +1685,6 @@
 		</dict>
 		<key>VCSSDK.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oNGBR8TbYKF73j/T7iiqgjmOzis=
-			</data>
 			<key>hash2</key>
 			<data>
 			RtCGVDmcVQpZoU3rxRevcSeObWn77ZqBzp0M9F530z0=
@@ -2054,10 +1694,6 @@
 		</dict>
 		<key>VCSSDK.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uzXIWRvM0dTCHa4ZTkhr9aWD7MQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5s8y89YqizG10W515nBNAoQc2ZG/K7uy/HopmzPFRZU=
@@ -2067,10 +1703,6 @@
 		</dict>
 		<key>VCSSDK.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cbSXZAJb4S8ouYGn5zMJm3/gjrU=
-			</data>
 			<key>hash2</key>
 			<data>
 			qas/1KD0jNUStu6eYt1naZrqJJ1yYJZgTfVj1BGT4t4=
@@ -2080,10 +1712,6 @@
 		</dict>
 		<key>VCSSDK.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lLA07vfDTavXH5bPspGpC6C+zbo=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZlecYsw5wzYR8Ew8AmU0xevNkfjZSCMG/XH2lgH7J+8=
@@ -2093,10 +1721,6 @@
 		</dict>
 		<key>VCSSDK.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Bo2Wc29C/SEkqN6F54QRbNGD/kA=
-			</data>
 			<key>hash2</key>
 			<data>
 			OO9TlWa/sIahoMg0/MHYEJjXzBLxHtzFRR4183MST70=
@@ -2106,10 +1730,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/MMVideoPreviewPlay@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a0njhOHaqgjMkmBpYWYxnMlnDyU=
-			</data>
 			<key>hash2</key>
 			<data>
 			rpJCY4irJtYw12iyifl9WFsAVCDUZ60jE77ubgcOV/4=
@@ -2117,10 +1737,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ckX1OIPbendWtIY9d+j+kbbo9Vw=
-			</data>
 			<key>hash2</key>
 			<data>
 			eQMhR9TDkW66Ej6Wzh3vt0DqefvrcweFEnTJVgx+pmE=
@@ -2128,10 +1744,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/VideoSendIcon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w2Y6klkQgHjIYsEZUfBZs3Yt+/0=
-			</data>
 			<key>hash2</key>
 			<data>
 			79aZK+4fli3Lb+aQ6bLKa6kFIv63uO6b6OwDDRqEKeo=
@@ -2139,10 +1751,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IueCr5c9C8ggBRT/oMNIKjN//oM=
-			</data>
 			<key>hash2</key>
 			<data>
 			7n7P50uCJd5pOZK1WnPfqjLonhVcUIy68p0FJyRPGVA=
@@ -2152,10 +1760,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/bg.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9iFCMNIrzLNh0Z5XMGz2/cbJKlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			m3yjbPNiTnVy/pVjyXryEF23tzP47q/fzFLFyQVRv6k=
@@ -2165,10 +1769,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/cs-CZ.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AOs/BdbUNZJCqm9u0zXx1Dr70oM=
-			</data>
 			<key>hash2</key>
 			<data>
 			yUr3l9x/yfJVpAo5nmrRkOJRscl7QdwWFm7ljCKcLU4=
@@ -2178,10 +1778,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/de.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hVrkDSjLKDCDi65Jd55hyy5NoMc=
-			</data>
 			<key>hash2</key>
 			<data>
 			ppT1+QJHq8a6mmDB+L9MZhwyVOtlk7sRBRhgYS+w+I0=
@@ -2191,10 +1787,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/el.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OhImXR4vCPXE26FxI0JG4kUnn4s=
-			</data>
 			<key>hash2</key>
 			<data>
 			kF5IQJx/cxB57DLUZ5uJKLLx3u9e5huGt35aApS1QKg=
@@ -2204,10 +1796,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iG9YoLTlONGlG0L3zPmkucko6eM=
-			</data>
 			<key>hash2</key>
 			<data>
 			1ee2cG8VdtdK/GbzneOgglxI7xCsiLgIY0w1eFDUxyo=
@@ -2217,10 +1805,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fprWb8jNspO1RK81o0i4/iNF/CE=
-			</data>
 			<key>hash2</key>
 			<data>
 			hElWwyEGVKG45janiCGJbautB8KLg3Vir2LVUbdlmpI=
@@ -2230,10 +1814,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IBgNg1HiCpyU5fFlNzlqhTfexuk=
-			</data>
 			<key>hash2</key>
 			<data>
 			L69B6K8REHgx9kHxR7l9PIXEGxlP2p66dxRcXtYkNf4=
@@ -2243,10 +1823,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/he.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5NLcl/zOOzJFdO5sEPk/XK/v9sc=
-			</data>
 			<key>hash2</key>
 			<data>
 			xbduqJIn4vGRLiOCY4WPbVbjSIprQaw0WV9B3+Ro3jo=
@@ -2256,10 +1832,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/iCloudError@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AS/7rIH13tcT0AxvMNARNRmQvOI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ckFgykIXP3PaBMHyajDzLPg4tomXcJjca63EUDeh5dQ=
@@ -2267,10 +1839,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/it.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/f6s6Mso/r7PQmQopk1fX5aOT6o=
-			</data>
 			<key>hash2</key>
 			<data>
 			m/E90j9Q/Wi8BdtQ7m1aZIDrMbkvgyW9XmPCdbae/iw=
@@ -2280,10 +1848,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T7ETuNs/PISRfyoqKAWQt9A1I8U=
-			</data>
 			<key>hash2</key>
 			<data>
 			BurIe+6NL+fgTz2xXPJae9wZX20YLthXWpLpjnqXCgw=
@@ -2293,10 +1857,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ko-KP.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+zUkLBYd7QQyrBm7ke5n9OBhabM=
-			</data>
 			<key>hash2</key>
 			<data>
 			f95tc1mNXno7jgTj2Fvu0V5C00GQjH+5+K12AjcDf9k=
@@ -2306,10 +1866,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YO0fH1/kVXD+gR38trPlGgzz8b4=
-			</data>
 			<key>hash2</key>
 			<data>
 			UyMg/0dD1m/tT69ZaHdcJRhiI8WHC2vooUh8FA2VuB0=
@@ -2319,10 +1875,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/navi_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M1rsPoGnPAmXKZoRtK1wzcseNYI=
-			</data>
 			<key>hash2</key>
 			<data>
 			1NcM2CvH/5ZK4mtvqpo5QEYVaosOfwB4Xm5A4XNfHsQ=
@@ -2330,10 +1882,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/nl.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9ITvtXROaTTN6DdGZgtsVJ4xU/s=
-			</data>
 			<key>hash2</key>
 			<data>
 			vlJvtEBhfvpnb2YzyrWSNk84wxq43Hy8Qo1Hvf3DELE=
@@ -2343,10 +1891,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_def_photoPickerVc@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TowaKFKzU3fYhK+It4oKIhuCpk0=
-			</data>
 			<key>hash2</key>
 			<data>
 			MtEKha2kp7hKoO2wSA7YGxzTBDlW1Yeg1yI0MrLoiWs=
@@ -2354,10 +1898,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_def_previewVc@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TowaKFKzU3fYhK+It4oKIhuCpk0=
-			</data>
 			<key>hash2</key>
 			<data>
 			MtEKha2kp7hKoO2wSA7YGxzTBDlW1Yeg1yI0MrLoiWs=
@@ -2365,10 +1905,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_number_icon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nKZxsZi268vELJiTN32F7cHAkY8=
-			</data>
 			<key>hash2</key>
 			<data>
 			vA84N0t2q9GzYYF3yf1m6Fn44ixKZosJjOegAZsHOdk=
@@ -2376,10 +1912,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_original_def@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uaNzK2Fysh8bWaGPqXKapGGUX9g=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ssgn02Ijdm64+O1bE25CQCGfSWqoeMZGBoBJQHYLzS8=
@@ -2387,10 +1919,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_original_sel@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qqo+wstTy+/qO7CID91ZNrhq/Us=
-			</data>
 			<key>hash2</key>
 			<data>
 			MLhfh5RPkkmmMffAyV55azOoDgepKoCK2fXnavGMZNM=
@@ -2398,10 +1926,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_sel_photoPickerVc@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1maHDZQyFhPSgDG5iqKrPz10BQE=
-			</data>
 			<key>hash2</key>
 			<data>
 			s6RfkvNkaQeeKIEe9rw2kIJjoUdN7J7xt81ONMfSLAI=
@@ -2409,10 +1933,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/photo_sel_previewVc@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YGb26ZPCkiAL0gm2EPZvp52S3h4=
-			</data>
 			<key>hash2</key>
 			<data>
 			b4LvW24gDlJWARWOh/M30GpmslkX+8hVxCMRtEj6Z0U=
@@ -2420,10 +1940,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6by9keQgMis1uBmhHUNRjJaWiKw=
-			</data>
 			<key>hash2</key>
 			<data>
 			QeWsM68yHmWQYXbYVxkbrk1BZtSDnp5jNZuZFeKtnco=
@@ -2433,10 +1949,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/preview_number_icon@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nKZxsZi268vELJiTN32F7cHAkY8=
-			</data>
 			<key>hash2</key>
 			<data>
 			vA84N0t2q9GzYYF3yf1m6Fn44ixKZosJjOegAZsHOdk=
@@ -2444,10 +1956,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/preview_original_def@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GVzy25+bRYA1MrAG22+vkO35VRo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xrv0NGLE9a4gFpLK82tB0r4HnaSv3CP0TeJfwkwjRw8=
@@ -2455,10 +1963,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ss6/PvSA49PLbiTjYRjDFy5O76o=
-			</data>
 			<key>hash2</key>
 			<data>
 			dUnTZ2179IEMeEtaThAMVSeM/W7R9LO9ie6OUZ+Rv28=
@@ -2468,10 +1972,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ro.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fP1a0J/qms+Gehki3Q7Tar6DDyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			patJVuCWJqNqyQtJEfx3kqU0FBUjbUm0sKRjHzqNsVg=
@@ -2481,10 +1981,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DFMykgdMf06Y2n5t3UEucKnDdKg=
-			</data>
 			<key>hash2</key>
 			<data>
 			WR/jdDJOsnqVI34xnYpKoqSugyB2tLucHc3rw1D4NZM=
@@ -2494,10 +1990,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/sk.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4OVvgayBQq9gWXO1KX/R3IeUf4U=
-			</data>
 			<key>hash2</key>
 			<data>
 			jIOait0Tf83berjX3pOoxN0Io1fmawapAZ4tXga2VVQ=
@@ -2507,10 +1999,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DUxlv5atvvlwMyWyUyxgWCdAqB4=
-			</data>
 			<key>hash2</key>
 			<data>
 			BIJ/T3vCETjzmiKZ/c1OFEnZgCc8HzwEHHI3BlM82IU=
@@ -2520,10 +2008,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/takePicture80@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FRMjStf508fLB8xVTzk1PXoASmw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Uv8RFUDbC4a97vuDrN1kYh6ZX5yDYYkhOGgBgInVbnc=
@@ -2531,10 +2015,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/takePicture@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I0tOOwrDT9Q2o3Jd0OeSTb4bPAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			djfY78DEKJ8HhXY8//sW7zJT97v7gzXHMl8M/LGncJk=
@@ -2542,10 +2022,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/th.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wV9IBdS2EWB8QHDnSfl3irHYgpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			XWWhAqWSEcNFZ5sV6szPerP3KJBbejoJK0npQZrLWYc=
@@ -2555,10 +2031,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			juDIiEhj6wbZqzvaAVa6LcKXXZc=
-			</data>
 			<key>hash2</key>
 			<data>
 			K9FK8Z5amF59XgxfK1zmJZDnD6uOZRz79heyN1Sg6L8=
@@ -2568,10 +2040,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/uk.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			d80ZKLIgueVFAXUnDUOPCdcNcbw=
-			</data>
 			<key>hash2</key>
 			<data>
 			3RHqZYjU1N+OIkXJ8TIQ6M97sxCiVTd1Bse+pgFKZpA=
@@ -2581,10 +2049,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/vi.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m0rcmipwcrwcm7xKsaSvhYwBN8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			PysjcKgZxCtFP3uj0hYaUwOwngaFUW96+ULj3pLVX2Q=
@@ -2594,10 +2058,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+8rjSDkniGZneh0sZm2R/Ie0VLg=
-			</data>
 			<key>hash2</key>
 			<data>
 			sC7+7BjG6ZS/kcafxe5UirNQOWY1e2ypO5dWrIXbUBA=
@@ -2607,10 +2067,6 @@
 		</dict>
 		<key>YSImagePickerController.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hPUIN/YEL7iYHyVzyZNEzUJ6/Lc=
-			</data>
 			<key>hash2</key>
 			<data>
 			DYmDgr4ZUzbDxbVco30tB6Boi/LH+E0W5WoU5KIG3Sk=

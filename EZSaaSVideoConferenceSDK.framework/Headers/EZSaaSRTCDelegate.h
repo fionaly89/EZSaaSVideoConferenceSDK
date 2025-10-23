@@ -164,6 +164,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 成功退出会议
 - (void)onMeetingLeaveSuccessfull:(EZSaaSVCConferenceModel *)meetingModel;
 
+/// 成功退出会议后觅讯评价弹窗
+- (void)onMeetingLeaveSuccessEvaluaTip:(EZSaaSVCConferenceModel *)meetingModel;
+
 @end
 
 
