@@ -25,7 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) EZSaaSMobileRTCAuthService *authService;
 @property (nonatomic, strong) EZSaaSMobileRTCSDKInitContext *context;
 @property (nonatomic, assign, readonly) BOOL bInMeeting;
-@property (strong, nonatomic) EZSaaSVCRoomModel *roomModel;
 
 @property (nonatomic, copy) void(^EZSaaSMobileRTCSDKShareChannelBloclk)(id data);
 
