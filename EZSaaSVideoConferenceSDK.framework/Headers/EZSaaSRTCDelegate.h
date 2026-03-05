@@ -167,6 +167,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 成功退出会议后觅讯评价弹窗
 - (void)onMeetingLeaveSuccessEvaluaTip:(EZSaaSVCConferenceModel *)meetingModel;
 
+#pragma mark - 会议音频额外处理
+
+/// 录制开始
+- (void)recoredAudioStart:(NSString *)roomNo log_id:(NSString *)log_id;
+
+/// 录制音频数据回调
+/// @param data 音频数据
+/// @param length 音频数据大小
+- (void)didRecoredAudioData:(void *)data length:(unsigned int)length;
+
+/// 录制结束
+- (void)recoredAudioStop;
+
 @end
 
 

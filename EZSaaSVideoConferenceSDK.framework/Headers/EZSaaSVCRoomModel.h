@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *cid; //ID
 @property (nonatomic, strong) NSString *no; //房间编号
+@property (nonatomic, strong) NSString *noOriginal; //房间编号
 @property (nonatomic, strong) NSString *sdk_no; //SDK房间编号
 @property (nonatomic, strong) NSString *password; //入会密码
 
@@ -35,6 +36,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger webinar_screen_shot;
 //只有会议类型是网络研讨会该字段必填。新增入参聊天字段，默认0不禁止；1代表已禁止嘉宾；2代表已禁止观众；3代表已禁止嘉宾和观众。
 @property (nonatomic, assign) NSInteger webinar_chat;
+
+//im群组id，如果通过im群组创建的话需要传入
+@property (nonatomic, assign) NSInteger im_session_id;
+
+@property (nonatomic, assign) NSInteger integ_member_limit; //入会权限（0：允许所有人、1：仅允许企业成员、2：仅允许受邀成员）（不区分企业内企业外）
+@property (nonatomic, assign) NSInteger integ_waiting_room_state; //是否开启等候室（1：是、0：否）（不区分企业内企业外）
+@property (nonatomic, assign) BOOL integ_water_mark; //是否开启会议水印（不区分企业内企业外）
+@property (nonatomic, assign) BOOL integ_screen_shot; //是否允许会议录屏（不区分企业内企业外）
+@property (nonatomic, assign) NSInteger early_entry_perm; //提前进入权限（1：允许成员提前进入、2：仅允许成员当天进入）（周期会议默认选2）
+@property (nonatomic, assign) NSInteger allow_add_friend; //是否允许添加好友 0-否 1-是
+@property (nonatomic, assign) NSInteger auto_mcu_record; //自动云录制开关（0：关闭、1：主持人入会后打开）
 
 @end
 

@@ -44,7 +44,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger is_executive; //是否为高管，0 表示不是，1 表示是, 默认0
 @property (nonatomic, assign) NSInteger power_view_executive; //is_executive字段为1时，才会进一步判断该字段，代表该高管手机号码和办公电话对当前token用户是否真正可见, 0 表示不可见，1 表示可见, 默认0
-//@property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
+@property (nonatomic, assign) NSInteger cert_status; //是否实人认证 0-未认证  1-已认证
+
+// 好友相关字段
+@property (nonatomic, strong) NSString *remark_name; //好友备注信息
+@property (nonatomic, strong) NSString *source; //好友来源：MEETING-会议中, GROUP-群聊中, CONTACT-通讯录
+@property (nonatomic, strong) NSString *direction; //好友申请方向：FROM_ME (我申请加对方)；TO_ME (对方申请加我)
+@property (nonatomic, assign) BOOL i_am_his_friend; //我是不是他的好友
+@property (nonatomic, assign) BOOL he_is_my_friend; //他是不是我的好友
+@property (nonatomic, assign) BOOL i_am_in_his_corp; //我是否在他的企业里
+@property (nonatomic, strong) NSString *my_corp_id; //传入的accs对应的 my_corp_id
+
 
 @end
 
