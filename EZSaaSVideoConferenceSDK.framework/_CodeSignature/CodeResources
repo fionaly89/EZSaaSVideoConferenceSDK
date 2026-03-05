@@ -64,6 +64,10 @@
 		<data>
 		8ZWiAW2zXw8aDtfFLYyN5LwW+t4=
 		</data>
+		<key>Headers/EZSaaSVCMeetingPeriodModel.h</key>
+		<data>
+		zqtpBxfwFqfp665YlNYhhzL3CH4=
+		</data>
 		<key>Headers/EZSaaSVCOwnerModel.h</key>
 		<data>
 		1eE0ziT9x0wrgrS8bq6C2R1Fwsk=
@@ -1063,6 +1067,13 @@
 			<key>hash2</key>
 			<data>
 			ZNfuZahyJdUVjX6df/pvL9LRaQTLcUT5GzDQg42dcjc=
+			</data>
+		</dict>
+		<key>Headers/EZSaaSVCMeetingPeriodModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			anKBZfJoSN+sJlGK2Bar9Jtbgw9Y1KnUl0YJKkYQqu8=
 			</data>
 		</dict>
 		<key>Headers/EZSaaSVCOwnerModel.h</key>
