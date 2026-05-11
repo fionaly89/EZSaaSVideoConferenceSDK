@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingServiceDelegate> delegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCAuthDelegate> authDelegate;
 @property (nullable, weak, nonatomic) id<EZSaaSMobileRTCMeetingEventDelegate> eventDelegate;
+@property (nullable, weak, nonatomic) id<EZSaaSMobileRTCPaymentDelegate> payDelegate;
+
 
 @property (nonatomic, strong) EZSaaSMobileRTCAuthService *authService;
 @property (nonatomic, strong) EZSaaSMobileRTCSDKInitContext *context;
@@ -126,6 +128,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///开启应用内小窗口模式
 - (void)startInAppWindow;
+
+///通知会议组件push的新控制器
+/// @param vc 新控制器
+- (void)notificateMobileRTCPushNewVC:(UIViewController *)vc;
 
 #pragma mark - 检查能否发起呼叫
 /// 检查能否发起呼叫

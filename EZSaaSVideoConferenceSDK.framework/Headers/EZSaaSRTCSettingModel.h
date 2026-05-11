@@ -75,6 +75,9 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 即时会议默认配置
 @property (nonatomic, strong) YSRTCInstantMeetingConfigOptionsModel *configOptionsModel;
 
+#pragma mark - 是否展示用户能力
+@property (nonatomic, assign) BOOL userAbility;
+
 @end
 
 NS_ASSUME_NONNULL_END

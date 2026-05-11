@@ -106,7 +106,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL has_indiv_speech_transcript; //是否有个人语音转写
 @property (nonatomic, assign) BOOL has_indiv_speech_summary; //是否有个人会议纪要
 @property (nonatomic, strong) NSString *conf_record_share_cfg_id; //会议记录分享配置id
-
+@property (nonatomic, strong) NSString *order_no; //会员收费版本v2.6.0新增。研讨会订单信息，预约收费研讨会时返回
+@property (nonatomic, assign) BOOL is_free; //是否免费的使用研讨会
+@property (nonatomic, assign) NSInteger capacity_limit; //参会人数
+@property (nonatomic, assign) BOOL has_attendance_log; //否有成员进出记录
+@property (nonatomic, copy) NSString *vipType; //跳转升级VIP升级界面 类型选择 // vipMonth vip月份 vipYear vip年 svipMonth svip月份 svipYear svip年
 
 @end
 

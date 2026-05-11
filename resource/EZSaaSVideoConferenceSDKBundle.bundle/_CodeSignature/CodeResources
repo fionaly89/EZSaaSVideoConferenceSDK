@@ -12,6 +12,10 @@
 		<data>
 		5r2Cm4dsqxjxkfNd/j/LpsbrsK8=
 		</data>
+		<key>APP不支持共享桌面提示@3x.png</key>
+		<data>
+		GiIUoTG7Hn5sv53nW2imf7C2lwg=
+		</data>
 		<key>AddFriendTip@3x.png</key>
 		<data>
 		dgb39gZUNDKfA7cHr/AZPBNkvF8=
@@ -432,6 +436,14 @@
 		<data>
 		vNqHMzSXlSBDq7/KwDtt0gf+644=
 		</data>
+		<key>correct_paySuccess@2x.png</key>
+		<data>
+		7mQzYMBTIm4Ekj4FEyLduNyWpyU=
+		</data>
+		<key>correct_paySuccess@3x.png</key>
+		<data>
+		YWk26UMcmEyhHcbFTFJzZNQOR3A=
+		</data>
 		<key>dagou@2x.png</key>
 		<data>
 		cP+vOX0dN+Rmpv6hVM2vtB84ZUw=
@@ -489,7 +501,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0DRENkcqF+F7LFQQNVvancQGuxQ=
+			FnCfxkRUcP+3vFiyojg2RQj+tIk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1310,6 +1322,14 @@
 		<data>
 		cLYhDxFv3ErBlhaPkUaU34l/HLA=
 		</data>
+		<key>icn_error_vip@2x.png</key>
+		<data>
+		alvZUs4PlOfWyxgyVCTNBvkSrzI=
+		</data>
+		<key>icn_error_vip@3x.png</key>
+		<data>
+		OPhbTuZHhsGotwApLFtB4f1K2HQ=
+		</data>
 		<key>icn_eyeclosed@2x.png</key>
 		<data>
 		9/1K5GRe20h/M3VXajR5P9KfaYk=
@@ -1501,6 +1521,22 @@
 		<key>icn_meetingSeminar_select@3x.png</key>
 		<data>
 		lRbrCHRhLUJbNmt/LdfDf1mEYvY=
+		</data>
+		<key>icn_meeting_live_normal@2x.png</key>
+		<data>
+		ys4skGW8+7Bv4hIPM9y3AkB2aP0=
+		</data>
+		<key>icn_meeting_live_normal@3x.png</key>
+		<data>
+		WJqEqXW70GDabgLppTN9uhKtX3k=
+		</data>
+		<key>icn_meeting_live_select@2x.png</key>
+		<data>
+		7OLoXycYRwR4oKJMIQ0eM+Vbt2A=
+		</data>
+		<key>icn_meeting_live_select@3x.png</key>
+		<data>
+		hC56y2BxQTguWG8opsl4eTDn/Z8=
 		</data>
 		<key>icn_meeting_normal@2x.png</key>
 		<data>
@@ -2258,6 +2294,14 @@
 		<data>
 		mR9lPWnJYw6rkwVXNqkXH3UI4aI=
 		</data>
+		<key>icon_close@2x.png</key>
+		<data>
+		8It+gMACcQ+mefLNoR/jrh3wmQM=
+		</data>
+		<key>icon_close@3x.png</key>
+		<data>
+		181Xgb3TIBH3VN7u9sCtR0firDM=
+		</data>
 		<key>icon_closeRight@2x.png</key>
 		<data>
 		04GDHH+2k2+qpcC/mHIGj4KXFG8=
@@ -2410,6 +2454,14 @@
 		<data>
 		yDqzzjTdHHi1xTONYKOirR80t1Q=
 		</data>
+		<key>icon_member_enter@2x.png</key>
+		<data>
+		mGmZ/YE4Ikpz05COuq9Yl1jrsDo=
+		</data>
+		<key>icon_member_enter@3x.png</key>
+		<data>
+		x0mwm/ukqLkQMmcbjTXukjhD4Sg=
+		</data>
 		<key>icon_record_new@2x.png</key>
 		<data>
 		Oru9N/Zx6XkOPXPeR07zUb8mEY0=
@@ -2465,6 +2517,14 @@
 		<key>icon_tab_录制中@3x.png</key>
 		<data>
 		w6CZxvzxHoUTZCmJ8WqOYuWFzng=
+		</data>
+		<key>icon_vipbg@2x.png</key>
+		<data>
+		HFvh6TxN2F0kE125tEZoy9rYyZQ=
+		</data>
+		<key>icon_vipbg@3x.png</key>
+		<data>
+		kHW/KiuWaKdzpYrmHFloDjw2N4Y=
 		</data>
 		<key>icon_xian_mian@3x.png</key>
 		<data>
@@ -2968,27 +3028,27 @@
 		</data>
 		<key>meetingEnd_video4@2x.png</key>
 		<data>
-		e/t+KD2CZzYHYhv61kNvY32s+HM=
+		ZOdp+sBWxnJX4Bw+UHXJLlrkR9U=
 		</data>
 		<key>meetingEnd_video4@3x.png</key>
 		<data>
-		aYjhK5lvvzOmYi3fdX7JPLShGcE=
+		ef1HEVrrKV88KEJ2F5VHcWsWyI0=
 		</data>
 		<key>meetingEnd_video5@2x.png</key>
 		<data>
-		iA+Thxb7ZcdFlWIqx5AhSZaG0Ig=
+		Q5L9KBFjRtWyrnjPIYnvcI9jfcM=
 		</data>
 		<key>meetingEnd_video5@3x.png</key>
 		<data>
-		o9vSN1a0VqSwJ2hFR+dk+GhZVYU=
+		V2ID/5aziciBP7DhxlwxHdsnXOA=
 		</data>
 		<key>meetingEnd_video6@2x.png</key>
 		<data>
-		jHphGiPi+f7OXDgfzPJdOx9MR5c=
+		xPry5UTlfjDmv0T440/8MZbBFyU=
 		</data>
 		<key>meetingEnd_video6@3x.png</key>
 		<data>
-		ID3xXwnoTRywik14wIAvPduRohk=
+		HTTf+Q9C/Z0PEx7Z+HaUOuivwM8=
 		</data>
 		<key>meetingEnd_video@2x.png</key>
 		<data>
@@ -3029,6 +3089,14 @@
 		<key>meetingShare_weixin@3x.png</key>
 		<data>
 		/U18uTweJk6/hesEwDiMcMDMfBg=
+		</data>
+		<key>member_level_svip@2x.png</key>
+		<data>
+		THFa5WiZUk6sdVuuN5EnBj5GUT4=
+		</data>
+		<key>member_level_svip@3x.png</key>
+		<data>
+		EJmhSPUnR7vsAxnX5kPHvvvohSM=
 		</data>
 		<key>navigation_icn_add_company.png</key>
 		<data>
@@ -3186,6 +3254,14 @@
 		<data>
 		LQSsb8AbrJd83IroBDjo1i18/u4=
 		</data>
+		<key>setting_checkmark_bold@2x.png</key>
+		<data>
+		3YkR6oJajWCeHamdX52JnGicW0s=
+		</data>
+		<key>setting_checkmark_bold@3x.png</key>
+		<data>
+		S4g0uYUn5SP+FdLa9aodD6OBRd4=
+		</data>
 		<key>settings@2x.png</key>
 		<data>
 		9Vu6KFPVaQyAk1jvBoLXrLFqvTo=
@@ -3293,6 +3369,10 @@
 		<key>torchMode_sel@2x.png</key>
 		<data>
 		ZyG+lplCnsqt7Ju8KM/VR5dObmE=
+		</data>
+		<key>triggerBGView@3x.png</key>
+		<data>
+		NokbPBDb4bpESd7LkwRwP33BTKc=
 		</data>
 		<key>unread.png</key>
 		<data>
@@ -3403,7 +3483,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KaaWC3S0RGCPsbfYp28nQ9/y8xQ=
+			+a6gRYEyyqleBV9P6YbGp1LFT2c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3472,6 +3552,14 @@
 		<data>
 		0jm5Qw2JT8b1xNEdklsFEnpyj7o=
 		</data>
+		<key>会中SVIP标识@3x.png</key>
+		<data>
+		diPStR++rrPiviyfndFQxbm91ts=
+		</data>
+		<key>会中VIP标识@3x.png</key>
+		<data>
+		7cMpOdwuvkxpqXMue4PCBfxUIbY=
+		</data>
 		<key>会议1@2x.png</key>
 		<data>
 		LD8H58gtD/2MFw/tUVObchfmrBM=
@@ -3528,6 +3616,10 @@
 		<data>
 		BQuzyqorUYhrxYj/Qzb2vl4BB4k=
 		</data>
+		<key>停止共享-收起右@3x.png</key>
+		<data>
+		RsCQg8go9PvF31P10gRRftSh39o=
+		</data>
 		<key>停止共享小@2x.png</key>
 		<data>
 		eKJEIqYPze2mpuO2bslCCZAQrYA=
@@ -3564,13 +3656,9 @@
 		<data>
 		jKaGPR7VKpFsaZ4ZgOeAs/w7U00=
 		</data>
-		<key>共享屏幕关@2x.png</key>
-		<data>
-		Jzh0eqVp6rNycvsJ2XWznVR25mg=
-		</data>
 		<key>共享屏幕关@3x.png</key>
 		<data>
-		vVwdUKX9YkSvRw7+S3uWV6LVfXM=
+		Q8cWzgZoMY9fwrJl6m+nCLjj5Wc=
 		</data>
 		<key>共享状态@2x.png</key>
 		<data>
@@ -4128,6 +4216,14 @@
 		<data>
 		vgr1JmYbuXUWeg0kV+bjKzzh5pk=
 		</data>
+		<key>微信支付图标@2x.png</key>
+		<data>
+		OqqrBSYlBJfMEwnItYtcniCtcyw=
+		</data>
+		<key>微信支付图标@3x.png</key>
+		<data>
+		QzBvzDV1qBL7U0Fku+nl3INFrfQ=
+		</data>
 		<key>微信邀请@2x.png</key>
 		<data>
 		F1WZizd1XP/8OMAxCWyVBx+iaUY=
@@ -4227,6 +4323,22 @@
 		<key>摄像机开@3x.png</key>
 		<data>
 		HsH21KY0RGEgMJT3DoCQYaqrXz8=
+		</data>
+		<key>支付宝支付图标@2x.png</key>
+		<data>
+		2/NR9Aufvx3XsfRxoGi9+OZjHDY=
+		</data>
+		<key>支付宝支付图标@3x.png</key>
+		<data>
+		3SYEct8LNplqH+RMKDqh1vcNV9o=
+		</data>
+		<key>支付宝支付图标_白色字体_透明底@2x.png</key>
+		<data>
+		PfliGTBPdngbAFS1edg6P327K/E=
+		</data>
+		<key>支付宝支付图标_白色字体_透明底@3x.png</key>
+		<data>
+		O6WBviJD5pky1zTkt24kL3HlwOc=
 		</data>
 		<key>收起@2x.png</key>
 		<data>
@@ -4739,6 +4851,13 @@
 			<key>hash2</key>
 			<data>
 			Unv8B0McC7b50MYXTSgvysJtec0BspJLVD2qzChmWHM=
+			</data>
+		</dict>
+		<key>APP不支持共享桌面提示@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kmo6NVwjBtIk2mv4MqGMl/P3DxxuhcjFqOu+p7/b0iA=
 			</data>
 		</dict>
 		<key>AddFriendTip@3x.png</key>
@@ -5476,6 +5595,20 @@
 			P+QBGTzj9KEt0uCFEtytOODzxb53NFnUwKEOjWjPQAI=
 			</data>
 		</dict>
+		<key>correct_paySuccess@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pfllczq2ZM9Fo6taI1DdHMkrg1t2J8x6t3oDplnnYYk=
+			</data>
+		</dict>
+		<key>correct_paySuccess@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JjTZgGU512ioUCjJaabRXUC+JPYCjbwKBpjnNtJg//I=
+			</data>
+		</dict>
 		<key>dagou@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -5566,7 +5699,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEWAVd1ky9FNo+SQJfv6csFaAeLEHeLehy37iCLvMPE=
+			FznVodsIHW1XzmepT1wDvXhpJmKmzHANFxruwJZW7L8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -6999,6 +7132,20 @@
 			dgOg9GSFE0A2LLrz7GN3qVFUi3JAnWp+yiK0xzVdnUw=
 			</data>
 		</dict>
+		<key>icn_error_vip@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vNEWkDHsLOQmANAFL1akwAhPVbmb6QyZfsBHFMNVJj4=
+			</data>
+		</dict>
+		<key>icn_error_vip@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a8i/KTyDeZ4X9dSiXWirfdTZK6l15cQHeUB9f10sElw=
+			</data>
+		</dict>
 		<key>icn_eyeclosed@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -7333,6 +7480,34 @@
 			<key>hash2</key>
 			<data>
 			nf9k9GqYvY4pgW+FTqECVA6wzHv0+ns4Nfq7mv0Thh4=
+			</data>
+		</dict>
+		<key>icn_meeting_live_normal@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EntzQdMQ8fMDs9TJRSxSmwcoHfUKy+lYTNPLnRkiydA=
+			</data>
+		</dict>
+		<key>icn_meeting_live_normal@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/eWIaAL9I/mR2yaQTefHUsbbwq4dR82aMqQgyJBZWac=
+			</data>
+		</dict>
+		<key>icn_meeting_live_select@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tC3t0wa/ykoiQ/7BOz1jVfZdQalzmGARPEGKAkXfA3c=
+			</data>
+		</dict>
+		<key>icn_meeting_live_select@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HJ9b5h5D8g0b8rJYIo01Xxt10NJITYIF04JuLfu2jdE=
 			</data>
 		</dict>
 		<key>icn_meeting_normal@2x.png</key>
@@ -8658,6 +8833,20 @@
 			EUK0nX7mAWxkYFfykISyuFpzyHUx973AKLBdKGxBizY=
 			</data>
 		</dict>
+		<key>icon_close@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZyUEeOTixTsbVdSIdcCF2cPQQOX8WHZo8L8zhRM1vMo=
+			</data>
+		</dict>
+		<key>icon_close@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DFrpGolQuCaOV1APafHv/I/pgUE8TzEkYo7NarUtErs=
+			</data>
+		</dict>
 		<key>icon_closeRight@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -8924,6 +9113,20 @@
 			f+tcEPiWWPL2SuLbsKhjPHQoDg9bUPbKiJMLtKoWqLE=
 			</data>
 		</dict>
+		<key>icon_member_enter@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TjDBjR7rN1WTR/6k2vheDffRt8GA674IznVAp2NfdMw=
+			</data>
+		</dict>
+		<key>icon_member_enter@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6UAj0os18kdM3oN6t7BJkjKvuQuaj1lIe+uq2MlKqpI=
+			</data>
+		</dict>
 		<key>icon_record_new@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -9020,6 +9223,20 @@
 			<key>hash2</key>
 			<data>
 			hTura/wzddCZFQj8qY1qSt/tUAF1xQg0kWcWgUL6YZ4=
+			</data>
+		</dict>
+		<key>icon_vipbg@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oYtoBlZlnPKetAuzmrSpQ13Gzzcyo0+MMJ0KKThY2sI=
+			</data>
+		</dict>
+		<key>icon_vipbg@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			002AXU3rIGsWf3Z90LHELZBuHYGu0DmLJxcwiAYjstk=
 			</data>
 		</dict>
 		<key>icon_xian_mian@3x.png</key>
@@ -9901,42 +10118,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gIGGMxaSJmkWzRPTlCTUJYbu2lf3lXWsvruhC6zQrqw=
+			9rL4jU9mH7bGVwQGk8Hpf5UyHr7DbMHQ5rqkNiFXGao=
 			</data>
 		</dict>
 		<key>meetingEnd_video4@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FgVMkX7xKZjRbOfs6B7ZWWxwsXjbdPGebzWVVW7EuDA=
+			SmE0LLVd074d6rz2a2HpE+i+YgGTCdeJ63o1IEsdcgM=
 			</data>
 		</dict>
 		<key>meetingEnd_video5@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7LGaKgept+9Gyr3p8oc4xPsS21nuxKP+c8iZlpArYFU=
+			neVGNqOtp2pKUhm1aUUveA11chGXNFeg+ecfR/1nY1U=
 			</data>
 		</dict>
 		<key>meetingEnd_video5@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+dLPGlOEv95ooHGlCx/1lRZUQlUKGHT0s9c+otZayxY=
+			KkiX/BkcY4DsoXy50aL9gozrO22QglJvyAkTTTJN3+k=
 			</data>
 		</dict>
 		<key>meetingEnd_video6@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAGvj5ziSOkqnJ3BWpDqne6TuftdnmtjkWx8zBC85l0=
+			lMiIJMdB31DIPx+EQt1N18Ihc6/0MtAE/s+3WSBCRMQ=
 			</data>
 		</dict>
 		<key>meetingEnd_video6@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2iBtJhG21FZQR1CLWjvJhRp+thRtGrVbOnvuOJNQwfM=
+			/OrPrU9NTnno51BRcGxb0llexbcl20drKRpa1hKNSbs=
 			</data>
 		</dict>
 		<key>meetingEnd_video@2x.png</key>
@@ -10007,6 +10224,20 @@
 			<key>hash2</key>
 			<data>
 			6PgV7QfB+faRDg0TX0euF47DPBOmecLDK9bYz6ivYdA=
+			</data>
+		</dict>
+		<key>member_level_svip@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xttt/zeEcVXUEMbS3BnWxK5yaOS+3zlK8COxgKKMEAs=
+			</data>
+		</dict>
+		<key>member_level_svip@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q6PkuHkcgcklisn8C4gnjkeea9fotTkfoDsODhpBHMw=
 			</data>
 		</dict>
 		<key>navigation_icn_add_company.png</key>
@@ -10282,6 +10513,20 @@
 			ivZT+Eqt5JQ7HrvxZ4KyHElTAZWW8+NCgIXMouBEbC4=
 			</data>
 		</dict>
+		<key>setting_checkmark_bold@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QnzVA3BiYg0LtjDjcYqmJ/qlFYjPU/6qn6war5BTEZ4=
+			</data>
+		</dict>
+		<key>setting_checkmark_bold@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b2NcMxm1CVgRv8HjHL+7e8o2iYPfPmrKKrsimM95ARw=
+			</data>
+		</dict>
 		<key>settings@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -10471,6 +10716,13 @@
 			G2GgwcpVoD3WZYFR7Ma+RUDLtN3t5VKadDGlOEtn3iY=
 			</data>
 		</dict>
+		<key>triggerBGView@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nuyoXFotfFtSkeYkKOIVqQsPTZhvNZRsXoQTLpGjMRk=
+			</data>
+		</dict>
 		<key>unread.png</key>
 		<dict>
 			<key>hash2</key>
@@ -10652,7 +10904,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VECrdN3H1FREGbdnJGfO9MT5qHl46QY+wI51NMmTgU=
+			Hfszyq4uKigABHI+GEj0FhaLeGsCqPojC6rd0v1u7X0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -10769,6 +11021,20 @@
 			EWRH5Phf2jUlOEyGehJZOzcDtlyHhENOPBNOqhAdivQ=
 			</data>
 		</dict>
+		<key>会中SVIP标识@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KFJ7hW+hFvuF1xcMljKFkvaU34xM6PF2OjlujxKY49c=
+			</data>
+		</dict>
+		<key>会中VIP标识@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B1TISaF3UqjvzzR36UxtBma6Gpm97aNzYIMmTv6h2oI=
+			</data>
+		</dict>
 		<key>会议1@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -10867,6 +11133,13 @@
 			m3oR1XdPHHP0MNMCX5j33Jd0x5n0yrrJYPinwEubJ4o=
 			</data>
 		</dict>
+		<key>停止共享-收起右@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R+DnF9kV4kdhR4lknMoESL0FZkTHOBEe9nmmwL9SAAA=
+			</data>
+		</dict>
 		<key>停止共享小@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -10930,18 +11203,11 @@
 			NFWaJdaF20iRW2dWcBt6qvpx1i3iwA1PbPM2MKDYYig=
 			</data>
 		</dict>
-		<key>共享屏幕关@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8RrEd1xcIitLwawJVm2wc596sWNWANQsQ6lXR4gl+Uo=
-			</data>
-		</dict>
 		<key>共享屏幕关@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FMWs2JVrY5tz8LoNHmG62T/KC9uszuWaROGcP1Kw9xE=
+			pcl+zqt2QuWgFKuI2UdadJ3OyryN6116c3RnsBm3ZB0=
 			</data>
 		</dict>
 		<key>共享状态@2x.png</key>
@@ -11917,6 +12183,20 @@
 			pzOVZYtFH+ON6pbQcUqaSN6rB2kR5jrrnBb26BMYU14=
 			</data>
 		</dict>
+		<key>微信支付图标@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			koVk7C1jNF+Y+2PuJIVVeNx65cyfzlazLLW1E2L6HNQ=
+			</data>
+		</dict>
+		<key>微信支付图标@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RNyfE1K5hNDSPXP1a2qOktt789VPJb5Ja2pIvFDGLAs=
+			</data>
+		</dict>
 		<key>微信邀请@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -12090,6 +12370,34 @@
 			<key>hash2</key>
 			<data>
 			Pvr5qBNZDJ17Sre581Ph15oEENGu0vxQcg88wz6QY6I=
+			</data>
+		</dict>
+		<key>支付宝支付图标@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G+zuJVl0ybAcP9/nvcAbUtoq0p3Kro7K3CV4HkvY4x4=
+			</data>
+		</dict>
+		<key>支付宝支付图标@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnLUbQYSIqPddQVnWLPvxhqba2MigwLdx5TtytygFSE=
+			</data>
+		</dict>
+		<key>支付宝支付图标_白色字体_透明底@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l37N5rS3Lf18EPkbklpyhEdVp4aba2xeq/CUPR11YyI=
+			</data>
+		</dict>
+		<key>支付宝支付图标_白色字体_透明底@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pe+by3GTmIEJiqLDrDL5WUHFN6p9DzYbFBt5l9FRn5I=
 			</data>
 		</dict>
 		<key>收起@2x.png</key>

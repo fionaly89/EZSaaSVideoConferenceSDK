@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class EZSaaSVCAccountModel;
 @class RTCWaitRoomMembersModel;
 @class YSRTCAppShareExtension;
+@class YSRTCMeetingOrderPayReturnDataModel;
 
 /*!
  @brief 回调框架代理
@@ -180,6 +181,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// 录制结束
 - (void)recoredAudioStop;
 
+// 会议付费支付
+- (void)ysrtcMeetingPurchaseInfo:(YSRTCMeetingOrderPayReturnDataModel *)pInfo;
+
+- (void)contactTheCustomerService;
+
+// 通过 URL 打开
+- (void)meetingOpenFileWithFileName:(NSString *)filename
+                     fileUrl:(NSString *)fileUrl
+                    inTraget:(UIViewController *)presentViewController;
+
 @end
 
 
@@ -210,6 +221,17 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)oonMobileRTCAuthExpiredWithrefreshSuccessCallback:(void(^)(NSString *token))refreshSuccessCallback;
 
 - (void)onMobileRTCAuthNullCallBack:(void(^)(NSString *token))refreshSuccessCallback;
+
+@end
+
+/// 支付服务协议
+@protocol EZSaaSMobileRTCPaymentDelegate <NSObject>
+
+/// 支付宝回调处理方法
+- (void)handleSDKAlipayPaymentResult:(NSDictionary *)resultDic;
+
+/// 微信回调处理方法
+- (void)handleSDKWxPaymentResult:(NSDictionary *)resultDic;
 
 @end
 
